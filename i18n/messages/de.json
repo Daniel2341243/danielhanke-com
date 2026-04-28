@@ -36,6 +36,26 @@
     "skipToContent": "Zum Inhalt springen",
     "photoToFollow": "Foto folgt"
   },
+  "seo": {
+    "homeTitle": "Daniel Hanke — Psychologisches Coaching für Männer",
+    "homeDescription": "Psychologisch fundiertes 1:1-Coaching für Männer zwischen 22 und 38, die äußerlich liefern — und innerlich nicht ankommen.",
+    "coachingTitle": "Coaching",
+    "coachingDescription": "1:1-Coaching per Zoom. Arbeit an der Struktur, nicht an der Oberfläche. Für Männer, die genug von Motivationsformeln haben.",
+    "communityTitle": "Community",
+    "communityDescription": "Kuratierte Community für Männer, die ernsthaft an sich arbeiten. Start 2026. Jetzt auf die Warteliste.",
+    "buchTitle": "Selbstdisziplin 2.0",
+    "buchDescription": "Warum die meisten Strategien zur Selbstdisziplin scheitern — und welche psychologischen Hebel wirklich tragen.",
+    "aboutTitle": "Über mich",
+    "aboutDescription": "Daniel Hanke. Psychologischer Berater. Autor. Coach für Männer, die im Leben funktionieren — und sich selbst nicht.",
+    "newsletterTitle": "Newsletter",
+    "newsletterDescription": "1–2 E-Mails pro Monat. Längere Texte, persönliche Beobachtungen, Werkzeuge — die ich öffentlich nicht teile.",
+    "impressumTitle": "Impressum",
+    "impressumDescription": "Anbieterkennzeichnung gemäß § 5 TMG.",
+    "datenschutzTitle": "Datenschutz",
+    "datenschutzDescription": "Wie wir personenbezogene Daten verarbeiten. DSGVO-konform.",
+    "agbTitle": "AGB",
+    "agbDescription": "Allgemeine Geschäftsbedingungen für Coaching-Leistungen."
+  },
   "home": {
     "hero": {
       "eyebrow": "Daniel Hanke — Psychologischer Berater",

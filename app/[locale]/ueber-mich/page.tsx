@@ -1,4 +1,7 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
@@ -8,6 +11,18 @@ import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { Quote } from "@/components/ui/Quote";
 import { buttonStyles } from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/ueber-mich">): Promise<Metadata> {
+  const { locale } = await params;
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/ueber-mich",
+    titleKey: "aboutTitle",
+    descriptionKey: "aboutDescription",
+  });
+}
 
 export default async function AboutPage({
   params,

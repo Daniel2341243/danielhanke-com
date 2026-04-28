@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { buttonStyles } from "@/components/ui/Button";
@@ -12,6 +15,18 @@ type Step = { title: string; body: string };
 type Benefit = { title: string; body: string };
 type Question = { title: string; body: string };
 type Faq = { q: string; a: string };
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/coaching">): Promise<Metadata> {
+  const { locale } = await params;
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/coaching",
+    titleKey: "coachingTitle",
+    descriptionKey: "coachingDescription",
+  });
+}
 
 export default async function CoachingPage({ params }: PageProps<"/[locale]/coaching">) {
   const { locale } = await params;

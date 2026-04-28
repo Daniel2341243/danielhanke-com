@@ -1,4 +1,7 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
@@ -7,6 +10,18 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { buttonStyles } from "@/components/ui/Button";
 import { siteConfig } from "@/lib/siteConfig";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/buch">): Promise<Metadata> {
+  const { locale } = await params;
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/buch",
+    titleKey: "buchTitle",
+    descriptionKey: "buchDescription",
+  });
+}
 
 export default async function BuchPage({
   params,

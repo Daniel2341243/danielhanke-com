@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import { Construction } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { Link } from "@/i18n/navigation";
@@ -7,6 +10,18 @@ import { routing } from "@/i18n/routing";
 import { ConvertKitForm } from "@/components/ConvertKitForm";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { siteConfig } from "@/lib/siteConfig";
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/community">): Promise<Metadata> {
+  const { locale } = await params;
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/community",
+    titleKey: "communityTitle",
+    descriptionKey: "communityDescription",
+  });
+}
 
 export default async function CommunityPage({
   params,

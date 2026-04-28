@@ -1,4 +1,7 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildPageMetadata } from "@/lib/seo";
+import type { Locale } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
@@ -9,6 +12,18 @@ import { siteConfig } from "@/lib/siteConfig";
 import { Link } from "@/i18n/navigation";
 
 type Item = { title: string; body: string };
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[locale]/newsletter">): Promise<Metadata> {
+  const { locale } = await params;
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/newsletter",
+    titleKey: "newsletterTitle",
+    descriptionKey: "newsletterDescription",
+  });
+}
 
 export default async function NewsletterPage({
   params,
