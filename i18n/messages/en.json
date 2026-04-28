@@ -33,6 +33,73 @@
     "all": "Accept all"
   },
   "common": {
-    "skipToContent": "Skip to content"
+    "skipToContent": "Skip to content",
+    "photoToFollow": "Photo to follow"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Daniel Hanke — Psychological Counselor",
+      "headlinePart1": "You function.",
+      "headlinePart2": "But you don't stand.",
+      "subline": "Psychologically grounded 1:1 coaching for men between 22 and 38 who deliver on the outside — and don't arrive on the inside.",
+      "ctaPrimary": "Request first call",
+      "ctaGhost": "Subscribe to newsletter",
+      "imageAlt": "Daniel Hanke in a Berlin street setting"
+    },
+    "problem": {
+      "eyebrow": "Maybe you recognize yourself",
+      "headline": "You do everything right. And something is still missing.",
+      "cards": [
+        {
+          "title": "You're looking for validation — and don't notice it.",
+          "body": "When success comes, you feel good for a moment. When it doesn't, you collapse inside. And you compensate with more performance."
+        },
+        {
+          "title": "You say yes when you mean no.",
+          "body": "You adapt, avoid conflict, make compromises that leave you hollow by evening. You betray yourself without noticing."
+        },
+        {
+          "title": "You don't know what you actually want.",
+          "body": "Career, relationship, where to live — you wait for the moment of clarity that never comes. Because you never learned to listen to yourself."
+        }
+      ]
+    },
+    "approach": {
+      "eyebrow": "My approach",
+      "headlinePart1": "Inner stability isn't a feeling.",
+      "headlinePart2": "It's a structure.",
+      "body1": "Most men's coaches work on behavior. More discipline. More routines. Better pickup lines. That works for two weeks. Then you fall back — and you believe you've failed.",
+      "body2": "My approach: we work on the psychological structure underneath. Why do you do what you do? Why do you avoid what you avoid? What are you protecting without noticing?",
+      "body3": "The result isn't a 'new you.' It's a clearer one. One that decides from itself — not from the fear of being rejected.",
+      "cta": "How the coaching works",
+      "imageAlt": "Daniel Hanke working at his desk"
+    },
+    "video": {
+      "eyebrow": "New video — every Friday, 4 PM (CET)",
+      "teaser": "Clear, psychologically grounded videos. No hype, no script chasing clicks.",
+      "cta": "Visit the channel"
+    },
+    "book": {
+      "eyebrow": "My book",
+      "title": "Selbstdisziplin 2.0",
+      "body": "Discipline isn't a character trait. It's a system. In my book I break down why most self-discipline strategies fail — and which psychological levers actually hold. (Currently German only.)",
+      "ctaPrimary": "View on Amazon",
+      "ctaGhost": "More about the book",
+      "coverAlt": "Cover of the book Selbstdisziplin 2.0"
+    },
+    "newsletter": {
+      "eyebrow": "Newsletter",
+      "headline": "What doesn't fit on YouTube.",
+      "body": "1–2× per month. Longer pieces, more personal observations, tools I haven't published yet. No pitch, no funnel trick. If you ever want out: one click, you're gone.",
+      "fineprint": "By subscribing you agree to the mailing and the privacy policy.",
+      "firstNamePlaceholder": "First name",
+      "emailPlaceholder": "Email",
+      "submit": "Subscribe"
+    },
+    "outro": {
+      "headline": "If you feel like someone is finally holding up a mirror — write to me.",
+      "cta": "Request first call",
+      "subtext": "Free. 45 minutes. Via Zoom. Not a sales call."
+    }
   }
 }

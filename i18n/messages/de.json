@@ -33,6 +33,73 @@
     "all": "Alle akzeptieren"
   },
   "common": {
-    "skipToContent": "Zum Inhalt springen"
+    "skipToContent": "Zum Inhalt springen",
+    "photoToFollow": "Foto folgt"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Daniel Hanke — Psychologischer Berater",
+      "headlinePart1": "Du funktionierst.",
+      "headlinePart2": "Aber du stehst nicht.",
+      "subline": "Psychologisch fundiertes 1:1-Coaching für Männer zwischen 22 und 38, die äußerlich liefern — und innerlich nicht ankommen.",
+      "ctaPrimary": "Erstgespräch anfragen",
+      "ctaGhost": "Newsletter abonnieren",
+      "imageAlt": "Daniel Hanke im Berliner Stadtkontext"
+    },
+    "problem": {
+      "eyebrow": "Vielleicht erkennst du dich",
+      "headline": "Du machst alles richtig. Und trotzdem fehlt etwas.",
+      "cards": [
+        {
+          "title": "Du suchst Bestätigung — und merkst es nicht.",
+          "body": "Wenn der Erfolg kommt, fühlst du dich kurz gut. Wenn er ausbleibt, brichst du innerlich ein. Und kompensierst mit noch mehr Leistung."
+        },
+        {
+          "title": "Du sagst ja, wenn du nein meinst.",
+          "body": "Du passt dich an, vermeidest Konflikte, gehst Kompromisse ein, die dich am Abend schal zurücklassen. Du verrätst dich, ohne es zu merken."
+        },
+        {
+          "title": "Du weißt nicht, was du eigentlich willst.",
+          "body": "Karriere, Beziehung, Wohnort — du wartest auf den Moment der Klarheit, der nie kommt. Weil du nie gelernt hast, auf dich selbst zu hören."
+        }
+      ]
+    },
+    "approach": {
+      "eyebrow": "Mein Ansatz",
+      "headlinePart1": "Innere Stabilität ist kein Gefühl.",
+      "headlinePart2": "Es ist eine Struktur.",
+      "body1": "Die meisten Männer-Coaches arbeiten an Verhalten. Mehr Disziplin. Mehr Routinen. Bessere Pickup-Lines. Das funktioniert für zwei Wochen. Dann fällst du zurück — und glaubst, du hättest versagt.",
+      "body2": "Mein Ansatz: Wir arbeiten an der psychologischen Struktur darunter. Warum tust du, was du tust? Warum vermeidest du, was du vermeidest? Was schützt du, ohne es zu merken?",
+      "body3": "Das Ergebnis ist kein „neues Ich“. Es ist ein klareres. Eines, das aus sich selbst heraus entscheidet — nicht aus der Angst, abgelehnt zu werden.",
+      "cta": "So läuft das Coaching ab",
+      "imageAlt": "Daniel Hanke beim Arbeiten am Schreibtisch"
+    },
+    "video": {
+      "eyebrow": "Neues Video — jeden Freitag, 16 Uhr",
+      "teaser": "Klare, psychologisch fundierte Videos. Kein Hype, kein Skript für mehr Klicks.",
+      "cta": "Zum Kanal"
+    },
+    "book": {
+      "eyebrow": "Mein Buch",
+      "title": "Selbstdisziplin 2.0",
+      "body": "Disziplin ist kein Charakterzug. Sie ist ein System. In meinem Buch zerlege ich, warum die meisten Strategien zur Selbstdisziplin scheitern — und welche psychologischen Hebel wirklich tragen.",
+      "ctaPrimary": "Bei Amazon ansehen",
+      "ctaGhost": "Mehr zum Buch",
+      "coverAlt": "Cover des Buches Selbstdisziplin 2.0"
+    },
+    "newsletter": {
+      "eyebrow": "Newsletter",
+      "headline": "Was auf YouTube keinen Platz hat.",
+      "body": "1–2× pro Monat. Längere Texte, persönlichere Beobachtungen, Werkzeuge, die ich noch nicht öffentlich gemacht habe. Kein Pitch, kein Funnel-Trick. Wenn du nichts mehr willst: ein Klick, du bist raus.",
+      "fineprint": "Mit deiner Anmeldung stimmst du dem Versand und der Datenschutzerklärung zu.",
+      "firstNamePlaceholder": "Vorname",
+      "emailPlaceholder": "E-Mail",
+      "submit": "Anmelden"
+    },
+    "outro": {
+      "headline": "Wenn du das Gefühl hast, dass jemand dir endlich den Spiegel hält — schreib mir.",
+      "cta": "Erstgespräch anfragen",
+      "subtext": "Kostenlos. 45 Minuten. Per Zoom. Kein Verkaufsgespräch."
+    }
   }
 }

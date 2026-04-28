@@ -1,12 +1,25 @@
 import { setRequestLocale } from "next-intl/server";
+import { Hero } from "@/components/sections/Hero";
+import { ProblemMirror } from "@/components/sections/ProblemMirror";
+import { Approach } from "@/components/sections/Approach";
+import { LatestVideo } from "@/components/sections/LatestVideo";
+import { BookTeaser } from "@/components/sections/BookTeaser";
+import { NewsletterCta } from "@/components/sections/NewsletterCta";
+import { CoachingCta } from "@/components/sections/CoachingCta";
 
 export default async function Home({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
   setRequestLocale(locale);
 
   return (
-    <div className="mx-auto max-w-screen px-6 md:px-12 lg:px-20 py-24 md:py-32">
-      <p className="text-text-secondary">Home page — Block 4 follows.</p>
-    </div>
+    <>
+      <Hero />
+      <ProblemMirror />
+      <Approach />
+      <LatestVideo />
+      <BookTeaser />
+      <NewsletterCta />
+      <CoachingCta />
+    </>
   );
 }
