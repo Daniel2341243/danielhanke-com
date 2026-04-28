@@ -16,9 +16,10 @@ export function BookTeaser() {
         <div className="lg:col-span-4">
           <ScrollReveal>
             <PhotoPlaceholder
-              aspect="portrait"
+              aspect="book"
               alt={t("coverAlt")}
-              caption="Cover folgt"
+              slot="Buchcover"
+              dimensions="800 × 1200 px"
               className="max-w-[280px] mx-auto lg:mx-0 shadow-2xl"
             />
           </ScrollReveal>

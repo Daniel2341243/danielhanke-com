@@ -18,9 +18,7 @@ export function Approach() {
           <ScrollReveal delay={0.05}>
             <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.875rem,4vw,3rem)]">
               <span className="block">{t("headlinePart1")}</span>
-              <span className="block italic text-text-secondary">
-                {t("headlinePart2")}
-              </span>
+              <span className="block italic">{t("headlinePart2")}</span>
             </h2>
           </ScrollReveal>
           <div className="mt-10 space-y-6 text-text-secondary leading-relaxed">
@@ -52,6 +50,8 @@ export function Approach() {
             <PhotoPlaceholder
               aspect="portrait"
               alt={t("imageAlt")}
+              slot="Approach · Coaching"
+              dimensions="1200 × 1600 px"
               className="lg:max-w-sm lg:ml-auto"
             />
           </ScrollReveal>

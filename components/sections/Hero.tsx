@@ -19,9 +19,7 @@ export function Hero() {
             <ScrollReveal delay={0.05}>
               <h1 className="font-serif font-semibold tracking-[-0.02em] leading-[1.05] text-text-primary text-[clamp(2.5rem,6vw,5.25rem)]">
                 <span className="block">{t("headlinePart1")}</span>
-                <span className="block italic text-text-secondary">
-                  {t("headlinePart2")}
-                </span>
+                <span className="block italic">{t("headlinePart2")}</span>
               </h1>
             </ScrollReveal>
             <ScrollReveal delay={0.15}>
@@ -52,6 +50,8 @@ export function Hero() {
               <PhotoPlaceholder
                 aspect="portrait"
                 alt={t("imageAlt")}
+                slot="Hero · Berlin"
+                dimensions="1600 × 2133 px"
                 className="lg:max-w-md lg:ml-auto"
               />
             </ScrollReveal>

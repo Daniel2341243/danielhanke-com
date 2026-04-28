@@ -10,12 +10,12 @@
   --color-text-secondary: #a8a39c;
   --color-text-muted: #6b665f;
 
-  --color-accent: #c8a882;
-  --color-accent-hover: #d8b894;
-  --color-accent-dim: rgba(200, 168, 130, 0.12);
+  --color-accent: #a8927a;
+  --color-accent-hover: #bba892;
+  --color-accent-dim: rgba(168, 146, 122, 0.10);
 
-  --color-border: rgba(200, 168, 130, 0.10);
-  --color-border-strong: rgba(240, 236, 228, 0.08);
+  --color-border: rgba(168, 146, 122, 0.08);
+  --color-border-strong: rgba(240, 236, 228, 0.07);
 
   --font-serif: var(--font-playfair), Georgia, serif;
   --font-sans: var(--font-dm-sans), -apple-system, BlinkMacSystemFont, sans-serif;
