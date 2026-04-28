@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "coaching": "Coaching",
+    "community": "Community",
+    "book": "Buch",
+    "about": "Über mich",
+    "newsletter": "Newsletter",
+    "ctaPrimary": "Erstgespräch"
+  },
+  "footer": {
+    "tagline": "Psychologisch fundiertes Coaching für Männer.",
+    "sitemap": "Sitemap",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Deine E-Mail",
+    "newsletterSubmit": "Abonnieren",
+    "follow": "Folgen",
+    "legal": {
+      "imprint": "Impressum",
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    },
+    "copyright": "© {year} Next Level Education GmbH"
+  },
+  "languageSwitcher": {
+    "label": "Sprache wählen",
+    "de": "DE",
+    "en": "EN"
+  },
+  "cookies": {
+    "text": "Diese Website verwendet ausschließlich technisch notwendige Cookies. Für Statistiken (Vercel Analytics) brauchen wir deine Zustimmung. Mehr in der",
+    "privacyLink": "Datenschutzerklärung",
+    "essential": "Nur notwendige",
+    "all": "Alle akzeptieren"
+  },
+  "common": {
+    "skipToContent": "Zum Inhalt springen"
+  }
+}

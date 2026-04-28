@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "coaching": "Coaching",
+    "community": "Community",
+    "book": "Book",
+    "about": "About",
+    "newsletter": "Newsletter",
+    "ctaPrimary": "First call"
+  },
+  "footer": {
+    "tagline": "Psychologically grounded coaching for men.",
+    "sitemap": "Sitemap",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Your email",
+    "newsletterSubmit": "Subscribe",
+    "follow": "Follow",
+    "legal": {
+      "imprint": "Imprint",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "© {year} Next Level Education GmbH"
+  },
+  "languageSwitcher": {
+    "label": "Choose language",
+    "de": "DE",
+    "en": "EN"
+  },
+  "cookies": {
+    "text": "This site uses only technically necessary cookies. For analytics (Vercel Analytics) we need your consent. More in the",
+    "privacyLink": "privacy policy",
+    "essential": "Essential only",
+    "all": "Accept all"
+  },
+  "common": {
+    "skipToContent": "Skip to content"
+  }
+}
