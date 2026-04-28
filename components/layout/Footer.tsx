@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { SocialIcons } from "@/components/icons/SocialIcons";
 
 const sitemap = [
   { href: "/coaching", key: "coaching" },
@@ -56,14 +57,21 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
-            <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
-              {t("newsletter")}
-            </p>
-            <p className="text-sm text-text-muted">
-              {/* ConvertKit mini form will mount here in Block 3/5 */}
-              Newsletter-Form folgt.
-            </p>
+          <div className="space-y-8">
+            <div>
+              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
+                {t("follow")}
+              </p>
+              <SocialIcons />
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
+                {t("newsletter")}
+              </p>
+              <p className="text-sm text-text-muted">
+                {/* ConvertKit mini form mounts here in Block 5 once form id is wired. */}
+              </p>
+            </div>
           </div>
         </div>
 

@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Nav } from "@/components/layout/Nav";
 import { Footer } from "@/components/layout/Footer";
+import { CookieBanner } from "@/components/CookieBanner";
+import { Analytics } from "@/components/Analytics";
 import "../globals.css";
 
 const dmSans = DM_Sans({
@@ -59,6 +61,8 @@ export default async function LocaleLayout({
           <Nav />
           <main className="flex-1">{children}</main>
           <Footer />
+          <CookieBanner />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
