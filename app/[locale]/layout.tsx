@@ -58,8 +58,16 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-bg-primary text-text-primary">
         <NextIntlClientProvider>
+          <a
+            href="#main"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[80] focus:px-4 focus:py-2 focus:bg-bg-elevated focus:border focus:border-accent focus:text-text-primary focus:text-sm"
+          >
+            {locale === "de" ? "Zum Inhalt springen" : "Skip to content"}
+          </a>
           <Nav />
-          <main className="flex-1">{children}</main>
+          <main id="main" className="flex-1">
+            {children}
+          </main>
           <Footer />
           <CookieBanner />
           <Analytics />

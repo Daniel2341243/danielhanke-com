@@ -14,11 +14,13 @@ export function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    let stored: string | null = null;
     try {
-      const stored = window.localStorage.getItem(STORAGE_KEY);
-      if (!stored) setVisible(true);
-    } catch {
-      setVisible(false);
+      stored = window.localStorage.getItem(STORAGE_KEY);
+    } catch {}
+    if (!stored) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-shot read of persisted client-only consent
+      setVisible(true);
     }
   }, []);
 
