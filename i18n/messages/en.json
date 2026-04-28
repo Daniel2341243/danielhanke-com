@@ -101,5 +101,266 @@
       "cta": "Request first call",
       "subtext": "Free. 45 minutes. Via Zoom. Not a sales call."
     }
+  },
+  "coaching": {
+    "hero": {
+      "eyebrow": "1:1 Coaching",
+      "headline": "Working on the structure, not the surface.",
+      "subline": "Psychologically grounded 1:1 coaching via Zoom. For men who've had enough of motivational formulas and 5-step plans."
+    },
+    "steps": {
+      "eyebrow": "How the coaching works",
+      "items": [
+        {
+          "title": "You write to me.",
+          "body": "You answer the five questions below and send them to mail@danielhanke.com. If I believe I can help you, I'll get back to you within 48 hours."
+        },
+        {
+          "title": "We talk for 45 minutes — free, via Zoom.",
+          "body": "No pitch. No script. You talk, I listen, I ask. At the end I'll tell you honestly whether coaching makes sense for you — and if not, I'll tell you that too."
+        },
+        {
+          "title": "We decide together.",
+          "body": "If both sides want to, we set up the first sessions. One hour 90 €, paid in advance by bank transfer. No minimum term, no packages. We work as long as it makes sense."
+        },
+        {
+          "title": "We work — every 1–2 weeks, 60 minutes, via Zoom.",
+          "body": "Between sessions: concrete exercises, brief check-ins by email if you get stuck. Confidential, no notes shared with third parties, no distribution."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "What you get out of it",
+      "items": [
+        {
+          "title": "You understand why you do what you do.",
+          "body": "We work on the patterns that drive your behavior. Once you see them, you stop sabotaging yourself — not through discipline, but through clarity."
+        },
+        {
+          "title": "You decide from yourself.",
+          "body": "Career, relationship, where to live — you stop waiting for the right moment. Because you've learned to trust yourself."
+        },
+        {
+          "title": "You become genuinely present in relationships.",
+          "body": "With women, friends, family. You stop protecting yourself, and you actually show up. That changes who responds to you — and how."
+        },
+        {
+          "title": "You finally feel like a man.",
+          "body": "Not loud, not hard, not performative. Grounded. Reliable. Clear. Yourself — even when no one's watching."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "For whom — and for whom not",
+      "forYouTitle": "For you, if:",
+      "forYou": [
+        "You're between 22 and 38 and live in the German-speaking region.",
+        "You function in life — and still feel like something is off.",
+        "You've read books, taken courses, tried discipline — and noticed: the problem is deeper.",
+        "You're ready to give honest answers, even when they're uncomfortable.",
+        "You understand that change takes time — no 30-day challenge."
+      ],
+      "notForYouTitle": "Not for you, if:",
+      "notForYou": [
+        "You're in acute psychological crisis (depression, anxiety disorder, trauma, suicidal thoughts). Then you need therapy, not coaching. I'm happy to help you find someone.",
+        "You're looking for pickup tricks or 'alpha frames'.",
+        "You expect me to tell you what to do.",
+        "You're not ready to invest in yourself — financially and time-wise."
+      ]
+    },
+    "request": {
+      "eyebrow": "Request first call",
+      "headline": "Write me an email. Answer these five questions.",
+      "body": "No scheduling software, no online form. An honest email filters better than any tool. Answer as briefly or as fully as it feels right — one line per question is enough, more is fine too.",
+      "questions": [
+        {
+          "title": "What's going on in your life right now?",
+          "body": "What works — and what doesn't?"
+        },
+        {
+          "title": "What have you tried so far to change it?",
+          "body": "And why didn't it hold?"
+        },
+        {
+          "title": "What would change concretely if we really moved something in the next 3 months?",
+          "body": ""
+        },
+        {
+          "title": "Why now?",
+          "body": "What changed that you're writing today — and not in six months?"
+        },
+        {
+          "title": "Availability:",
+          "body": "Which weekdays and times work for a 45-minute first call (free, Zoom)?"
+        }
+      ],
+      "cta": "Open email template",
+      "subtext": "I respond within 48 hours — even if the answer is 'no match'."
+    },
+    "faq": {
+      "eyebrow": "Frequent questions",
+      "items": [
+        {
+          "q": "How many sessions do I need?",
+          "a": "It depends on what you want to change. Some men work with me for 6 months, others for two years. There's no minimum term. We decide together after session 4 whether it fits."
+        },
+        {
+          "q": "What if I need therapy instead of coaching?",
+          "a": "Then I'll tell you that honestly in the first call. Coaching works on patterns in the here and now. Therapy works on trauma, diagnoses, clinical symptoms. Sometimes you need both."
+        },
+        {
+          "q": "Can I come irregularly?",
+          "a": "Yes. We talk every 1–2 weeks — but pauses are fine. I don't work with pressure."
+        },
+        {
+          "q": "Why not shorter sessions or groups?",
+          "a": "60 minutes 1:1 is the smallest meaningful unit. Group coaching is coming later (see Community)."
+        }
+      ]
+    }
+  },
+  "community": {
+    "eyebrow": "Skool Community",
+    "headline": "We're building.",
+    "body": "A curated community for men who work seriously on themselves — with weekly live calls, tools, protected exchange. Launch: estimated 2026.",
+    "cta": "Be the first to know",
+    "newsletterCta": "Until then: subscribe to the newsletter",
+    "fineprint": "By signing up you agree to the privacy policy.",
+    "firstNamePlaceholder": "First name",
+    "emailPlaceholder": "Email",
+    "submit": "Join the list"
+  },
+  "buchPage": {
+    "hero": {
+      "eyebrow": "My book",
+      "title": "Selbstdisziplin 2.0.",
+      "subline": "Why most self-discipline strategies fail — and which psychological levers actually hold. Currently available in German only; an English edition is under consideration.",
+      "cta": "View on Amazon",
+      "coverAlt": "Cover of the book Selbstdisziplin 2.0"
+    },
+    "content": {
+      "headline": "Discipline isn't a character trait. It's a system.",
+      "body1": "Most books on discipline sell you the same lie: be harder on yourself, get up earlier, endure more. That works for two weeks — until your system collapses under the pressure.",
+      "body2": "Selbstdisziplin 2.0 breaks down why this approach fails. And shows how discipline actually arises: from inner clarity, smart structures, and psychological self-knowledge. Not from fighting yourself.",
+      "body3": "It's not a motivation book. It's a toolbox. For men who understand: anyone who wants to deliver long-term has to stop working against themselves."
+    },
+    "forWhom": {
+      "headline": "Who the book is for",
+      "items": [
+        "You've read 'Atomic Habits' and noticed: there's still a layer missing.",
+        "You recognize yourself in discipline strategies that collapse after 30 days.",
+        "You want to understand what's behind discipline — not just how to perform it."
+      ]
+    },
+    "outro": {
+      "cta": "Selbstdisziplin 2.0 on Amazon"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About",
+      "title": "Daniel Hanke.",
+      "subline": "Psychological counselor. Author. Coach for men who function in life — and not for themselves.",
+      "imageAlt": "Portrait of Daniel Hanke"
+    },
+    "vita": {
+      "eyebrow": "Short bio",
+      "items": [
+        "Born 1992 in Karlsruhe, currently lives in Leipzig — visually and culturally at home in Berlin.",
+        "M.A. Business Psychology and International Management, University of Heidelberg.",
+        "NLP Master Practitioner. Certified psychological counselor.",
+        "Author of 'Selbstdisziplin 2.0' and several other books.",
+        "YouTube channel with over 10,000 subscribers.",
+        "Managing director of Next Level Education GmbH."
+      ]
+    },
+    "story": {
+      "headline": "Why I do this.",
+      "intro": {
+        "title": "How it started.",
+        "body1": "I was one of those boys. Overprotective mother, absent and choleric father, learned early to play the role that pleases others. At 14 I fell in love at a confirmation with a girl — she flirted with me, I ran away crying. That was the point I understood: something about me doesn't work.",
+        "body2": "Three years later I secretly attended an NLP seminar in Berlin, against my parents' wishes. It was the first time I acted against their expectation. It didn't 'heal' me. But it opened a door."
+      },
+      "detour": {
+        "title": "The long detour.",
+        "body1": "Acting school in Kiel — dropped out. Teacher training in Tübingen — dropped out. Business psychology in Heidelberg — the best years of my studies. Master in International Management — a burnout I didn't admit for a long time.",
+        "body2": "After that: my own attempts at self-employment (Einserfabrik, books, a YouTube channel that drifted for years). Street fundraising for Greenpeace. Solar sales at Enpal in Berlin. Six months of sales training that taught me more than ten books. Travel — Thailand, a startup community in Malaysia. Then back.",
+        "body3": "It wasn't a straight path. It was a path with many wrong decisions — and I tell this not out of shame, but because I believe: anyone who claims to have done everything right is either lying or didn't risk enough."
+      },
+      "why": {
+        "title": "Why coaching.",
+        "body1": "At some point it became clear to me: I'd spent my whole life trying to repair something that couldn't be repaired. Only understood. And only what I'd understood, I could let go of.",
+        "body2": "Today I work with men who stand in exactly that place. Who do everything they're supposed to — and don't arrive. I don't give them new tricks. I give them a mirror they can't hold up to themselves. And a sparring partner who doesn't look away when it gets uncomfortable."
+      }
+    },
+    "distinction": {
+      "headline": "What you get from me — and what you don't.",
+      "getTitle": "You get:",
+      "get": [
+        "Psychological depth, no motivational theater.",
+        "Honest confrontation when needed — always with respect.",
+        "Concrete tools that work between sessions.",
+        "Confidentiality. Without exception."
+      ],
+      "dontGetTitle": "You don't get:",
+      "dontGet": [
+        "Loud bro vibe. No 'bro', no 'king'.",
+        "Generic packages for 'the modern man'.",
+        "Pickup scripts or 'alpha frames'.",
+        "Promises I can't keep."
+      ]
+    },
+    "outro": {
+      "headline": "If you feel like you're talking to someone who understands you — write to me.",
+      "cta": "Request first call"
+    }
+  },
+  "newsletterPage": {
+    "hero": {
+      "eyebrow": "Newsletter",
+      "title": "What doesn't fit on YouTube.",
+      "subline": "1–2 emails per month. Longer pieces, more personal observations, tools — that I don't share publicly."
+    },
+    "expectations": {
+      "headline": "What to expect when you sign up",
+      "items": [
+        {
+          "title": "Deeper writing than on YouTube.",
+          "body": "Some topics are too nuanced for a video. In the newsletter I have room to actually work them out."
+        },
+        {
+          "title": "Personal observations.",
+          "body": "What I'm learning from coaching conversations (anonymized). What I'm reading, thinking, questioning."
+        },
+        {
+          "title": "Tools I don't publish anywhere else.",
+          "body": "Sometimes exercises. Sometimes frameworks. Always: concrete, not abstract."
+        }
+      ]
+    },
+    "form": {
+      "firstNamePlaceholder": "First name",
+      "emailPlaceholder": "Email",
+      "submit": "Subscribe",
+      "fineprint": "By subscribing you agree to the mailing and the {privacyLink}. You can unsubscribe with one click anytime.",
+      "privacyLinkText": "privacy policy"
+    },
+    "dontGet": {
+      "headline": "What you don't get",
+      "items": [
+        {
+          "title": "No spam.",
+          "body": "1–2 emails per month, no more."
+        },
+        {
+          "title": "No funnel pitch.",
+          "body": "I'm not selling you a coaching every third email."
+        },
+        {
+          "title": "No 'limited offer'.",
+          "body": "If you want a coaching, you know where to find me."
+        }
+      ]
+    }
   }
 }

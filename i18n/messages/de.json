@@ -101,5 +101,266 @@
       "cta": "Erstgespräch anfragen",
       "subtext": "Kostenlos. 45 Minuten. Per Zoom. Kein Verkaufsgespräch."
     }
+  },
+  "coaching": {
+    "hero": {
+      "eyebrow": "1:1 Coaching",
+      "headline": "Arbeit an der Struktur, nicht an der Oberfläche.",
+      "subline": "Psychologisch fundiertes 1:1-Coaching per Zoom. Für Männer, die genug haben von Motivationsformeln und 5-Schritte-Plänen."
+    },
+    "steps": {
+      "eyebrow": "So läuft das Coaching ab",
+      "items": [
+        {
+          "title": "Du schreibst mir.",
+          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Wenn ich glaube, dass ich dir helfen kann, melde ich mich innerhalb von 48 Stunden."
+        },
+        {
+          "title": "Wir sprechen 45 Minuten — kostenlos, per Zoom.",
+          "body": "Kein Pitch. Kein Skript. Du erzählst, ich höre zu, ich frage. Am Ende sage ich dir ehrlich, ob Coaching für dich Sinn macht — und wenn nein, sage ich dir auch das."
+        },
+        {
+          "title": "Wir entscheiden gemeinsam.",
+          "body": "Wenn beide Seiten Lust haben, vereinbaren wir die ersten Sessions. Eine Stunde 90 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten so lange, wie es Sinn macht."
+        },
+        {
+          "title": "Wir arbeiten — alle 1–2 Wochen, 60 Minuten, per Zoom.",
+          "body": "Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte, ohne Verbreitung."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Was du davon hast",
+      "items": [
+        {
+          "title": "Du verstehst, warum du tust, was du tust.",
+          "body": "Wir arbeiten an den Mustern, die dein Verhalten antreiben. Sobald du sie siehst, hörst du auf, dich selbst zu sabotieren — nicht durch Disziplin, sondern durch Klarheit."
+        },
+        {
+          "title": "Du entscheidest aus dir heraus.",
+          "body": "Karriere, Beziehung, Wohnort — du hörst auf, auf den richtigen Moment zu warten. Weil du gelernt hast, dir selbst zu trauen."
+        },
+        {
+          "title": "Du wirst in Beziehungen wirklich präsent.",
+          "body": "Mit Frauen, Freunden, Familie. Du hörst auf, dich zu schützen, und bist dafür wirklich da. Das verändert, wer auf dich reagiert — und wie."
+        },
+        {
+          "title": "Du fühlst dich endlich wie ein Mann.",
+          "body": "Nicht laut, nicht hart, nicht performativ. Sondern: gegründet. Verlässlich. Klar. Du selbst — auch wenn niemand zuschaut."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Für wen — und für wen nicht",
+      "forYouTitle": "Für dich, wenn:",
+      "forYou": [
+        "Du zwischen 22 und 38 bist und im DACH-Raum lebst.",
+        "Du im Leben funktionierst — und trotzdem das Gefühl hast, irgendetwas stimmt nicht.",
+        "Du Bücher gelesen, Kurse gemacht, Disziplin probiert hast — und gemerkt hast: das Problem liegt tiefer.",
+        "Du bereit bist, ehrliche Antworten zu geben, auch wenn sie unbequem sind.",
+        "Du verstehst, dass Veränderung Zeit braucht — keine 30-Tage-Challenge."
+      ],
+      "notForYouTitle": "Nicht für dich, wenn:",
+      "notForYou": [
+        "Du in akuter psychischer Krise bist (Depression, Angststörung, Trauma, Suizidgedanken). Dann brauchst du Therapie, nicht Coaching. Ich helfe dir gerne, jemanden zu finden.",
+        "Du nach Pickup-Tricks oder „Alpha-Frames“ suchst.",
+        "Du erwartest, dass ich dir sage, was du tun sollst.",
+        "Du nicht bereit bist, in dich selbst zu investieren — finanziell und zeitlich."
+      ]
+    },
+    "request": {
+      "eyebrow": "Erstgespräch anfragen",
+      "headline": "Schreib mir eine E-Mail. Beantworte diese fünf Fragen.",
+      "body": "Keine Termin-Software, kein Online-Formular. Eine ehrliche E-Mail filtert besser als jedes Tool. Antworte so kurz oder so lang wie es sich richtig anfühlt — eine Zeile pro Frage reicht, mehr darf es auch sein.",
+      "questions": [
+        {
+          "title": "Was läuft gerade in deinem Leben?",
+          "body": "Was funktioniert — und was nicht?"
+        },
+        {
+          "title": "Was hast du bisher versucht, um es zu ändern?",
+          "body": "Und warum hat es nicht gehalten?"
+        },
+        {
+          "title": "Was würde sich konkret ändern, wenn wir in den nächsten 3 Monaten wirklich etwas bewegen?",
+          "body": ""
+        },
+        {
+          "title": "Warum jetzt?",
+          "body": "Was hat sich verändert, dass du heute schreibst — und nicht in einem halben Jahr?"
+        },
+        {
+          "title": "Verfügbarkeit:",
+          "body": "An welchen Wochentagen und Uhrzeiten passt dir ein 45-minütiges Erstgespräch (kostenlos, Zoom)?"
+        }
+      ],
+      "cta": "E-Mail-Vorlage öffnen",
+      "subtext": "Ich antworte innerhalb von 48 Stunden — auch wenn die Antwort „kein Match“ ist."
+    },
+    "faq": {
+      "eyebrow": "Häufige Fragen",
+      "items": [
+        {
+          "q": "Wie viele Sessions brauche ich?",
+          "a": "Das hängt davon ab, was du verändern willst. Manche Männer arbeiten 6 Monate mit mir, andere zwei Jahre. Es gibt keine Mindestlaufzeit. Wir entscheiden nach Session 4 gemeinsam, ob es passt."
+        },
+        {
+          "q": "Was, wenn ich Therapie statt Coaching brauche?",
+          "a": "Dann sage ich dir das im Erstgespräch ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
+        },
+        {
+          "q": "Kann ich auch unregelmäßig kommen?",
+          "a": "Ja. Wir sprechen alle 1–2 Wochen — aber Pausen sind ok. Ich arbeite nicht mit Druck."
+        },
+        {
+          "q": "Warum nicht kürzere Sessions oder Gruppen?",
+          "a": "60 Minuten 1:1 ist die kleinste sinnvolle Einheit. Gruppen-Coaching kommt später (siehe Community)."
+        }
+      ]
+    }
+  },
+  "community": {
+    "eyebrow": "Skool Community",
+    "headline": "Wir bauen.",
+    "body": "Eine kuratierte Community für Männer, die ernsthaft an sich arbeiten — mit wöchentlichen Live-Calls, Werkzeugen, geschütztem Austausch. Start: voraussichtlich 2026.",
+    "cta": "Erfahre es zuerst",
+    "newsletterCta": "Bis dahin: Newsletter abonnieren",
+    "fineprint": "Mit deiner Anmeldung stimmst du der Datenschutzerklärung zu.",
+    "firstNamePlaceholder": "Vorname",
+    "emailPlaceholder": "E-Mail",
+    "submit": "Auf die Liste"
+  },
+  "buchPage": {
+    "hero": {
+      "eyebrow": "Mein Buch",
+      "title": "Selbstdisziplin 2.0.",
+      "subline": "Warum die meisten Strategien zur Selbstdisziplin scheitern — und welche psychologischen Hebel wirklich tragen.",
+      "cta": "Bei Amazon ansehen",
+      "coverAlt": "Cover des Buches Selbstdisziplin 2.0"
+    },
+    "content": {
+      "headline": "Disziplin ist kein Charakterzug. Sie ist ein System.",
+      "body1": "Die meisten Bücher über Disziplin verkaufen dir die gleiche Lüge: Sei härter zu dir selbst, steh früher auf, halte mehr aus. Das funktioniert für zwei Wochen — bis dein System unter dem Druck zusammenbricht.",
+      "body2": "Selbstdisziplin 2.0 zerlegt, warum dieser Ansatz scheitert. Und zeigt, wie Disziplin wirklich entsteht: aus innerer Klarheit, klugen Strukturen und psychologischer Selbstkenntnis. Nicht aus Kampf gegen sich selbst.",
+      "body3": "Es ist kein Motivationsbuch. Es ist ein Werkzeugkasten. Für Männer, die verstanden haben: Wer dauerhaft liefern will, muss aufhören, gegen sich selbst zu arbeiten."
+    },
+    "forWhom": {
+      "headline": "Für wen das Buch ist",
+      "items": [
+        "Du hast „Atomic Habits“ gelesen und gemerkt: Es fehlt noch eine Ebene.",
+        "Du erkennst dich in Disziplin-Strategien, die nach 30 Tagen kollabieren.",
+        "Du willst verstehen, was hinter Disziplin steckt — nicht nur, wie du sie performst."
+      ]
+    },
+    "outro": {
+      "cta": "Selbstdisziplin 2.0 bei Amazon"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Über mich",
+      "title": "Daniel Hanke.",
+      "subline": "Psychologischer Berater. Autor. Coach für Männer, die im Leben funktionieren — und sich selbst nicht.",
+      "imageAlt": "Portrait von Daniel Hanke"
+    },
+    "vita": {
+      "eyebrow": "Kurzbiografie",
+      "items": [
+        "Geboren 1992 in Karlsruhe, lebt aktuell in Leipzig — visuell und kulturell zuhause in Berlin.",
+        "M.A. Wirtschaftspsychologie und International Management, Universität Heidelberg.",
+        "NLP Master Practitioner. Zertifizierter psychologischer Berater.",
+        "Autor von „Selbstdisziplin 2.0“ und mehreren weiteren Büchern.",
+        "YouTube-Kanal mit über 10.000 Abonnenten.",
+        "Geschäftsführer der Next Level Education GmbH."
+      ]
+    },
+    "story": {
+      "headline": "Warum ich das mache.",
+      "intro": {
+        "title": "Wie es angefangen hat.",
+        "body1": "Ich war einer dieser Jungs. Überbehütete Mutter, abwesender und cholerischer Vater, früh die Rolle gelernt, die anderen gut tut. Mit 14 verliebte ich mich auf einer Konfirmation in ein Mädchen — sie flirtete mich an, ich rannte weinend weg. Das war der Punkt, an dem ich verstand: Irgendetwas an mir funktioniert nicht.",
+        "body2": "Drei Jahre später besuchte ich heimlich ein NLP-Seminar in Berlin, meine Eltern waren dagegen. Es war das erste Mal, dass ich gegen ihre Erwartung handelte. Es hat mich nicht „geheilt“. Aber es hat eine Tür geöffnet."
+      },
+      "detour": {
+        "title": "Der lange Umweg.",
+        "body1": "Schauspielstudium in Kiel — abgebrochen. Lehramt in Tübingen — abgebrochen. Wirtschaftspsychologie in Heidelberg — die besten Jahre meines Studiums. Master in International Management — ein Burnout, den ich lange nicht zugegeben habe.",
+        "body2": "Danach: eigene Versuche zur Selbstständigkeit (Einserfabrik, Bücher, ein YouTube-Kanal, der jahrelang dümpelte). Straßenwerbung für Greenpeace. Solar-Vertrieb bei Enpal in Berlin. Sechs Monate Verkaufstraining, das mir mehr beigebracht hat als zehn Bücher. Reisen — Thailand, eine Startup-Community in Malaysia. Dann zurück.",
+        "body3": "Es war kein gerader Weg. Es war ein Weg mit vielen Fehlentscheidungen — und ich erzähle das nicht aus Scham, sondern weil ich glaube: Wer behauptet, alles richtig gemacht zu haben, lügt entweder oder hat zu wenig riskiert."
+      },
+      "why": {
+        "title": "Warum Coaching.",
+        "body1": "Irgendwann ist mir klar geworden: Ich habe mein Leben lang versucht, etwas zu reparieren, das nicht repariert werden konnte. Sondern verstanden. Und nur das, was ich verstanden hatte, konnte ich loslassen.",
+        "body2": "Heute arbeite ich mit Männern, die genau dort stehen. Die alles tun, was sie tun sollen — und nicht ankommen. Ich gebe ihnen keine neuen Tricks. Ich gebe ihnen einen Spiegel, den sie sich selbst nicht halten können. Und einen Sparringspartner, der nicht wegschaut, wenn es unbequem wird."
+      }
+    },
+    "distinction": {
+      "headline": "Was du von mir bekommst — und was nicht.",
+      "getTitle": "Du bekommst:",
+      "get": [
+        "Psychologische Tiefe, kein Motivations-Theater.",
+        "Ehrliche Konfrontation, wenn nötig — immer mit Respekt.",
+        "Konkrete Werkzeuge, die zwischen den Sessions wirken.",
+        "Vertraulichkeit. Ohne Ausnahme."
+      ],
+      "dontGetTitle": "Du bekommst nicht:",
+      "dontGet": [
+        "Lauten Bro-Vibe. Kein „Digga“, kein „King“.",
+        "Pauschal-Pakete für „den modernen Mann“.",
+        "Pickup-Skripte oder „Alpha-Frames“.",
+        "Versprechen, die ich nicht halten kann."
+      ]
+    },
+    "outro": {
+      "headline": "Falls du das Gefühl hast, du sprichst gerade mit jemandem, der dich versteht — schreib mir.",
+      "cta": "Erstgespräch anfragen"
+    }
+  },
+  "newsletterPage": {
+    "hero": {
+      "eyebrow": "Newsletter",
+      "title": "Was auf YouTube keinen Platz hat.",
+      "subline": "1–2 E-Mails pro Monat. Längere Texte, persönlichere Beobachtungen, Werkzeuge — die ich öffentlich nicht teile."
+    },
+    "expectations": {
+      "headline": "Was du erwartest, wenn du dich anmeldest",
+      "items": [
+        {
+          "title": "Tiefere Texte als auf YouTube.",
+          "body": "Manche Themen sind zu nuanciert für ein Video. Im Newsletter habe ich Platz, sie wirklich auszuarbeiten."
+        },
+        {
+          "title": "Persönliche Beobachtungen.",
+          "body": "Was ich aus Coaching-Gesprächen lerne (anonymisiert). Was ich gerade lese, denke, hinterfrage."
+        },
+        {
+          "title": "Werkzeuge, die ich nirgends sonst veröffentliche.",
+          "body": "Manchmal Übungen. Manchmal Frameworks. Immer: konkret, nicht abstrakt."
+        }
+      ]
+    },
+    "form": {
+      "firstNamePlaceholder": "Vorname",
+      "emailPlaceholder": "E-Mail",
+      "submit": "Anmelden",
+      "fineprint": "Mit deiner Anmeldung stimmst du dem Versand und der {privacyLink} zu. Du kannst dich jederzeit mit einem Klick abmelden.",
+      "privacyLinkText": "Datenschutzerklärung"
+    },
+    "dontGet": {
+      "headline": "Was du nicht bekommst",
+      "items": [
+        {
+          "title": "Kein Spam.",
+          "body": "1–2 Mails pro Monat, mehr nicht."
+        },
+        {
+          "title": "Kein Funnel-Pitch.",
+          "body": "Ich verkaufe dir nicht alle drei Mails ein Coaching."
+        },
+        {
+          "title": "Kein „limitiertes Angebot“.",
+          "body": "Wenn du ein Coaching willst, weißt du, wo du mich findest."
+        }
+      ]
+    }
   }
 }
