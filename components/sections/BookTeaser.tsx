@@ -1,8 +1,8 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { buttonStyles } from "@/components/ui/Button";
 import { siteConfig } from "@/lib/siteConfig";
 import { ArrowRight } from "lucide-react";
@@ -15,12 +15,13 @@ export function BookTeaser() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         <div className="lg:col-span-4">
           <ScrollReveal>
-            <PhotoPlaceholder
-              aspect="book"
+            <Image
+              src="/selbstdisziplin-2-0.png"
               alt={t("coverAlt")}
-              slot="Buchcover"
-              dimensions="800 × 1200 px"
-              className="max-w-[280px] mx-auto lg:mx-0 shadow-2xl"
+              width={800}
+              height={1200}
+              priority
+              className="max-w-[280px] w-full h-auto mx-auto lg:mx-0 shadow-2xl"
             />
           </ScrollReveal>
         </div>
