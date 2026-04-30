@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildPageMetadata } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
@@ -7,7 +8,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { buttonStyles } from "@/components/ui/Button";
 import { siteConfig } from "@/lib/siteConfig";
 
@@ -40,12 +40,13 @@ export default async function BuchPage({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-5">
               <ScrollReveal>
-                <PhotoPlaceholder
-                  aspect="book"
+                <Image
+                  src="/selbstdisziplin-2-0.png"
                   alt={t("hero.coverAlt")}
-                  slot="Buchcover"
-                  dimensions="1000 × 1500 px"
-                  className="max-w-[360px] mx-auto lg:mx-0 shadow-2xl"
+                  width={1000}
+                  height={1500}
+                  priority
+                  className="max-w-[360px] w-full h-auto mx-auto lg:mx-0 shadow-2xl"
                 />
               </ScrollReveal>
             </div>
