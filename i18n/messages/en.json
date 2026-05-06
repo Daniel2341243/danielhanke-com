@@ -44,7 +44,7 @@
     "communityTitle": "Community",
     "communityDescription": "A curated community for men working seriously on themselves. Launching 2026. Join the waitlist.",
     "buchTitle": "Selbstdisziplin 2.0",
-    "buchDescription": "Why most self-discipline strategies fail — and which psychological levers actually hold.",
+    "buchDescription": "Self-discipline isn't willpower. It's motivation you control. Why that's the difference between mediocrity and a life that actually delivers.",
     "aboutTitle": "About",
     "aboutDescription": "Daniel Hanke. Psychological counselor. Author. Coach for men who function in life — and not for themselves.",
     "newsletterTitle": "Newsletter",
@@ -102,7 +102,7 @@
     "book": {
       "eyebrow": "My book",
       "title": "Selbstdisziplin 2.0",
-      "body": "Discipline isn't a character trait. It's a system. In my book I break down why most self-discipline strategies fail — and which psychological levers actually hold. (Currently German only.)",
+      "body": "Almost everyone knows what they should do to move forward. The bottleneck isn't knowledge — it's self-discipline. But not as willpower. As the ability to direct and grow your motivation. That's what the book is about. (Currently German only.)",
       "ctaPrimary": "View on Amazon",
       "ctaGhost": "More about the book",
       "coverAlt": "Cover of the book Selbstdisziplin 2.0"
@@ -254,22 +254,22 @@
     "hero": {
       "eyebrow": "My book",
       "title": "Selbstdisziplin 2.0.",
-      "subline": "Why most self-discipline strategies fail — and which psychological levers actually hold. Currently available in German only; an English edition is under consideration.",
+      "subline": "The simple path to strong self-discipline and productivity. Not through more willpower — but by learning to direct your motivation. Currently available in German only; an English edition is under consideration.",
       "cta": "View on Amazon",
       "coverAlt": "Cover of the book Selbstdisziplin 2.0"
     },
     "content": {
       "headline": "Discipline isn't a character trait. It's a system.",
-      "body1": "Most books on discipline sell you the same lie: be harder on yourself, get up earlier, endure more. That works for two weeks — until your system collapses under the pressure.",
-      "body2": "Selbstdisziplin 2.0 breaks down why this approach fails. And shows how discipline actually arises: from inner clarity, smart structures, and psychological self-knowledge. Not from fighting yourself.",
-      "body3": "It's not a motivation book. It's a toolbox. For men who understand: anyone who wants to deliver long-term has to stop working against themselves."
+      "body1": "Almost everyone knows what they should do to move forward. The problem isn't knowledge — it's that most people lack the self-discipline to actually do it. Not money, not luck, not IQ. Self-discipline is the bottleneck for success.",
+      "body2": "Most books frame discipline as a fight against yourself — willpower you have to muster every morning. Selbstdisziplin 2.0 turns that around: genuinely successful people don't fight. They've learned to direct their motivation, instead of being manipulated by it into temptation.",
+      "body3": "The book lays out the methods. How you bring your brain to your side instead of working against it every day. How you break out of the loop of mediocrity — not by being harder, but by running a better system."
     },
     "forWhom": {
       "headline": "Who the book is for",
       "items": [
-        "You've read 'Atomic Habits' and noticed: there's still a layer missing.",
-        "You recognize yourself in discipline strategies that collapse after 30 days.",
-        "You want to understand what's behind discipline — not just how to perform it."
+        "You know what you should do — and still don't do it.",
+        "You've tried discipline as raw willpower. It drained you.",
+        "You want to understand what genuinely successful people do differently — and learn it for yourself."
       ]
     },
     "outro": {

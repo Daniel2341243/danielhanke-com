@@ -44,7 +44,7 @@
     "communityTitle": "Community",
     "communityDescription": "Kuratierte Community für Männer, die ernsthaft an sich arbeiten. Start 2026. Jetzt auf die Warteliste.",
     "buchTitle": "Selbstdisziplin 2.0",
-    "buchDescription": "Warum die meisten Strategien zur Selbstdisziplin scheitern — und welche psychologischen Hebel wirklich tragen.",
+    "buchDescription": "Selbstdisziplin ist nicht Willenskraft. Sie ist Motivation, die du steuerst. Warum das den Unterschied macht — zwischen Mittelmaß und einem Leben, das wirklich liefert.",
     "aboutTitle": "Über mich",
     "aboutDescription": "Daniel Hanke. Psychologischer Berater. Autor. Coach für Männer, die im Leben funktionieren — und sich selbst nicht.",
     "newsletterTitle": "Newsletter",
@@ -60,7 +60,7 @@
     "hero": {
       "eyebrow": "Daniel Hanke — Psychologischer Berater",
       "headlinePart1": "Du funktionierst.",
-      "headlinePart2": "Aber du glänzt nicht",
+      "headlinePart2": "Aber du strahlst nicht.",
       "subline": "Psychologisch fundiertes 1:1-Coaching für Männer in ihren 20ern und 30ern, die äußerlich liefern, aber innerlich unzufrieden sind.",
       "ctaPrimary": "Erstgespräch anfragen",
       "ctaGhost": "Newsletter abonnieren",
@@ -102,7 +102,7 @@
     "book": {
       "eyebrow": "Mein Buch",
       "title": "Selbstdisziplin 2.0",
-      "body": "Disziplin ist kein Charakterzug. Sie ist ein System. In meinem Buch zerlege ich, warum die meisten Strategien zur Selbstdisziplin scheitern und welche psychologischen Hebel wirklich tragen.",
+      "body": "Eigentlich weiß jeder, was er tun müsste, um voranzukommen. Der Engpass ist nicht Wissen — der Engpass ist Selbstdisziplin. Aber nicht als Willenskraft, sondern als Fähigkeit, deine Motivation zu steuern und zu erhöhen. Genau darum geht es im Buch.",
       "ctaPrimary": "Bei Amazon ansehen",
       "ctaGhost": "Mehr zum Buch",
       "coverAlt": "Cover des Buches Selbstdisziplin 2.0"
@@ -254,22 +254,22 @@
     "hero": {
       "eyebrow": "Mein Buch",
       "title": "Selbstdisziplin 2.0.",
-      "subline": "Warum die meisten Strategien zur Selbstdisziplin scheitern — und welche psychologischen Hebel wirklich tragen.",
+      "subline": "Der einfache Weg zu starker Selbstdisziplin und Produktivität. Nicht durch mehr Willenskraft — sondern indem du lernst, deine Motivation zu steuern.",
       "cta": "Bei Amazon ansehen",
       "coverAlt": "Cover des Buches Selbstdisziplin 2.0"
     },
     "content": {
       "headline": "Disziplin ist kein Charakterzug. Sie ist ein System.",
-      "body1": "Die meisten Bücher über Disziplin verkaufen dir die gleiche Lüge: Sei härter zu dir selbst, steh früher auf, halte mehr aus. Das funktioniert für zwei Wochen — bis dein System unter dem Druck zusammenbricht.",
-      "body2": "Selbstdisziplin 2.0 zerlegt, warum dieser Ansatz scheitert. Und zeigt, wie Disziplin wirklich entsteht: aus innerer Klarheit, klugen Strukturen und psychologischer Selbstkenntnis. Nicht aus Kampf gegen sich selbst.",
-      "body3": "Es ist kein Motivationsbuch. Es ist ein Werkzeugkasten. Für Männer, die verstanden haben: Wer dauerhaft liefern will, muss aufhören, gegen sich selbst zu arbeiten."
+      "body1": "Eigentlich weiß jeder, was er tun müsste, um voranzukommen. Das Problem ist nicht Wissen. Das Problem ist, dass den meisten die Selbstdisziplin fehlt, es auch zu tun. Nicht Geld, nicht Glück, nicht IQ — Selbstdisziplin ist der Engpass für Erfolg.",
+      "body2": "Die meisten Bücher behandeln Disziplin als Kampf gegen dich selbst. Als Willenskraft, die du jeden Morgen neu aufbringen musst. Selbstdisziplin 2.0 dreht das um: Wirklich erfolgreiche Menschen kämpfen nicht. Sie haben gelernt, ihre Motivation zu steuern, statt sich von ihr in die Versuchung manipulieren zu lassen.",
+      "body3": "Das Buch zeigt dir die Methoden dahinter. Wie du dein Gehirn auf deine Seite bringst, statt täglich gegen es zu arbeiten. Wie du aus dem Hamsterrad der Mittelmäßigkeit ausbrichst — nicht durch mehr Härte, sondern durch ein besseres System."
     },
     "forWhom": {
       "headline": "Für wen das Buch ist",
       "items": [
-        "Du hast „Atomic Habits“ gelesen und gemerkt: Es fehlt noch eine Ebene.",
-        "Du erkennst dich in Disziplin-Strategien, die nach 30 Tagen kollabieren.",
-        "Du willst verstehen, was hinter Disziplin steckt — nicht nur, wie du sie performst."
+        "Du weißt, was du tun müsstest — und tust es trotzdem nicht.",
+        "Du hast Disziplin schon als reine Willenskraft probiert. Es hat dich ausgelaugt.",
+        "Du willst verstehen, was wirklich erfolgreiche Menschen anders machen — und es selbst lernen."
       ]
     },
     "outro": {

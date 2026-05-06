@@ -8,7 +8,7 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/danielhanke",
     tiktok: "https://www.tiktok.com/@danielhanke",
     linkedin: "https://www.linkedin.com/in/daniel-hanke",
-    amazon: "https://www.amazon.de/dp/PLACEHOLDER_ASIN",
+    amazon: "https://amzn.to/3QU4hYS",
   },
 
   convertKit: {
