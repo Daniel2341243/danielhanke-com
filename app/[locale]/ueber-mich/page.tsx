@@ -5,9 +5,9 @@ import type { Locale } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import Image from "next/image";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { Quote } from "@/components/ui/Quote";
 import { buttonStyles } from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
@@ -58,12 +58,14 @@ export default async function AboutPage({
             </div>
             <div className="lg:col-span-5 order-1 lg:order-2">
               <ScrollReveal delay={0.05}>
-                <PhotoPlaceholder
-                  aspect="portrait"
+                <Image
+                  src="/daniel-hanke-portrait.jpg"
                   alt={t("hero.imageAlt")}
-                  slot="Portrait"
-                  dimensions="1200 × 1600 px"
-                  className="lg:max-w-md lg:ml-auto"
+                  width={1856}
+                  height={2254}
+                  priority
+                  sizes="(min-width: 1024px) 28rem, 100vw"
+                  className="w-full h-auto lg:max-w-md lg:ml-auto"
                 />
               </ScrollReveal>
             </div>
