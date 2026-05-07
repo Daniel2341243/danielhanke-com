@@ -1,8 +1,8 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { ArrowRight } from "lucide-react";
 
 export function Approach() {
@@ -47,12 +47,13 @@ export function Approach() {
 
         <div className="lg:col-span-5">
           <ScrollReveal delay={0.1}>
-            <PhotoPlaceholder
-              aspect="portrait"
+            <Image
+              src="/daniel-hanke-coaching.jpg"
               alt={t("imageAlt")}
-              slot="Approach · Coaching"
-              dimensions="1200 × 1600 px"
-              className="lg:max-w-sm lg:ml-auto"
+              width={1807}
+              height={2212}
+              sizes="(min-width: 1024px) 24rem, 100vw"
+              className="w-full h-auto lg:max-w-sm lg:ml-auto"
             />
           </ScrollReveal>
         </div>
