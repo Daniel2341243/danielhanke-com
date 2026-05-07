@@ -1,8 +1,8 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { buttonStyles } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Section";
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export function Hero() {
@@ -47,12 +47,14 @@ export function Hero() {
 
           <div className="lg:col-span-5 order-1 lg:order-2">
             <ScrollReveal delay={0.1}>
-              <PhotoPlaceholder
-                aspect="portrait"
+              <Image
+                src="/daniel-hanke-hero.jpg"
                 alt={t("imageAlt")}
-                slot="Hero · Berlin"
-                dimensions="1600 × 2133 px"
-                className="lg:max-w-md lg:ml-auto"
+                width={1856}
+                height={2254}
+                priority
+                sizes="(min-width: 1024px) 28rem, 100vw"
+                className="w-full h-auto lg:max-w-md lg:ml-auto"
               />
             </ScrollReveal>
           </div>
