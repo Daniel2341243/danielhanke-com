@@ -11,11 +11,11 @@ import { buttonStyles } from "@/components/ui/Button";
 
 export async function generateMetadata({
   params,
-}: PageProps<"/[locale]/newsletter-danke">): Promise<Metadata> {
+}: PageProps<"/[locale]/danke">): Promise<Metadata> {
   const { locale } = await params;
   const base = await buildPageMetadata({
     locale: locale as Locale,
-    pathname: "/newsletter-danke",
+    pathname: "/danke",
     titleKey: "newsletterThanksTitle",
     descriptionKey: "newsletterThanksDescription",
   });
@@ -24,7 +24,7 @@ export async function generateMetadata({
 
 export default async function NewsletterThanksPage({
   params,
-}: PageProps<"/[locale]/newsletter-danke">) {
+}: PageProps<"/[locale]/danke">) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
