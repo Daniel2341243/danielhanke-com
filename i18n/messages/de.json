@@ -362,8 +362,7 @@
       "firstNamePlaceholder": "Vorname",
       "emailPlaceholder": "E-Mail",
       "submit": "Anmelden",
-      "fineprint": "Mit deiner Anmeldung stimmst du dem Versand und der {privacyLink} zu. Du kannst dich jederzeit mit einem Klick abmelden.",
-      "privacyLinkText": "Datenschutzerklärung"
+      "fineprint": "Mit deiner Anmeldung stimmst du dem Versand und der <privacyLink>Datenschutzerklärung</privacyLink> zu. Du kannst dich jederzeit mit einem Klick abmelden."
     },
     "dontGet": {
       "headline": "Was du nicht bekommst",

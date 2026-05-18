@@ -36,10 +36,6 @@ export default async function NewsletterPage({
   const expectations = t.raw("expectations.items") as Item[];
   const dontGet = t.raw("dontGet.items") as Item[];
 
-  const fineprintRaw = t("form.fineprint");
-  const linkText = t("form.privacyLinkText");
-  const fineprintParts = fineprintRaw.split("{privacyLink}");
-
   return (
     <>
       <section className="pt-12 md:pt-20 pb-16 md:pb-24">
@@ -103,14 +99,16 @@ export default async function NewsletterPage({
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <p className="mt-6 text-xs text-text-muted text-center">
-              {fineprintParts[0]}
-              <Link
-                href="/datenschutz"
-                className="text-accent hover:text-accent-hover underline underline-offset-4"
-              >
-                {linkText}
-              </Link>
-              {fineprintParts[1]}
+              {t.rich("form.fineprint", {
+                privacyLink: (chunks) => (
+                  <Link
+                    href="/datenschutz"
+                    className="text-accent hover:text-accent-hover underline underline-offset-4"
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
             </p>
           </ScrollReveal>
         </div>

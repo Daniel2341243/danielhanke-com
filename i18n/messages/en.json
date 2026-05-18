@@ -362,8 +362,7 @@
       "firstNamePlaceholder": "First name",
       "emailPlaceholder": "Email",
       "submit": "Subscribe",
-      "fineprint": "By subscribing you agree to the mailing and the {privacyLink}. You can unsubscribe with one click anytime.",
-      "privacyLinkText": "privacy policy"
+      "fineprint": "By subscribing you agree to the mailing and the <privacyLink>privacy policy</privacyLink>. You can unsubscribe with one click anytime."
     },
     "dontGet": {
       "headline": "What you don't get",
