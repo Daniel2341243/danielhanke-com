@@ -61,8 +61,8 @@ export default async function AboutPage({
                 <Image
                   src="/daniel-hanke-portrait.jpg"
                   alt={t("hero.imageAlt")}
-                  width={1856}
-                  height={2254}
+                  width={1807}
+                  height={2212}
                   priority
                   sizes="(min-width: 1024px) 28rem, 100vw"
                   className="w-full h-auto lg:max-w-md lg:ml-auto"
