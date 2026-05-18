@@ -50,8 +50,8 @@ export function Approach() {
             <Image
               src="/daniel-hanke-coaching.jpg"
               alt={t("imageAlt")}
-              width={1807}
-              height={2212}
+              width={1856}
+              height={2254}
               sizes="(min-width: 1024px) 24rem, 100vw"
               className="w-full h-auto lg:max-w-sm lg:ml-auto"
             />
