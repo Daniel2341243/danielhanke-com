@@ -12,7 +12,7 @@ export const siteConfig = {
   },
 
   convertKit: {
-    newsletterFormId: "f3056f2a67",
+    newsletterFormId: "9456300",
     communityWaitlistFormId: "PLACEHOLDER_WAITLIST_FORM_ID",
   },
 
