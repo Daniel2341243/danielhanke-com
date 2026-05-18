@@ -49,6 +49,8 @@
     "aboutDescription": "Daniel Hanke. Psychological counselor. Author. Coach for men who function in life — and not for themselves.",
     "newsletterTitle": "Newsletter",
     "newsletterDescription": "1–2 emails per month. Longer pieces, personal observations, tools — that I don't share publicly.",
+    "newsletterThanksTitle": "It worked — please confirm your email",
+    "newsletterThanksDescription": "Please confirm your email address to subscribe to the newsletter.",
     "impressumTitle": "Imprint",
     "impressumDescription": "Provider identification per § 5 TMG.",
     "datenschutzTitle": "Privacy",
@@ -381,5 +383,11 @@
         }
       ]
     }
+  },
+  "newsletterThanksPage": {
+    "headline": "It worked.",
+    "body": "Please confirm your email address now. I just sent you a short confirmation email. As soon as you click the link in it, you're officially on the newsletter.",
+    "spam": "If you can't find the email, please also check your spam or promotions folder.",
+    "backToHome": "Back to home"
   }
 }
