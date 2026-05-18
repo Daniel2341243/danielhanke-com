@@ -2,9 +2,11 @@ import { useTranslations } from "next-intl";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { buttonStyles } from "@/components/ui/Button";
+import { siteConfig } from "@/lib/siteConfig";
 
 export function NewsletterCta() {
   const t = useTranslations("home.newsletter");
+  const formId = siteConfig.convertKit.newsletterFormId;
 
   return (
     <Section tone="tinted">
@@ -24,7 +26,7 @@ export function NewsletterCta() {
         </ScrollReveal>
         <ScrollReveal delay={0.2}>
           <form
-            action="https://app.kit.com/forms/PLACEHOLDER_NEWSLETTER_FORM_ID/subscriptions"
+            action={`https://app.kit.com/forms/${formId}/subscriptions`}
             method="post"
             target="_blank"
             className="mt-10 flex flex-col sm:flex-row gap-3 max-w-lg mx-auto"
