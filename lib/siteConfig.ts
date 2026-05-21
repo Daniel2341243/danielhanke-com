@@ -4,7 +4,7 @@ export const siteConfig = {
   email: "mail@danielhanke.com",
 
   social: {
-    youtube: "https://www.youtube.com/@DanielHanke",
+    youtube: "https://www.youtube.com/@Daniel_Hanke",
     instagram: "https://www.instagram.com/danielhanke",
     tiktok: "https://www.tiktok.com/@danielhanke",
     linkedin: "https://www.linkedin.com/in/daniel-hanke",
