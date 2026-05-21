@@ -57,23 +57,11 @@ function LinkedInIcon(props: IconProps) {
   );
 }
 
-function AmazonIcon(props: IconProps) {
-  return (
-    <svg {...baseSvgProps} {...props}>
-      <path d="M4 16.5c2.4 1.7 5.3 2.5 8 2.5s5.6-.8 8-2.5" />
-      <path d="M18.5 18.2c.5-.4.7-1 .5-1.5" />
-      <path d="M9 11c0-2.2 1.7-3.5 4-3.5S17 8.8 17 11v3c0 1 .3 1.7.8 2.3" />
-      <path d="M9 13c0 1.4 1.1 2.5 2.5 2.5 1.4 0 2.5-1 2.5-2.3v-1.7" />
-    </svg>
-  );
-}
-
 const channels = [
   { key: "youtube", Icon: YouTubeIcon, href: siteConfig.social.youtube, label: "YouTube" },
   { key: "instagram", Icon: InstagramIcon, href: siteConfig.social.instagram, label: "Instagram" },
   { key: "tiktok", Icon: TikTokIcon, href: siteConfig.social.tiktok, label: "TikTok" },
   { key: "linkedin", Icon: LinkedInIcon, href: siteConfig.social.linkedin, label: "LinkedIn" },
-  { key: "amazon", Icon: AmazonIcon, href: siteConfig.social.amazon, label: "Amazon" },
 ] as const;
 
 export function SocialIcons({ className }: { className?: string }) {
