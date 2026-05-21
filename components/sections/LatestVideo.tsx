@@ -1,12 +1,14 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { siteConfig } from "@/lib/siteConfig";
-import { Play, ArrowRight } from "lucide-react";
+import { getLatestVideo } from "@/lib/youtube";
+import { YouTubeEmbed } from "@/components/YouTubeEmbed";
+import { ArrowRight } from "lucide-react";
 
-export function LatestVideo() {
-  const t = useTranslations("home.video");
-  const { latestVideo } = siteConfig;
+export async function LatestVideo() {
+  const t = await getTranslations("home.video");
+  const video = await getLatestVideo();
 
   return (
     <Section tone="secondary">
@@ -17,34 +19,14 @@ export function LatestVideo() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         <div className="lg:col-span-7">
           <ScrollReveal delay={0.05}>
-            <a
-              href={latestVideo.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block relative aspect-video bg-bg-elevated border border-border-strong overflow-hidden focus-visible:outline-2 focus-visible:outline-accent"
-              aria-label={latestVideo.title}
-            >
-              <div
-                aria-hidden="true"
-                className="absolute inset-0 opacity-50 transition-opacity duration-300 group-hover:opacity-70"
-                style={{
-                  background:
-                    "radial-gradient(ellipse at center, rgba(200,168,130,0.10), transparent 70%)",
-                }}
-              />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="size-16 md:size-20 rounded-full border border-accent flex items-center justify-center text-accent transition-colors duration-300 group-hover:bg-accent group-hover:text-bg-primary">
-                  <Play className="size-6 md:size-7 ml-1" aria-hidden="true" />
-                </span>
-              </div>
-            </a>
+            <YouTubeEmbed videoId={video.videoId} title={video.title} />
           </ScrollReveal>
         </div>
 
         <div className="lg:col-span-5">
           <ScrollReveal delay={0.1}>
             <h2 className="font-serif italic font-medium text-text-primary text-[clamp(1.5rem,2.5vw,2rem)] leading-snug tracking-[-0.01em]">
-              {latestVideo.title}
+              {video.title}
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={0.15}>

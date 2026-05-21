@@ -16,9 +16,14 @@ export const siteConfig = {
     communityWaitlistFormId: "PLACEHOLDER_WAITLIST_FORM_ID",
   },
 
+  youtube: {
+    channelId: "UCxyGrnHEXDV36-xh3xCfgYA",
+    fallbackVideoId: "lk7hqIzxuEE",
+    fallbackTitle: "Sei einfach du selbst — der schlechteste Ratschlag",
+  },
   latestVideo: {
-    title: "Warum 'sei einfach du selbst' der schlechteste Ratschlag ist.",
-    url: "https://www.youtube.com/@DanielHanke",
+    title: "Sei einfach du selbst — der schlechteste Ratschlag",
+    url: "https://www.youtube.com/watch?v=lk7hqIzxuEE",
     thumbnail: "",
   },
 

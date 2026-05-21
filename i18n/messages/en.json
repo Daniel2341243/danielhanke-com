@@ -27,10 +27,15 @@
     "en": "EN"
   },
   "cookies": {
-    "text": "This site uses only technically necessary cookies. For analytics (Vercel Analytics) we need your consent. More in the",
+    "text": "This site uses only technically necessary cookies. For analytics (Vercel Analytics) and embedded YouTube videos we need your consent. More in the",
     "privacyLink": "privacy policy",
     "essential": "Essential only",
     "all": "Accept all"
+  },
+  "youtubeEmbed": {
+    "notice": "This video is hosted by YouTube. To play it inline we need your consent for YouTube cookies.",
+    "accept": "Load YouTube",
+    "openOnYoutube": "Open on YouTube"
   },
   "common": {
     "skipToContent": "Skip to content",

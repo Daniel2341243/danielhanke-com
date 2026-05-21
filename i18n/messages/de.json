@@ -27,10 +27,15 @@
     "en": "EN"
   },
   "cookies": {
-    "text": "Diese Website verwendet ausschließlich technisch notwendige Cookies. Für Statistiken (Vercel Analytics) brauchen wir deine Zustimmung. Mehr in der",
+    "text": "Diese Website verwendet ausschließlich technisch notwendige Cookies. Für Statistiken (Vercel Analytics) und das Einbetten von YouTube-Videos brauchen wir deine Zustimmung. Mehr in der",
     "privacyLink": "Datenschutzerklärung",
     "essential": "Nur notwendige",
     "all": "Alle akzeptieren"
+  },
+  "youtubeEmbed": {
+    "notice": "Dieses Video kommt von YouTube. Damit es direkt hier abgespielt werden kann, brauchen wir deine Zustimmung zu YouTube-Cookies.",
+    "accept": "YouTube laden",
+    "openOnYoutube": "Auf YouTube öffnen"
   },
   "common": {
     "skipToContent": "Zum Inhalt springen",
