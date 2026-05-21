@@ -14,7 +14,7 @@ export function ProblemMirror() {
         <Eyebrow>{t("eyebrow")}</Eyebrow>
       </ScrollReveal>
       <ScrollReveal delay={0.05}>
-        <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.875rem,4vw,3rem)] max-w-[20ch]">
+        <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.875rem,4vw,3rem)] max-w-[20ch] lg:max-w-[28ch]">
           {t("headline")}
         </h2>
       </ScrollReveal>
