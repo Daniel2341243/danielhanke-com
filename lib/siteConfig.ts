@@ -7,7 +7,7 @@ export const siteConfig = {
     youtube: "https://www.youtube.com/@Daniel_Hanke",
     instagram: "https://www.instagram.com/danielhanke/",
     tiktok: "https://www.tiktok.com/@daniel.hanke",
-    linkedin: "https://www.linkedin.com/in/daniel-hanke",
+    linkedin: "https://www.linkedin.com/in/danielhanke/",
     amazon: "https://amzn.to/3PGr6Ps",
   },
 
