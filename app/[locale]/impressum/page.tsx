@@ -38,6 +38,10 @@ export default async function ImpressumPage({
 
         <h2>{isDe ? "Angaben gemäß § 5 TMG" : "Information per § 5 TMG"}</h2>
         <p>
+          danielhanke.com ({isDe ? "Angebot der" : "an offering of"}{" "}
+          {l.company})
+        </p>
+        <p>
           {l.company}
           <br />
           {l.street}
@@ -46,53 +50,41 @@ export default async function ImpressumPage({
           <br />
           {l.country}
         </p>
-
         <p>
-          <strong>{isDe ? "Vertreten durch:" : "Represented by:"}</strong>{" "}
-          Daniel Hanke ({isDe ? "Geschäftsführer" : "Managing Director"})
+          Website:{" "}
+          <a href={siteConfig.url}>danielhanke.com</a>
+        </p>
+
+        <h2>{isDe ? "Handelsregister" : "Commercial Register"}</h2>
+        <p>
+          {isDe ? "Handelsregister" : "Commercial register"}: {l.register}
+          <br />
+          {isDe ? "Registergericht" : "Register court"}: {l.court}
+        </p>
+
+        <h2>{isDe ? "Vertreten durch" : "Represented by"}</h2>
+        <p>
+          {isDe ? "Geschäftsführer" : "Managing Director"}: Daniel Hanke
         </p>
 
         <h2>{isDe ? "Kontakt" : "Contact"}</h2>
         <p>
-          {isDe ? "Telefon" : "Phone"}: {l.phone}
-          <br />
           E-Mail:{" "}
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
         </p>
 
-        <h2>{isDe ? "Registereintrag" : "Commercial Register"}</h2>
+        <h2>{isDe ? "Umsatzsteuer-ID" : "VAT Identification Number"}</h2>
         <p>
           {isDe
-            ? "Eintragung im Handelsregister."
-            : "Entry in the commercial register."}
-          <br />
-          {isDe ? "Registergericht:" : "Register court:"} {l.court}
-          <br />
-          {isDe ? "Registernummer:" : "Registration number:"} {l.register}
-        </p>
-
-        <h2>
-          {isDe ? "Umsatzsteuer-ID" : "VAT Identification Number"}
-        </h2>
-        <p>
-          {isDe
-            ? "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:"
+            ? "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:"
             : "VAT identification number per § 27a German VAT Act:"}{" "}
           {l.vatId}
         </p>
 
         <h2>
-          {isDe
-            ? "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV"
-            : "Responsible for content per § 18 (2) MStV"}
+          {isDe ? "Redaktionell verantwortlich" : "Responsible for content"}
         </h2>
-        <p>
-          Daniel Hanke
-          <br />
-          {l.street}
-          <br />
-          {l.zip} {l.city}
-        </p>
+        <p>Daniel Hanke</p>
 
         <h2>{isDe ? "EU-Streitschlichtung" : "EU Dispute Resolution"}</h2>
         <p>
@@ -108,8 +100,8 @@ export default async function ImpressumPage({
           </a>
           .{" "}
           {isDe
-            ? "Unsere E-Mail-Adresse findest du oben im Impressum."
-            : "Our email address is listed above."}
+            ? "Unsere E-Mail-Adresse finden Sie oben im Impressum."
+            : "Our email address is listed above in this imprint."}
         </p>
 
         <h2>
@@ -121,6 +113,48 @@ export default async function ImpressumPage({
           {isDe
             ? "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
             : "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."}
+        </p>
+
+        <h2>{isDe ? "Haftung für Inhalte" : "Liability for Content"}</h2>
+        <p>
+          {isDe
+            ? "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen."
+            : "As a service provider, we are responsible for our own content on these pages under the general laws in accordance with § 7 (1) TMG. According to §§ 8 to 10 TMG, however, we as a service provider are not obliged to monitor transmitted or stored third-party information."}
+        </p>
+        <p>
+          {isDe
+            ? "Eine Haftung ist erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden entsprechender Rechtsverletzungen werden wir diese Inhalte umgehend entfernen."
+            : "Liability is only possible from the point in time at which a concrete infringement of the law becomes known. Upon becoming aware of such infringements, we will remove the content immediately."}
+        </p>
+
+        <h2>{isDe ? "Haftung für Links" : "Liability for Links"}</h2>
+        <p>
+          {isDe
+            ? "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte keine Gewähr übernehmen."
+            : "Our offer contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this external content."}
+        </p>
+        <p>
+          {isDe
+            ? "Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen."
+            : "If we become aware of any infringements, we will remove such links immediately."}
+        </p>
+
+        <h2>{isDe ? "Urheberrecht" : "Copyright"}</h2>
+        <p>
+          {isDe
+            ? "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet."
+            : "The content and works created by the site operators on these pages are subject to German copyright law. Downloads and copies of this page are only permitted for private, non-commercial use."}
+        </p>
+        <p>
+          {isDe
+            ? "Sollten Sie auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
+            : "If you become aware of any copyright infringement, please inform us accordingly. Upon becoming aware of such infringements, we will remove the content immediately."}
+        </p>
+
+        <p>
+          <em>
+            {isDe ? "Stand" : "Last updated"}: {l.lastUpdated}
+          </em>
         </p>
       </Prose>
     </Section>

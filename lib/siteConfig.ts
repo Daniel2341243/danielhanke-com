@@ -29,14 +29,14 @@ export const siteConfig = {
 
   legal: {
     company: "Next Level Education GmbH",
-    street: "PLACEHOLDER_STRASSE",
-    zip: "PLACEHOLDER_PLZ",
+    street: "Gottlob-Schneider-Straße 37",
+    zip: "76275",
     city: "Ettlingen",
     country: "Deutschland",
-    phone: "PLACEHOLDER_TELEFON",
-    register: "PLACEHOLDER_HRB_NUMMER",
-    court: "PLACEHOLDER_REGISTERGERICHT",
-    vatId: "PLACEHOLDER_USTID",
+    register: "HRB 700221",
+    court: "Amtsgericht Mannheim",
+    vatId: "DE814634983",
+    lastUpdated: "Februar 2026",
   },
 } as const;
 
