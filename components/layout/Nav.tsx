@@ -71,7 +71,7 @@ export function Nav() {
           <div className="hidden md:flex items-center gap-6">
             <LanguageSwitcher />
             <Link
-              href="/coaching"
+              href={{ pathname: "/coaching", hash: "anfrage" }}
               className="inline-flex items-center justify-center px-4 py-2 text-xs uppercase tracking-[0.12em] text-accent border border-accent hover:bg-accent hover:text-bg-primary transition-colors duration-200"
             >
               {t("ctaPrimary")}

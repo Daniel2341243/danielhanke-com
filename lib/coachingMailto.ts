@@ -10,7 +10,7 @@ const bodyDe = `Hallo Daniel,
 
 4. Warum jetzt?
 
-5. Verfügbarkeit?
+5. Verfügbarkeit (alle 1–2 Wochen, 60 Min., Zoom)?
 
 Viele Grüße,
 `;
@@ -25,7 +25,7 @@ const bodyEn = `Hi Daniel,
 
 4. Why now?
 
-5. Availability?
+5. Availability (every 1–2 weeks, 60 min, Zoom)?
 
 Best,
 `;

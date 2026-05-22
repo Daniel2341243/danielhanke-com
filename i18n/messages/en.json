@@ -5,7 +5,7 @@
     "book": "Book",
     "about": "About",
     "newsletter": "Newsletter",
-    "ctaPrimary": "First call"
+    "ctaPrimary": "Inquire"
   },
   "footer": {
     "tagline": "Psychologically grounded coaching for men.",
@@ -69,7 +69,7 @@
       "headlinePart1": "You function.",
       "headlinePart2": "But you don't stand.",
       "subline": "Psychologically grounded 1:1 coaching for men between 22 and 38 who deliver on the outside — and don't arrive on the inside.",
-      "ctaPrimary": "Request first call",
+      "ctaPrimary": "Send a message",
       "ctaGhost": "Subscribe to newsletter",
       "imageAlt": "Daniel Hanke in a Berlin street setting"
     },
@@ -125,8 +125,8 @@
     },
     "outro": {
       "headline": "If you feel like someone is finally holding up a mirror — write to me.",
-      "cta": "Request first call",
-      "subtext": "Free. 45 minutes. Via Zoom. Not a sales call."
+      "cta": "Send a message",
+      "subtext": "Tailored coaching, 100% anonymous and judgement-free."
     }
   },
   "coaching": {
@@ -140,19 +140,15 @@
       "items": [
         {
           "title": "You write to me.",
-          "body": "You answer the five questions below and send them to mail@danielhanke.com. If I believe I can help you, I'll get back to you within 48 hours."
+          "body": "You answer the five questions below and send them to mail@danielhanke.com. I respond within 48 hours."
         },
         {
-          "title": "We talk for 45 minutes — free, via Zoom.",
-          "body": "No pitch. No script. You talk, I listen, I ask. At the end I'll tell you honestly whether coaching makes sense for you — and if not, I'll tell you that too."
+          "title": "I reply — honestly.",
+          "body": "If I believe I can help you, I'll suggest dates and send you the payment details. If not, I'll tell you that too — and, where possible, point you to an alternative."
         },
         {
-          "title": "We decide together.",
-          "body": "If both sides want to, we set up the first sessions. One hour 90 €, paid in advance by bank transfer. No minimum term, no packages. We work as long as it makes sense."
-        },
-        {
-          "title": "We work — every 1–2 weeks, 60 minutes, via Zoom.",
-          "body": "Between sessions: concrete exercises, brief check-ins by email if you get stuck. Confidential, no notes shared with third parties, no distribution."
+          "title": "You book — and we work.",
+          "body": "One hour 120 €, paid in advance by bank transfer. No minimum term, no packages. We meet every 1–2 weeks, 60 minutes, via Zoom. Between sessions: concrete exercises, brief check-ins by email if you get stuck. Confidential, no notes shared with third parties."
         }
       ]
     },
@@ -196,7 +192,7 @@
       ]
     },
     "request": {
-      "eyebrow": "Request first call",
+      "eyebrow": "Send a message",
       "headline": "Write me an email. Answer these five questions.",
       "body": "No scheduling software, no online form. An honest email filters better than any tool. Answer as briefly or as fully as it feels right — one line per question is enough, more is fine too.",
       "questions": [
@@ -218,22 +214,30 @@
         },
         {
           "title": "Availability:",
-          "body": "Which weekdays and times work for a 45-minute first call (free, Zoom)?"
+          "body": "Which weekdays and times could you do regularly (every 1–2 weeks, 60 minutes) via Zoom?"
         }
       ],
       "cta": "Open email template",
-      "subtext": "I respond within 48 hours — even if the answer is 'no match'."
+      "subtext": "I respond within 48 hours — even if the answer is 'no match'. If it fits, I'll send you suggested times and payment details."
     },
     "faq": {
       "eyebrow": "Frequent questions",
       "items": [
+        {
+          "q": "What does a session cost?",
+          "a": "120 € per hour (60 minutes), paid in advance by bank transfer. No minimum term, no packages, no onboarding fee."
+        },
+        {
+          "q": "I have specific questions before booking — can I briefly talk to you?",
+          "a": "Yes. Send me an email to mail@danielhanke.com with your question. If a short call makes sense — e.g. to check compatibility — we'll arrange a 5- to 10-minute phone slot by email. This does not replace coaching and is not the entry into the program, only for targeted clarifications."
+        },
         {
           "q": "How many sessions do I need?",
           "a": "It depends on what you want to change. Some men work with me for 6 months, others for two years. There's no minimum term. We decide together after session 4 whether it fits."
         },
         {
           "q": "What if I need therapy instead of coaching?",
-          "a": "Then I'll tell you that honestly in the first call. Coaching works on patterns in the here and now. Therapy works on trauma, diagnoses, clinical symptoms. Sometimes you need both."
+          "a": "Then I'll tell you that honestly in my reply to your inquiry. Coaching works on patterns in the here and now. Therapy works on trauma, diagnoses, clinical symptoms. Sometimes you need both."
         },
         {
           "q": "Can I come irregularly?",
@@ -339,7 +343,7 @@
     },
     "outro": {
       "headline": "If you feel like you're talking to someone who understands you — write to me.",
-      "cta": "Request first call"
+      "cta": "Send a message"
     }
   },
   "newsletterPage": {

@@ -51,8 +51,8 @@ export default async function AgbPage({ params }: PageProps<"/[locale]/agb">) {
         </h2>
         <p>
           {isDe
-            ? "Der Vertrag kommt durch deine Anfrage per E-Mail und unsere Bestätigung in Textform zustande. Ein Erstgespräch (45 Minuten, kostenlos, per Zoom) begründet noch keinen kostenpflichtigen Vertrag."
-            : "The contract is concluded through your email inquiry and our confirmation in text form. A first call (45 minutes, free, via Zoom) does not yet create a paid contract."}
+            ? "Der Vertrag kommt zustande durch (a) deine schriftliche Anfrage per E-Mail, (b) unsere schriftliche Annahme bzw. unseren Terminvorschlag in Textform, (c) deine verbindliche Buchung einer Session und (d) deine fristgerechte Vorauszahlung. Ein freiwilliges, kostenloses Kurztelefonat (5–10 Minuten) zur Klärung von Kompatibilitätsfragen ist möglich, aber unverbindlich und nicht Vertragsbestandteil. Es begründet keine Coaching-Leistung."
+            : "The contract is concluded by (a) your written inquiry via email, (b) our written acceptance or proposal of dates in text form, (c) your binding booking of a session, and (d) your timely advance payment. A voluntary, free short phone call (5–10 minutes) to clarify compatibility questions is possible, but non-binding and not part of the contract. It does not establish any coaching service."}
         </p>
 
         <h2>
@@ -73,8 +73,8 @@ export default async function AgbPage({ params }: PageProps<"/[locale]/agb">) {
         </h2>
         <p>
           {isDe
-            ? "Eine Coaching-Stunde von 60 Minuten kostet 90 € inkl. ggf. Umsatzsteuer. Die Zahlung erfolgt vorab per Banküberweisung auf Grundlage einer Rechnung. Die Mehrwertsteuer wird gemäß der jeweils gültigen Gesetzeslage ausgewiesen."
-            : "A 60-minute coaching session costs 90 € incl. VAT where applicable. Payment is made in advance by bank transfer based on an invoice. VAT is shown per applicable law."}
+            ? "Eine Coaching-Stunde von 60 Minuten kostet 120 € inkl. ggf. Umsatzsteuer. Die Zahlung erfolgt vorab per Banküberweisung auf Grundlage einer Rechnung. Die Mehrwertsteuer wird gemäß der jeweils gültigen Gesetzeslage ausgewiesen."
+            : "A 60-minute coaching session costs 120 € incl. VAT where applicable. Payment is made in advance by bank transfer based on an invoice. VAT is shown per applicable law."}
         </p>
 
         <h2>

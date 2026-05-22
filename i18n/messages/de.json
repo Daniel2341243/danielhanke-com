@@ -5,7 +5,7 @@
     "book": "Buch",
     "about": "Über mich",
     "newsletter": "Newsletter",
-    "ctaPrimary": "Erstgespräch"
+    "ctaPrimary": "Anfragen"
   },
   "footer": {
     "tagline": "Psychologisch fundiertes Coaching für Männer.",
@@ -69,7 +69,7 @@
       "headlinePart1": "Lebe dein Potenzial aus,",
       "headlinePart2": "mache dein Leben großartig!",
       "subline": "Psychologisch fundiertes Coaching speziell für Männer in ihren 20ern und 30ern, die äußerlich liefern, aber innerlich noch stärker werden wollen.",
-      "ctaPrimary": "Erstgespräch anfragen",
+      "ctaPrimary": "Anfragen",
       "ctaGhost": "Newsletter abonnieren",
       "imageAlt": "Daniel Hanke im Berliner Stadtkontext"
     },
@@ -125,7 +125,7 @@
     },
     "outro": {
       "headline": "Du kannst so weitermachen wie bisher. Oder anfangen, eine radikal neue Richtung einzuschlagen.",
-      "cta": "Erstgespräch anfragen",
+      "cta": "Anfragen",
       "subtext": "Maßgeschneidertes Coaching, 100% anonym und urteilsfrei."
     }
   },
@@ -140,19 +140,15 @@
       "items": [
         {
           "title": "Du schreibst mir.",
-          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Wenn ich glaube, dass ich dir helfen kann, melde ich mich innerhalb von 48 Stunden."
+          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Ich antworte innerhalb von 48 Stunden."
         },
         {
-          "title": "Wir sprechen 45 Minuten — kostenlos, per Zoom.",
-          "body": "Kein Pitch. Kein Skript. Du erzählst, ich höre zu, ich frage. Am Ende sage ich dir ehrlich, ob Coaching für dich Sinn macht — und wenn nein, sage ich dir auch das."
+          "title": "Ich antworte — ehrlich.",
+          "body": "Wenn ich glaube, dass ich dir helfen kann, schlage ich dir Termine vor und schicke dir die Zahlungsinformationen. Wenn nicht, sage ich dir auch das — und nenne dir, wenn möglich, eine Alternative."
         },
         {
-          "title": "Wir entscheiden gemeinsam.",
-          "body": "Wenn beide Seiten Lust haben, vereinbaren wir die ersten Sessions. Eine Stunde 90 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten so lange, wie es Sinn macht."
-        },
-        {
-          "title": "Wir arbeiten — alle 1–2 Wochen, 60 Minuten, per Zoom.",
-          "body": "Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte, ohne Verbreitung."
+          "title": "Du buchst — und wir arbeiten.",
+          "body": "Eine Stunde 120 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten alle 1–2 Wochen, 60 Minuten, per Zoom. Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte."
         }
       ]
     },
@@ -196,7 +192,7 @@
       ]
     },
     "request": {
-      "eyebrow": "Erstgespräch anfragen",
+      "eyebrow": "Anfrage schreiben",
       "headline": "Schreib mir eine E-Mail. Beantworte diese fünf Fragen.",
       "body": "Keine Termin-Software, kein Online-Formular. Eine ehrliche E-Mail filtert besser als jedes Tool. Antworte so kurz oder so lang wie es sich richtig anfühlt — eine Zeile pro Frage reicht, mehr darf es auch sein.",
       "questions": [
@@ -218,22 +214,30 @@
         },
         {
           "title": "Verfügbarkeit:",
-          "body": "An welchen Wochentagen und Uhrzeiten passt dir ein 45-minütiges Erstgespräch (kostenlos, Zoom)?"
+          "body": "An welchen Wochentagen und Uhrzeiten könntest du regelmäßig (alle 1–2 Wochen, 60 Minuten) per Zoom?"
         }
       ],
       "cta": "E-Mail-Vorlage öffnen",
-      "subtext": "Ich antworte innerhalb von 48 Stunden — auch wenn die Antwort „kein Match“ ist."
+      "subtext": "Ich antworte innerhalb von 48 Stunden — auch wenn die Antwort „kein Match“ ist. Wenn es passt, schicke ich dir Terminvorschläge und Zahlungsinformationen."
     },
     "faq": {
       "eyebrow": "Häufige Fragen",
       "items": [
+        {
+          "q": "Was kostet eine Session?",
+          "a": "120 € pro Stunde (60 Minuten), im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete, keine Aufnahmegebühr."
+        },
+        {
+          "q": "Ich habe noch konkrete Fragen vor der Buchung — kann ich kurz mit dir sprechen?",
+          "a": "Ja. Schreib mir eine E-Mail an mail@danielhanke.com mit deiner Frage. Wenn ein kurzes Gespräch sinnvoll ist — etwa um die Kompatibilität abzustimmen — machen wir per Mail einen 5- bis 10-minütigen Telefon-Slot aus. Das ersetzt kein Coaching und ist nicht der Einstieg ins Programm, sondern nur für gezielte Rückfragen."
+        },
         {
           "q": "Wie viele Sessions brauche ich?",
           "a": "Das hängt davon ab, was du verändern willst. Manche Männer arbeiten 6 Monate mit mir, andere zwei Jahre. Es gibt keine Mindestlaufzeit. Wir entscheiden nach Session 4 gemeinsam, ob es passt."
         },
         {
           "q": "Was, wenn ich Therapie statt Coaching brauche?",
-          "a": "Dann sage ich dir das im Erstgespräch ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
+          "a": "Dann sage ich dir das in meiner Antwort auf deine Anfrage ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
         },
         {
           "q": "Kann ich auch unregelmäßig kommen?",
@@ -339,7 +343,7 @@
     },
     "outro": {
       "headline": "Falls du das Gefühl hast, du sprichst gerade mit jemandem, der dich versteht — schreib mir.",
-      "cta": "Erstgespräch anfragen"
+      "cta": "Anfragen"
     }
   },
   "newsletterPage": {
