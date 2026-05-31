@@ -56,6 +56,8 @@
     "newsletterDescription": "1–2 E-Mails pro Monat. Längere Texte, persönliche Beobachtungen, Werkzeuge — die ich öffentlich nicht teile.",
     "newsletterThanksTitle": "Hat geklappt — bitte E-Mail bestätigen",
     "newsletterThanksDescription": "Bestätige deine E-Mail-Adresse, um den Newsletter zu abonnieren.",
+    "willkommenTitle": "Anmeldung erfolgreich",
+    "willkommenDescription": "Deine Anmeldung zum Newsletter von Daniel Hanke war erfolgreich.",
     "impressumTitle": "Impressum",
     "impressumDescription": "Anbieterkennzeichnung gemäß § 5 TMG.",
     "datenschutzTitle": "Datenschutz",
@@ -398,5 +400,16 @@
     "body": "Bitte bestätige jetzt noch deine E-Mail-Adresse. Ich habe dir gerade eine kurze Bestätigungs-Mail geschickt. Sobald du auf den Link in der Mail klickst, bist du offiziell im Newsletter.",
     "spam": "Falls du keine Mail findest, schau bitte auch im Spam- oder Werbung-Ordner nach.",
     "backToHome": "Zurück zur Startseite"
+  },
+  "willkommenPage": {
+    "headline": "Anmeldung erfolgreich.",
+    "subheadline": "Schön, dass du da bist.",
+    "body1": "Deine E-Mail-Adresse wurde bestätigt. Ab jetzt bekommst du gelegentlich Impulse von mir — persönlicher, tiefer und direkter als auf YouTube.",
+    "body2": "Es geht um innere Stabilität, Selbstführung und psychologische Klarheit für Männer, die im Außen funktionieren, aber innerlich nicht einfach nur weitermachen wollen.",
+    "spam": "Die erste E-Mail kann ein paar Minuten dauern. Schau zur Sicherheit auch in deinem Spam- oder Werbung-Ordner nach.",
+    "ctaPrimary": "Zur Website",
+    "ctaSecondary": "YouTube ansehen",
+    "footerName": "Daniel Hanke",
+    "footerTagline": "Psychologische Klarheit. Selbstführung. Innere Stabilität."
   }
 }

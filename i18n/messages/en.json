@@ -56,6 +56,8 @@
     "newsletterDescription": "1–2 emails per month. Longer pieces, personal observations, tools — that I don't share publicly.",
     "newsletterThanksTitle": "It worked — please confirm your email",
     "newsletterThanksDescription": "Please confirm your email address to subscribe to the newsletter.",
+    "willkommenTitle": "You're in",
+    "willkommenDescription": "Your subscription to Daniel Hanke's newsletter was successful.",
     "impressumTitle": "Imprint",
     "impressumDescription": "Provider identification per § 5 TMG.",
     "datenschutzTitle": "Privacy",
@@ -398,5 +400,16 @@
     "body": "Please confirm your email address now. I just sent you a short confirmation email. As soon as you click the link in it, you're officially on the newsletter.",
     "spam": "If you can't find the email, please also check your spam or promotions folder.",
     "backToHome": "Back to home"
+  },
+  "willkommenPage": {
+    "headline": "You're in.",
+    "subheadline": "Glad you're here.",
+    "body1": "Your email address is confirmed. From here on you'll get occasional notes from me — more personal, deeper and more direct than on YouTube.",
+    "body2": "It's about inner stability, self-leadership and psychological clarity for men who function on the outside but don't just want to keep going on the inside.",
+    "spam": "The first email can take a few minutes. Just to be safe, also check your spam or promotions folder.",
+    "ctaPrimary": "Back to the site",
+    "ctaSecondary": "Watch on YouTube",
+    "footerName": "Daniel Hanke",
+    "footerTagline": "Psychological clarity. Self-leadership. Inner stability."
   }
 }

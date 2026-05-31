@@ -21,6 +21,10 @@ export const routing = defineRouting({
       de: "/danke",
       en: "/thanks",
     },
+    "/willkommen": {
+      de: "/willkommen",
+      en: "/welcome",
+    },
     "/impressum": {
       de: "/impressum",
       en: "/imprint",
