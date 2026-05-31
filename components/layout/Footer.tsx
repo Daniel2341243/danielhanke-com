@@ -5,6 +5,7 @@ import { SocialIcons } from "@/components/icons/SocialIcons";
 
 const sitemap = [
   { href: "/coaching", key: "coaching" },
+  { href: "/speaking", key: "speaking" },
   { href: "/community", key: "community" },
   { href: "/buch", key: "book" },
   { href: "/ueber-mich", key: "about" },

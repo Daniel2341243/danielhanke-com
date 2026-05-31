@@ -1,6 +1,7 @@
 {
   "nav": {
     "coaching": "Coaching",
+    "speaking": "Speaking",
     "community": "Community",
     "book": "Buch",
     "about": "Über mich",
@@ -54,6 +55,8 @@
     "aboutDescription": "Daniel Hanke. Psychologischer Berater. Autor. Coach für Männer, die im Leben funktionieren — und sich selbst nicht.",
     "newsletterTitle": "Newsletter",
     "newsletterDescription": "1–2 E-Mails pro Monat. Längere Texte, persönliche Beobachtungen, Werkzeuge — die ich öffentlich nicht teile.",
+    "speakingTitle": "Speaking & Media",
+    "speakingDescription": "Keynotes, Workshops und Podcast-Gespräche über Männer, Selbstführung, moderne Männlichkeit, Selbstdisziplin und psychologische Tiefe. Kein Hype. Keine Bro-Science.",
     "newsletterThanksTitle": "Hat geklappt — bitte E-Mail bestätigen",
     "newsletterThanksDescription": "Bestätige deine E-Mail-Adresse, um den Newsletter zu abonnieren.",
     "willkommenTitle": "Anmeldung erfolgreich",
@@ -400,6 +403,209 @@
     "body": "Bitte bestätige jetzt noch deine E-Mail-Adresse. Ich habe dir gerade eine kurze Bestätigungs-Mail geschickt. Sobald du auf den Link in der Mail klickst, bist du offiziell im Newsletter.",
     "spam": "Falls du keine Mail findest, schau bitte auch im Spam- oder Werbung-Ordner nach.",
     "backToHome": "Zurück zur Startseite"
+  },
+  "speakingPage": {
+    "hero": {
+      "eyebrow": "Speaking & Media",
+      "headline": "Speaking & Media",
+      "subline": "Kein Hype. Keine Bro-Science. Psychologische Tiefe für Bühne, Workshop und Podcast.",
+      "body": "Ich spreche über Männer, die funktionieren — aber innerlich nicht stehen. Über Selbstdisziplin ohne Selbsthass. Über moderne Männlichkeit ohne Maske. Über Beziehungen, in denen man nicht performt. Und über Führung, die dort beginnt, wo Selbsttäuschung endet.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "YouTube ansehen",
+      "proof": "Psychologischer Berater · Autor · M.A. Wirtschaftspsychologie & International Management · NLP Master Practitioner · Geschäftsführer der Next Level Education GmbH · YouTube-Kanal „Daniel Hanke\""
+    },
+    "intro": {
+      "eyebrow": "Worum es geht",
+      "headline": "Nicht Motivation. Sondern ehrliche Bewegung.",
+      "body1": "Viele Vorträge klingen gut, verändern aber nichts. Diese Seite ist für Veranstalter, Hosts und Unternehmen, die keine laute Selbstoptimierungs-Show suchen, sondern einen psychologisch fundierten Impuls, der hängen bleibt.",
+      "body2": "Meine Themen bewegen sich zwischen Selbstführung, emotionaler Klarheit, moderner Männlichkeit, Disziplin, Beziehungsmustern und innerer Stabilität."
+    },
+    "offers": {
+      "eyebrow": "Drei Formate",
+      "items": [
+        {
+          "title": "Keynotes",
+          "body": "45–75 Minuten. Für Events, Unternehmen, Hochschulen, Konferenzen und Communities. Klar, tief, pointiert — mit Story, Framework und steiler These."
+        },
+        {
+          "title": "Workshops",
+          "body": "90 Minuten bis ganztägig. Interaktiv, praktisch und psychologisch fundiert. Für Gruppen, Teams, Retreats und Leadership-Offsites."
+        },
+        {
+          "title": "Podcast & Media",
+          "body": "Für Podcasts, Panels, YouTube-Collabs und Interviews. Keine Werbeblöcke, sondern echte Gespräche über Männer, Selbstführung und innere Entwicklung."
+        }
+      ]
+    },
+    "keynotes": {
+      "eyebrow": "Bühne",
+      "headline": "5 Keynotes, die ich anbiete",
+      "intro": "Jede Keynote verbindet psychologische Tiefe mit klarer Sprache. Keine Motivationsshow. Keine fertigen Phrasen. Sondern Themen, die Menschen innerlich treffen und praktisch weiterbringen.",
+      "videoLabel": "So klingt das Thema bei mir:",
+      "videoPlaceholderHint": "Passendes Video hier einfügen",
+      "suitableFor": "Geeignet für:",
+      "items": [
+        {
+          "title": "Du bist nicht schüchtern. Dein System schützt dich.",
+          "body": "Was wir oft als Schwäche abtun — Zurückhaltung, Vermeidung, Zögern oder Unsicherheit — ist häufig ein intelligenter Schutzmechanismus, der einmal sinnvoll war. Diese Keynote dreht Scham in Verständnis und Verständnis in Handlungsspielraum.",
+          "fit": "Männer-Events, Hochschulen, Mental-Health-Formate, Coaching-Communities, Unternehmen, junge Professionals.",
+          "videoTopic": "Du bist nicht schüchtern. Dein System schützt dich."
+        },
+        {
+          "title": "Die Fassade hält. Der Mann dahinter nicht.",
+          "body": "Über Männer und Highperformer, die äußerlich liefern, funktionieren und stark wirken — aber innerlich leerlaufen. Warum mehr Leistung das innere Loch nicht füllt, sondern oft vertieft. Und wie aus Funktionieren wieder echter innerer Halt entstehen kann.",
+          "fit": "Unternehmen, Leadership-Offsites, Mental-Health-Programme, Männer-Events, Hochschulen, HR-Formate.",
+          "videoTopic": "Bestätigungssuche, Funktionieren, innere Leere oder Selbstwert"
+        },
+        {
+          "title": "Das Ja, das dich auffrisst.",
+          "body": "People-Pleasing ist keine Nettigkeit. Es ist oft ein Überlebensmuster. Diese Keynote zeigt, warum Anpassung kurzfristig schützt, langfristig aber Identität, Klarheit und Selbstachtung zerstört. Besonders relevant für Teams, Beziehungen und ehrgeizige Menschen, die Konflikte vermeiden.",
+          "fit": "Unternehmen, Teams, Leadership-Formate, Männergruppen, Coaching-Events, Retreats.",
+          "videoTopic": "People-Pleasing, Nein-sagen, Grenzen oder Konfliktvermeidung"
+        },
+        {
+          "title": "Selbstwert, der nicht von außen kommt.",
+          "body": "Solange Selbstwert an Erfolg, Lob, Status, Dating-Erfolge oder Anerkennung gekoppelt ist, bleibt jeder Sieg nur ein Mietvertrag. Diese Keynote zeigt den Weg von externer Bestätigung zu innerem Halt — psychologisch fundiert, ehrlich und ohne spirituelle Floskeln.",
+          "fit": "Konferenzen, Männer-Events, Hochschulen, Persönlichkeitsentwicklungsformate, Podcasts, Unternehmen.",
+          "videoTopic": "Selbstwert, Bestätigung, Erfolg oder innerer Halt"
+        },
+        {
+          "title": "Kein Alpha, kein Opfer.",
+          "body": "Was Männlichkeit heute sein kann — jenseits von Red-Pill-Dogma, Opferhaltung, Anpassung und Optimierungswahn. Eine Keynote über Stärke, Verletzlichkeit, Grenzen, Verantwortung und emotionale Reife.",
+          "fit": "Männer-Events, Festivals, Retreats, Podcasts, Medienformate, psychologische Konferenzen.",
+          "videoTopic": "Männlichkeit, Dating, Selbstachtung oder emotionale Reife"
+        }
+      ],
+      "reserve": "Auf Anfrage zusätzlich: „Erwachsen wird man nicht von allein.\" — Eine Keynote über Reife, Verantwortung und die inneren Zeichen des Erwachsenwerdens."
+    },
+    "workshops": {
+      "eyebrow": "Workshops",
+      "headline": "3 Workshops für echte Integration",
+      "intro": "Workshops sind keine Vorträge mit ein paar Fragen am Ende. Sie sind interaktiv, praktisch und auf Transfer ausgelegt. Die Teilnehmer sollen nicht nur etwas verstehen — sie sollen sich selbst klarer sehen und konkrete nächste Schritte mitnehmen.",
+      "formatLabel": "Format:",
+      "resultLabel": "Ergebnis:",
+      "fitLabel": "Geeignet für:",
+      "items": [
+        {
+          "title": "Dein inneres System lesen",
+          "format": "Halbtag oder Ganztag",
+          "body": "Teilnehmer kartieren ihre eigenen Vermeidungs-, Schutz- und Anpassungsmuster. Sie erkennen, warum sie in bestimmten Situationen ausweichen, gefallen wollen, überleisten oder emotional dichtmachen.",
+          "result": "Jeder Teilnehmer geht mit einer persönlichen Muster-Map und konkreten Handlungsoptionen raus.",
+          "fit": "Männergruppen, Retreats, Leadership-Offsites, Hochschulen, Coaching-Communities."
+        },
+        {
+          "title": "Nein sagen, ohne dich zu verlieren",
+          "format": "90 Minuten bis Halbtag",
+          "body": "Ein praktischer Workshop über Grenzen, Konfliktfähigkeit und klare Kommunikation. Nicht nur kognitiv, sondern auch körperlich und emotional erfahrbar. Mit Reflexion, Rollenspiel und konkreten Formulierungen.",
+          "result": "Teilnehmer lernen, Grenzen zu setzen, ohne in Härte, Rechtfertigung oder Schuldgefühle zu kippen.",
+          "fit": "Teams, Unternehmen, Führungskräfte, Männergruppen, Beziehungskontexte, Coaching-Events."
+        },
+        {
+          "title": "Selbstdisziplin 2.0 — Motivation steuern statt erzwingen",
+          "format": "2 Stunden, Halbtag oder Ganztag",
+          "body": "Basierend auf meinem Buch „Selbstdisziplin 2.0\". Dieser Workshop zeigt, warum Disziplin nicht aus Selbsthass, Druck oder Motivation entsteht, sondern aus Identität, Struktur, emotionaler Klarheit und einem System, das auch an schlechten Tagen trägt.",
+          "result": "Teilnehmer entwickeln ein persönliches Disziplin-System mit konkreten Routinen, Triggern, Rückfallstrategien und einem klaren Warum.",
+          "fit": "Unternehmen, junge Professionals, Gründer, Hochschulen, Männergruppen, Productivity-Events."
+        }
+      ]
+    },
+    "podcast": {
+      "eyebrow": "Podcast & Media",
+      "headline": "Podcast & Interviews",
+      "subline": "Ich bringe Story, Framework und eine steile These mit — keinen Werbeblock.",
+      "body": "Ich bin als Gast für Podcasts, Panels, YouTube-Collabs und Interviews verfügbar. Besonders gerne spreche ich in Formaten, die Raum für psychologische Tiefe, ehrliche Fragen und differenzierte Perspektiven haben.",
+      "topicsHeadline": "Themen, über die ich gerne spreche",
+      "topics": [
+        "Warum viele Männer funktionieren, aber nicht leben",
+        "Männer und mentale Gesundheit — warum sie schweigen",
+        "Moderne Männlichkeit ohne Alpha-Gehabe",
+        "Die Red-Pill- und Manosphere-Welle aus psychologischer Perspektive",
+        "People-Pleasing bei Highperformern",
+        "Warum Erfolg kein Selbstwertgefühl erzeugt",
+        "Dating, Bindung und die Angst vor echter Nähe",
+        "Selbstdisziplin ohne Selbsthass",
+        "Alte Schutzmechanismen und wie sie unser heutiges Leben steuern",
+        "Achtsamkeit ohne Esoterik",
+        "Sinn, Leere und optimistischer Nihilismus",
+        "Mein persönlicher Weg: Wirtschaftspsychologie, Coaching, Bücher, YouTube und die Arbeit mit Männern"
+      ]
+    },
+    "proof": {
+      "eyebrow": "Proof",
+      "headline": "Schau dir an, wie ich denke — bevor du buchst.",
+      "body": "Mein YouTube-Kanal ist der beste Eindruck davon, wie ich spreche, denke und Themen öffne. Keine künstliche Speaker-Pose. Keine Hochglanz-Show. Sondern psychologische Tiefe, klare Sprache und ehrliche Auseinandersetzung.",
+      "cta": "YouTube-Kanal ansehen",
+      "videoPlaceholderHint": "Passendes Video hier einfügen",
+      "videos": [
+        { "category": "Inner Stability" },
+        { "category": "Selbstdisziplin" },
+        { "category": "People-Pleasing & Grenzen" },
+        { "category": "Selbstwert & Bestätigung" },
+        { "category": "Moderne Männlichkeit" },
+        { "category": "Dating & Nähe" }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Passung",
+      "headline": "Für wen das passt — und für wen nicht",
+      "forTitle": "Für wen:",
+      "forItems": [
+        "Unternehmen, die Selbstführung und emotionale Klarheit fördern wollen",
+        "Männer-Events und Retreats mit Tiefgang",
+        "Podcasts mit psychologischem, spirituellem oder gesellschaftlichem Fokus",
+        "Hochschulen, junge Professionals und Gründer-Communities",
+        "Leadership-Offsites und HR-Formate",
+        "Coaching-Communities und Mental-Health-Veranstaltungen",
+        "Konferenzen, die keine oberflächliche Motivationsshow suchen"
+      ],
+      "notForTitle": "Für wen nicht:",
+      "notForItems": [
+        "Alpha-Male-Events",
+        "Pickup-Workshops",
+        "Reine Motivationsshows",
+        "Formate, die nur Entertainment wollen",
+        "Bro-Science, Macho-Gehabe oder schnelle Erfolgsformeln",
+        "Veranstaltungen, die psychologische Tiefe vermeiden wollen"
+      ]
+    },
+    "logistics": {
+      "eyebrow": "Logistik",
+      "headline": "Formate & Rahmen",
+      "formatsTitle": "Formate",
+      "formats": [
+        "Keynote: 45–75 Minuten",
+        "Impuls + Q&A: 60–90 Minuten",
+        "Workshop: 90 Minuten, Halbtag oder Ganztag",
+        "Podcast / Interview / Panel",
+        "Online oder vor Ort"
+      ],
+      "languageTitle": "Sprache",
+      "language": "Deutsch oder Englisch",
+      "locationTitle": "Ort",
+      "location": "Online oder vor Ort. Anreise innerhalb Deutschlands und international nach Absprache.",
+      "onepagerTitle": "Speaker-One-Pager",
+      "onepagerNote": "PDF auf Anfrage",
+      "onepagerCta": "Speaker-One-Pager herunterladen"
+    },
+    "request": {
+      "eyebrow": "Anfrage",
+      "headline": "Planst du ein Event, einen Workshop oder ein Gespräch?",
+      "body": "Wenn du glaubst, dass eines dieser Themen zu deinem Event, Podcast oder Unternehmen passt, schreib mir eine kurze Anfrage. Wichtig ist nicht nur das Format — sondern was bei deinem Publikum innerlich in Bewegung kommen soll.",
+      "fields": [
+        "Name",
+        "Organisation / Podcast / Event",
+        "E-Mail",
+        "Format: Keynote / Workshop / Podcast / Panel / anderes",
+        "Datum oder Zeitraum",
+        "Ort oder online",
+        "Zielgruppe / Publikum",
+        "Gewünschtes Thema",
+        "Budgetrahmen (optional)",
+        "Was soll nach dem Vortrag, Workshop oder Gespräch anders sein?"
+      ],
+      "cta": "Anfrage senden",
+      "subtext": "Antwort meist innerhalb weniger Werktage. Keine automatisierten Follow-ups."
+    }
   },
   "willkommenPage": {
     "headline": "Anmeldung erfolgreich.",

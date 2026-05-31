@@ -9,6 +9,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const links = [
   { href: "/coaching", key: "coaching" },
+  { href: "/speaking", key: "speaking" },
   { href: "/community", key: "community" },
   { href: "/buch", key: "book" },
   { href: "/ueber-mich", key: "about" },

@@ -1,6 +1,7 @@
 {
   "nav": {
     "coaching": "Coaching",
+    "speaking": "Speaking",
     "community": "Community",
     "book": "Book",
     "about": "About",
@@ -54,6 +55,8 @@
     "aboutDescription": "Daniel Hanke. Psychological counselor. Author. Coach for men who function in life — and not for themselves.",
     "newsletterTitle": "Newsletter",
     "newsletterDescription": "1–2 emails per month. Longer pieces, personal observations, tools — that I don't share publicly.",
+    "speakingTitle": "Speaking & Media",
+    "speakingDescription": "Keynotes, workshops and podcast conversations on men, self-leadership, modern masculinity, self-discipline and psychological depth. No hype. No bro-science.",
     "newsletterThanksTitle": "It worked — please confirm your email",
     "newsletterThanksDescription": "Please confirm your email address to subscribe to the newsletter.",
     "willkommenTitle": "You're in",
@@ -400,6 +403,209 @@
     "body": "Please confirm your email address now. I just sent you a short confirmation email. As soon as you click the link in it, you're officially on the newsletter.",
     "spam": "If you can't find the email, please also check your spam or promotions folder.",
     "backToHome": "Back to home"
+  },
+  "speakingPage": {
+    "hero": {
+      "eyebrow": "Speaking & Media",
+      "headline": "Speaking & Media",
+      "subline": "No hype. No bro-science. Psychological depth for stage, workshop and podcast.",
+      "body": "I speak about men who function — but don't stand inside. About self-discipline without self-hatred. About modern masculinity without the mask. About relationships you don't have to perform in. And about leadership that begins where self-deception ends.",
+      "ctaPrimary": "Send inquiry",
+      "ctaSecondary": "Watch on YouTube",
+      "proof": "Psychological counselor · Author · M.A. Business Psychology & International Management · NLP Master Practitioner · Managing Director of Next Level Education GmbH · YouTube channel „Daniel Hanke\""
+    },
+    "intro": {
+      "eyebrow": "What this is about",
+      "headline": "Not motivation. Honest movement.",
+      "body1": "Many talks sound good but change nothing. This page is for organizers, hosts and companies who aren't looking for a loud self-optimization show, but for a psychologically grounded impulse that sticks.",
+      "body2": "My topics move between self-leadership, emotional clarity, modern masculinity, discipline, relationship patterns and inner stability."
+    },
+    "offers": {
+      "eyebrow": "Three formats",
+      "items": [
+        {
+          "title": "Keynotes",
+          "body": "45–75 minutes. For events, companies, universities, conferences and communities. Clear, deep, pointed — with story, framework and a sharp thesis."
+        },
+        {
+          "title": "Workshops",
+          "body": "90 minutes to full-day. Interactive, practical and psychologically grounded. For groups, teams, retreats and leadership offsites."
+        },
+        {
+          "title": "Podcast & Media",
+          "body": "For podcasts, panels, YouTube collabs and interviews. No ad slots — real conversations about men, self-leadership and inner development."
+        }
+      ]
+    },
+    "keynotes": {
+      "eyebrow": "Stage",
+      "headline": "5 keynotes I offer",
+      "intro": "Each keynote combines psychological depth with clear language. No motivational show. No worn-out phrases. Topics that hit people inside and move them forward in practice.",
+      "videoLabel": "How this topic sounds from me:",
+      "videoPlaceholderHint": "Insert matching video here",
+      "suitableFor": "Suitable for:",
+      "items": [
+        {
+          "title": "You're not shy. Your system is protecting you.",
+          "body": "What we often dismiss as weakness — restraint, avoidance, hesitation or insecurity — is often an intelligent protective mechanism that once made sense. This keynote turns shame into understanding and understanding into agency.",
+          "fit": "Men's events, universities, mental-health formats, coaching communities, companies, young professionals.",
+          "videoTopic": "You're not shy. Your system is protecting you."
+        },
+        {
+          "title": "The facade holds. The man behind it doesn't.",
+          "body": "On men and high performers who deliver on the outside, function and look strong — but run empty inside. Why more performance doesn't fill the inner hole but often deepens it. And how real inner ground can grow again where functioning has taken over.",
+          "fit": "Companies, leadership offsites, mental-health programs, men's events, universities, HR formats.",
+          "videoTopic": "Approval-seeking, functioning, inner emptiness or self-worth"
+        },
+        {
+          "title": "The yes that eats you alive.",
+          "body": "People-pleasing isn't kindness. It's often a survival pattern. This keynote shows why adapting protects in the short term but destroys identity, clarity and self-respect over time. Especially relevant for teams, relationships and ambitious people who avoid conflict.",
+          "fit": "Companies, teams, leadership formats, men's groups, coaching events, retreats.",
+          "videoTopic": "People-pleasing, saying no, boundaries or conflict avoidance"
+        },
+        {
+          "title": "Self-worth that doesn't come from outside.",
+          "body": "As long as self-worth is tied to success, praise, status, dating wins or recognition, every victory is just a rented lease. This keynote shows the path from external validation to inner ground — psychologically grounded, honest, without spiritual clichés.",
+          "fit": "Conferences, men's events, universities, personal development formats, podcasts, companies.",
+          "videoTopic": "Self-worth, validation, success or inner ground"
+        },
+        {
+          "title": "No alpha, no victim.",
+          "body": "What masculinity can be today — beyond red-pill dogma, victimhood, conformity and the optimization craze. A keynote on strength, vulnerability, boundaries, responsibility and emotional maturity.",
+          "fit": "Men's events, festivals, retreats, podcasts, media formats, psychological conferences.",
+          "videoTopic": "Masculinity, dating, self-respect or emotional maturity"
+        }
+      ],
+      "reserve": "On request also available: „Growing up doesn't happen on its own.\" — A keynote on maturity, responsibility and the inner signs of becoming an adult."
+    },
+    "workshops": {
+      "eyebrow": "Workshops",
+      "headline": "3 workshops for real integration",
+      "intro": "Workshops aren't talks with a few questions at the end. They're interactive, practical and built for transfer. Participants don't just understand something — they see themselves more clearly and leave with concrete next steps.",
+      "formatLabel": "Format:",
+      "resultLabel": "Outcome:",
+      "fitLabel": "Suitable for:",
+      "items": [
+        {
+          "title": "Reading your inner system",
+          "format": "Half-day or full-day",
+          "body": "Participants map their own avoidance, protection and adaptation patterns. They recognize why they sidestep, want to please, over-deliver or shut down emotionally in certain situations.",
+          "result": "Every participant leaves with a personal pattern map and concrete options for action.",
+          "fit": "Men's groups, retreats, leadership offsites, universities, coaching communities."
+        },
+        {
+          "title": "Saying no without losing yourself",
+          "format": "90 minutes to half-day",
+          "body": "A practical workshop on boundaries, conflict capacity and clear communication. Not just cognitive but also somatic and emotional. With reflection, role-play and concrete phrasings.",
+          "result": "Participants learn to set boundaries without tipping into hardness, justification or guilt.",
+          "fit": "Teams, companies, leaders, men's groups, relationship contexts, coaching events."
+        },
+        {
+          "title": "Self-discipline 2.0 — steer motivation instead of forcing it",
+          "format": "2 hours, half-day or full-day",
+          "body": "Based on my book „Selbstdisziplin 2.0\". This workshop shows why discipline doesn't grow from self-hatred, pressure or motivation, but from identity, structure, emotional clarity and a system that holds on bad days too.",
+          "result": "Participants develop a personal discipline system with concrete routines, triggers, fallback strategies and a clear why.",
+          "fit": "Companies, young professionals, founders, universities, men's groups, productivity events."
+        }
+      ]
+    },
+    "podcast": {
+      "eyebrow": "Podcast & Media",
+      "headline": "Podcast & Interviews",
+      "subline": "I bring story, framework and a sharp thesis — not an ad slot.",
+      "body": "I'm available as a guest for podcasts, panels, YouTube collabs and interviews. I especially enjoy formats that make room for psychological depth, honest questions and differentiated perspectives.",
+      "topicsHeadline": "Topics I enjoy talking about",
+      "topics": [
+        "Why many men function but don't live",
+        "Men and mental health — why they stay silent",
+        "Modern masculinity without alpha posturing",
+        "The red-pill and manosphere wave from a psychological perspective",
+        "People-pleasing in high performers",
+        "Why success doesn't create self-worth",
+        "Dating, attachment and the fear of real closeness",
+        "Self-discipline without self-hatred",
+        "Old protective mechanisms and how they steer today's life",
+        "Mindfulness without esoterics",
+        "Meaning, emptiness and optimistic nihilism",
+        "My personal path: business psychology, coaching, books, YouTube and working with men"
+      ]
+    },
+    "proof": {
+      "eyebrow": "Proof",
+      "headline": "See how I think — before you book.",
+      "body": "My YouTube channel is the best impression of how I speak, think and open up topics. No artificial speaker pose. No glossy show. Psychological depth, clear language and honest engagement.",
+      "cta": "Visit the YouTube channel",
+      "videoPlaceholderHint": "Insert matching video here",
+      "videos": [
+        { "category": "Inner stability" },
+        { "category": "Self-discipline" },
+        { "category": "People-pleasing & boundaries" },
+        { "category": "Self-worth & validation" },
+        { "category": "Modern masculinity" },
+        { "category": "Dating & closeness" }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Fit",
+      "headline": "Who this is for — and who it's not",
+      "forTitle": "Who this is for:",
+      "forItems": [
+        "Companies that want to foster self-leadership and emotional clarity",
+        "Men's events and retreats with depth",
+        "Podcasts with a psychological, spiritual or societal focus",
+        "Universities, young professionals and founder communities",
+        "Leadership offsites and HR formats",
+        "Coaching communities and mental-health events",
+        "Conferences that don't want a surface-level motivational show"
+      ],
+      "notForTitle": "Who it's not for:",
+      "notForItems": [
+        "Alpha-male events",
+        "Pickup workshops",
+        "Pure motivational shows",
+        "Formats that only want entertainment",
+        "Bro-science, macho posturing or quick success formulas",
+        "Events that avoid psychological depth"
+      ]
+    },
+    "logistics": {
+      "eyebrow": "Logistics",
+      "headline": "Formats & framing",
+      "formatsTitle": "Formats",
+      "formats": [
+        "Keynote: 45–75 minutes",
+        "Impulse + Q&A: 60–90 minutes",
+        "Workshop: 90 minutes, half-day or full-day",
+        "Podcast / interview / panel",
+        "Online or on-site"
+      ],
+      "languageTitle": "Language",
+      "language": "German or English",
+      "locationTitle": "Location",
+      "location": "Online or on-site. Travel within Germany and internationally on agreement.",
+      "onepagerTitle": "Speaker one-pager",
+      "onepagerNote": "PDF on request",
+      "onepagerCta": "Download speaker one-pager"
+    },
+    "request": {
+      "eyebrow": "Inquiry",
+      "headline": "Planning an event, a workshop or a conversation?",
+      "body": "If you believe one of these topics fits your event, podcast or company, send me a short inquiry. What matters isn't just the format — but what should shift inside your audience afterwards.",
+      "fields": [
+        "Name",
+        "Organization / podcast / event",
+        "Email",
+        "Format: keynote / workshop / podcast / panel / other",
+        "Date or timeframe",
+        "Location or online",
+        "Audience",
+        "Desired topic",
+        "Budget range (optional)",
+        "What should be different after the talk, workshop or conversation?"
+      ],
+      "cta": "Send inquiry",
+      "subtext": "Reply usually within a few business days. No automated follow-ups."
+    }
   },
   "willkommenPage": {
     "headline": "You're in.",
