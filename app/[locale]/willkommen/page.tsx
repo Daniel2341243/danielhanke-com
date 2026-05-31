@@ -60,12 +60,6 @@ export default async function WillkommenPage({
           </ScrollReveal>
 
           <ScrollReveal delay={0.2}>
-            <p className="mt-10 text-sm text-text-muted leading-relaxed max-w-[48ch] mx-auto">
-              {t("spam")}
-            </p>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.25}>
             <div className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/"
@@ -84,7 +78,7 @@ export default async function WillkommenPage({
             </div>
           </ScrollReveal>
 
-          <ScrollReveal delay={0.35}>
+          <ScrollReveal delay={0.3}>
             <footer className="mt-20 pt-10 border-t border-border">
               <p className="font-serif italic text-text-primary text-base">
                 {t("footerName")}
