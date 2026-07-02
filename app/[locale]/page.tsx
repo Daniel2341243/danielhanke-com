@@ -29,6 +29,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
   return (
     <>
       <Hero />
+      <NewsletterCta compact />
       <ProblemMirror />
       <Approach />
       <LatestVideo />

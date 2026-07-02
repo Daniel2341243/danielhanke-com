@@ -1,43 +1,24 @@
 import { defineRouting } from "next-intl/routing";
 
 export const routing = defineRouting({
-  locales: ["de", "en"],
+  locales: ["de"],
   defaultLocale: "de",
   localePrefix: "as-needed",
   pathnames: {
     "/": "/",
     "/coaching": "/coaching",
+    "/coaching-online": "/coaching-online",
+    "/coaching-berlin": "/coaching-berlin",
     "/community": "/community",
-    "/buch": {
-      de: "/buch",
-      en: "/book",
-    },
-    "/ueber-mich": {
-      de: "/ueber-mich",
-      en: "/about",
-    },
+    "/buch": "/buch",
+    "/ueber-mich": "/ueber-mich",
     "/newsletter": "/newsletter",
     "/speaking": "/speaking",
-    "/danke": {
-      de: "/danke",
-      en: "/thanks",
-    },
-    "/willkommen": {
-      de: "/willkommen",
-      en: "/welcome",
-    },
-    "/impressum": {
-      de: "/impressum",
-      en: "/imprint",
-    },
-    "/datenschutz": {
-      de: "/datenschutz",
-      en: "/privacy",
-    },
-    "/agb": {
-      de: "/agb",
-      en: "/terms",
-    },
+    "/danke": "/danke",
+    "/willkommen": "/willkommen",
+    "/impressum": "/impressum",
+    "/datenschutz": "/datenschutz",
+    "/agb": "/agb",
   },
 });
 

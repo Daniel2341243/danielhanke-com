@@ -4,7 +4,7 @@ export const siteConfig = {
   email: "mail@danielhanke.com",
 
   social: {
-    youtube: "https://www.youtube.com/@Daniel_Hanke",
+    youtube: "https://youtube.com/@daniel_hanke",
     instagram: "https://www.instagram.com/danielhanke/",
     tiktok: "https://www.tiktok.com/@daniel.hanke",
     linkedin: "https://www.linkedin.com/in/danielhanke/",
@@ -13,7 +13,6 @@ export const siteConfig = {
 
   convertKit: {
     newsletterFormId: "9456300",
-    communityWaitlistFormId: "PLACEHOLDER_WAITLIST_FORM_ID",
   },
 
   youtube: {

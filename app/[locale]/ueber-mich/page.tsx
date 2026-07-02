@@ -11,6 +11,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { Quote } from "@/components/ui/Quote";
 import { buttonStyles } from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
+import { NewsletterCta } from "@/components/sections/NewsletterCta";
 
 export async function generateMetadata({
   params,
@@ -208,6 +209,8 @@ export default async function AboutPage({
           </ScrollReveal>
         </div>
       </Section>
+
+      <NewsletterCta compact />
     </>
   );
 }

@@ -12,6 +12,7 @@ import { buttonStyles } from "@/components/ui/Button";
 import { buildSpeakingMailto } from "@/lib/speakingMailto";
 import { siteConfig } from "@/lib/siteConfig";
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
+import { NewsletterCta } from "@/components/sections/NewsletterCta";
 import { ArrowRight, Play } from "lucide-react";
 
 type Offer = { title: string; body: string };
@@ -82,7 +83,7 @@ export default async function SpeakingPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("speakingPage");
-  const mailto = buildSpeakingMailto(locale);
+  const mailto = buildSpeakingMailto();
 
   const offers = t.raw("offers.items") as Offer[];
   const keynotes = t.raw("keynotes.items") as Keynote[];
@@ -584,6 +585,8 @@ export default async function SpeakingPage({
           </ScrollReveal>
         </div>
       </Section>
+
+      <NewsletterCta compact />
     </>
   );
 }

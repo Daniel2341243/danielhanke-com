@@ -6,11 +6,15 @@
     "book": "Buch",
     "about": "Über mich",
     "newsletter": "Newsletter",
-    "ctaPrimary": "Anfragen"
+    "ctaPrimary": "Jetzt zum Newsletter anmelden"
   },
   "footer": {
     "tagline": "Psychologisch fundiertes Coaching für Männer.",
     "sitemap": "Sitemap",
+    "more": "Mehr Angebote",
+    "videos": "Videos",
+    "coachingOnline": "Coaching über Zoom",
+    "coachingBerlin": "Coaching vor Ort in Berlin",
     "newsletter": "Newsletter",
     "newsletterPlaceholder": "Deine E-Mail",
     "newsletterSubmit": "Abonnieren",
@@ -21,11 +25,6 @@
       "terms": "AGB"
     },
     "copyright": "© {year} Next Level Education GmbH"
-  },
-  "languageSwitcher": {
-    "label": "Sprache wählen",
-    "de": "DE",
-    "en": "EN"
   },
   "cookies": {
     "text": "Diese Website verwendet ausschließlich technisch notwendige Cookies. Für Statistiken (Vercel Analytics) und das Einbetten von YouTube-Videos brauchen wir deine Zustimmung. Mehr in der",
@@ -47,6 +46,10 @@
     "homeDescription": "Psychologisch fundiertes 1:1-Coaching für Männer zwischen 22 und 38, die äußerlich liefern — und innerlich nicht ankommen.",
     "coachingTitle": "Coaching",
     "coachingDescription": "Psychologisch fundiertes Coaching für Männer in ihren 20ern und 30ern, die äußerlich liefern, aber innerlich noch stärker werden wollen.",
+    "coachingOnlineTitle": "Coaching über Zoom",
+    "coachingOnlineDescription": "Psychologisches 1:1-Coaching über Zoom — ortsunabhängig, vertraulich und flexibel in deinen Alltag integrierbar.",
+    "coachingBerlinTitle": "Coaching vor Ort in Berlin",
+    "coachingBerlinDescription": "Psychologisches 1:1-Coaching vor Ort in Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt.",
     "communityTitle": "Community",
     "communityDescription": "Kuratierte Community für Männer, die ernsthaft an sich arbeiten. Start 2026. Jetzt auf die Warteliste.",
     "buchTitle": "Selbstdisziplin 2.0",
@@ -121,12 +124,12 @@
     },
     "newsletter": {
       "eyebrow": "Newsletter",
-      "headline": "Was auf YouTube keinen Platz hat.",
-      "body": "1–2× pro Monat. Längere Texte, persönlichere Beobachtungen, aktuelle Geschichten, Werkzeuge, die ich noch nicht öffentlich gemacht habe. Kein Pitch, kein Funnel-Trick. Wenn du nichts mehr willst: ein Klick, du bist raus.",
+      "headline": "Psychologie für Männer, die funktionieren – sich selbst dabei aber nicht verlieren wollen.",
+      "body": "Im Männerbrief teile ich regelmäßig psychologische Gedanken, persönliche Beobachtungen und konkrete Impulse für Männer in ihren 20ern und 30ern. Ruhig, ehrlich und ohne oberflächliches Motivationstheater.",
       "fineprint": "Mit deiner Anmeldung stimmst du dem Versand und der Datenschutzerklärung zu.",
       "firstNamePlaceholder": "Vorname",
       "emailPlaceholder": "E-Mail",
-      "submit": "Newsletter abonnieren"
+      "submit": "Jetzt kostenlos anmelden"
     },
     "outro": {
       "headline": "Du kannst so weitermachen wie bisher. Oder anfangen, eine radikal neue Richtung einzuschlagen.",
@@ -139,6 +142,131 @@
       "eyebrow": "1:1 Coaching",
       "headline": "Wahre Veränderung ist tiefenpsychologisch, nicht oberflächlich.",
       "subline": "Psychologisch fundiertes Coaching speziell für Männer in ihren 20ern und 30ern, die äußerlich liefern, aber innerlich noch stärker werden wollen."
+    },
+    "compare": {
+      "eyebrow": "Zwei Formate",
+      "online": {
+        "title": "Coaching über Zoom",
+        "body": "Persönliches psychologisches 1:1-Coaching – unabhängig davon, wo du wohnst. Wir sprechen vertraulich über die Themen, bei denen du allein nicht weiterkommst, und arbeiten an den Mustern, die dich immer wieder zurückhalten.",
+        "benefits": [
+          "ortsunabhängig",
+          "vertraulich und persönlich",
+          "flexibel in deinen Alltag integrierbar",
+          "geeignet für regelmäßige Begleitung",
+          "60 Minuten persönliches 1:1-Coaching"
+        ],
+        "cta": "Online-Coaching anfragen"
+      },
+      "berlin": {
+        "title": "Coaching vor Ort in Berlin",
+        "subtitle": "In Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt.",
+        "body": "Das persönliche Gespräch vor Ort bietet einen ruhigen und geschützten Rahmen, in dem wir uns intensiv mit deinen Themen beschäftigen können. Das Angebot richtet sich insbesondere an Männer aus Berlin und Umgebung.",
+        "benefits": [
+          "persönliches Gespräch in ruhiger Atmosphäre",
+          "zentral in Berlin-Europacity",
+          "etwa 12 Minuten vom Berliner Hauptbahnhof entfernt",
+          "vertrauliches 1:1-Setting",
+          "60 Minuten persönliche Begleitung"
+        ],
+        "cta": "Coaching in Berlin anfragen"
+      }
+    },
+    "undecided": {
+      "headline": "Noch unsicher, welches Format zu dir passt?",
+      "body": "Kein Problem — schreib mir trotzdem. Wir klären das gemeinsam in deiner ersten E-Mail.",
+      "cta": "Trotzdem schreiben"
+    },
+    "steps": {
+      "eyebrow": "So läuft das Coaching ab",
+      "items": [
+        {
+          "title": "Du schreibst mir.",
+          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Ich antworte innerhalb von 48 Stunden."
+        },
+        {
+          "title": "Ich antworte — ehrlich.",
+          "body": "Wenn ich glaube, dass ich dir helfen kann, schlage ich dir Termine vor und schicke dir die Zahlungsinformationen. Wenn nicht, sage ich dir auch das — und nenne dir, wenn möglich, eine Alternative."
+        },
+        {
+          "title": "Du buchst — und wir arbeiten.",
+          "body": "Eine Stunde 120 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten alle 1–2 Wochen, 60 Minuten, per Zoom oder vor Ort in Berlin. Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Was du davon hast",
+      "items": [
+        {
+          "title": "Du verstehst, warum du tust, was du tust.",
+          "body": "Wir arbeiten an den Mustern, die dein Verhalten antreiben. Sobald du sie siehst, hörst du auf, dich selbst zu sabotieren — nicht durch Disziplin, sondern durch Klarheit."
+        },
+        {
+          "title": "Du entscheidest aus dir heraus.",
+          "body": "Karriere, Beziehung, Wohnort — du hörst auf, auf den richtigen Moment zu warten. Weil du gelernt hast, dir selbst zu trauen."
+        },
+        {
+          "title": "Du wirst in Beziehungen wirklich präsent.",
+          "body": "Mit Frauen, Freunden, Familie. Du hörst auf, dich zu schützen, und bist dafür wirklich da. Das verändert, wer auf dich reagiert — und wie."
+        },
+        {
+          "title": "Du fühlst dich endlich wie ein Mann.",
+          "body": "Nicht laut, nicht hart, nicht performativ. Sondern: gegründet. Verlässlich. Klar. Du selbst — auch wenn niemand zuschaut."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Für wen — und für wen nicht",
+      "forYouTitle": "Für dich, wenn:",
+      "forYou": [
+        "Du zwischen 22 und 38 bist und im DACH-Raum lebst.",
+        "Du im Leben funktionierst — und trotzdem das Gefühl hast, irgendetwas stimmt nicht.",
+        "Du Bücher gelesen, Kurse gemacht, Disziplin probiert hast — und gemerkt hast: das Problem liegt tiefer.",
+        "Du bereit bist, ehrliche Antworten zu geben, auch wenn sie unbequem sind.",
+        "Du verstehst, dass Veränderung Zeit braucht — keine 30-Tage-Challenge."
+      ],
+      "notForYouTitle": "Nicht für dich, wenn:",
+      "notForYou": [
+        "Du in akuter psychischer Krise bist (Depression, Angststörung, Trauma, Suizidgedanken). Dann brauchst du Therapie, nicht Coaching. Ich helfe dir gerne, jemanden zu finden.",
+        "Du nach Pickup-Tricks oder „Alpha-Frames“ suchst.",
+        "Du erwartest, dass ich dir sage, was du tun sollst.",
+        "Du nicht bereit bist, in dich selbst zu investieren — finanziell und zeitlich."
+      ]
+    },
+    "faq": {
+      "eyebrow": "Häufige Fragen",
+      "items": [
+        {
+          "q": "Was kostet eine Session?",
+          "a": "120 € pro Stunde (60 Minuten), im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete, keine Aufnahmegebühr."
+        },
+        {
+          "q": "Ich habe noch konkrete Fragen vor der Buchung — kann ich kurz mit dir sprechen?",
+          "a": "Ja. Schreib mir eine E-Mail an mail@danielhanke.com mit deiner Frage. Wenn ein kurzes Gespräch sinnvoll ist — etwa um die Kompatibilität abzustimmen — machen wir per Mail einen 5- bis 10-minütigen Telefon-Slot aus. Das ersetzt kein Coaching und ist nicht der Einstieg ins Programm, sondern nur für gezielte Rückfragen."
+        },
+        {
+          "q": "Wie viele Sessions brauche ich?",
+          "a": "Das hängt davon ab, was du verändern willst. Manche Männer arbeiten 6 Monate mit mir, andere zwei Jahre. Es gibt keine Mindestlaufzeit. Wir entscheiden nach Session 4 gemeinsam, ob es passt."
+        },
+        {
+          "q": "Was, wenn ich Therapie statt Coaching brauche?",
+          "a": "Dann sage ich dir das in meiner Antwort auf deine Anfrage ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
+        },
+        {
+          "q": "Kann ich auch unregelmäßig kommen?",
+          "a": "Ja. Wir sprechen alle 1–2 Wochen — aber Pausen sind ok. Ich arbeite nicht mit Druck."
+        },
+        {
+          "q": "Warum nicht kürzere Sessions oder Gruppen?",
+          "a": "60 Minuten 1:1 ist die kleinste sinnvolle Einheit. Gruppen-Coaching kommt später (siehe Community)."
+        }
+      ]
+    }
+  },
+  "coachingOnline": {
+    "hero": {
+      "eyebrow": "1:1 Coaching über Zoom",
+      "headline": "Persönliches Coaching, ganz gleich wo du wohnst.",
+      "subline": "Psychologisch fundiertes 1:1-Coaching über Zoom — ortsunabhängig, vertraulich und flexibel in deinen Alltag integrierbar."
     },
     "steps": {
       "eyebrow": "So läuft das Coaching ab",
@@ -233,8 +361,122 @@
           "a": "120 € pro Stunde (60 Minuten), im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete, keine Aufnahmegebühr."
         },
         {
-          "q": "Ich habe noch konkrete Fragen vor der Buchung — kann ich kurz mit dir sprechen?",
-          "a": "Ja. Schreib mir eine E-Mail an mail@danielhanke.com mit deiner Frage. Wenn ein kurzes Gespräch sinnvoll ist — etwa um die Kompatibilität abzustimmen — machen wir per Mail einen 5- bis 10-minütigen Telefon-Slot aus. Das ersetzt kein Coaching und ist nicht der Einstieg ins Programm, sondern nur für gezielte Rückfragen."
+          "q": "Wie viele Sessions brauche ich?",
+          "a": "Das hängt davon ab, was du verändern willst. Manche Männer arbeiten 6 Monate mit mir, andere zwei Jahre. Es gibt keine Mindestlaufzeit. Wir entscheiden nach Session 4 gemeinsam, ob es passt."
+        },
+        {
+          "q": "Was, wenn ich Therapie statt Coaching brauche?",
+          "a": "Dann sage ich dir das in meiner Antwort auf deine Anfrage ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
+        },
+        {
+          "q": "Kann ich auch unregelmäßig kommen?",
+          "a": "Ja. Wir sprechen alle 1–2 Wochen — aber Pausen sind ok. Ich arbeite nicht mit Druck."
+        }
+      ]
+    }
+  },
+  "coachingBerlin": {
+    "hero": {
+      "eyebrow": "1:1 Coaching vor Ort in Berlin",
+      "headline": "Das persönliche Gespräch vor Ort — in Berlin-Europacity.",
+      "subline": "Psychologisch fundiertes 1:1-Coaching vor Ort in Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt. Ein ruhiger, geschützter Rahmen für die Themen, bei denen du allein nicht weiterkommst.",
+      "locationNote": "Die genaue Adresse in Berlin-Europacity erhältst du erst nach der Terminvereinbarung per E-Mail."
+    },
+    "steps": {
+      "eyebrow": "So läuft das Coaching ab",
+      "items": [
+        {
+          "title": "Du schreibst mir.",
+          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Ich antworte innerhalb von 48 Stunden."
+        },
+        {
+          "title": "Ich antworte — ehrlich.",
+          "body": "Wenn ich glaube, dass ich dir helfen kann, schlage ich dir Termine vor, schicke dir die Zahlungsinformationen und die genaue Adresse in Berlin-Europacity. Wenn nicht, sage ich dir auch das — und nenne dir, wenn möglich, eine Alternative."
+        },
+        {
+          "title": "Du buchst — und wir arbeiten.",
+          "body": "Eine Stunde 120 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten alle 1–2 Wochen, 60 Minuten, vor Ort in Berlin-Europacity. Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Was du davon hast",
+      "items": [
+        {
+          "title": "Du verstehst, warum du tust, was du tust.",
+          "body": "Wir arbeiten an den Mustern, die dein Verhalten antreiben. Sobald du sie siehst, hörst du auf, dich selbst zu sabotieren — nicht durch Disziplin, sondern durch Klarheit."
+        },
+        {
+          "title": "Du entscheidest aus dir heraus.",
+          "body": "Karriere, Beziehung, Wohnort — du hörst auf, auf den richtigen Moment zu warten. Weil du gelernt hast, dir selbst zu trauen."
+        },
+        {
+          "title": "Du wirst in Beziehungen wirklich präsent.",
+          "body": "Mit Frauen, Freunden, Familie. Du hörst auf, dich zu schützen, und bist dafür wirklich da. Das verändert, wer auf dich reagiert — und wie."
+        },
+        {
+          "title": "Du fühlst dich endlich wie ein Mann.",
+          "body": "Nicht laut, nicht hart, nicht performativ. Sondern: gegründet. Verlässlich. Klar. Du selbst — auch wenn niemand zuschaut."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Für wen — und für wen nicht",
+      "forYouTitle": "Für dich, wenn:",
+      "forYou": [
+        "Du zwischen 22 und 38 bist und in Berlin oder Umgebung lebst.",
+        "Du im Leben funktionierst — und trotzdem das Gefühl hast, irgendetwas stimmt nicht.",
+        "Du Bücher gelesen, Kurse gemacht, Disziplin probiert hast — und gemerkt hast: das Problem liegt tiefer.",
+        "Du bereit bist, ehrliche Antworten zu geben, auch wenn sie unbequem sind.",
+        "Du verstehst, dass Veränderung Zeit braucht — keine 30-Tage-Challenge."
+      ],
+      "notForYouTitle": "Nicht für dich, wenn:",
+      "notForYou": [
+        "Du in akuter psychischer Krise bist (Depression, Angststörung, Trauma, Suizidgedanken). Dann brauchst du Therapie, nicht Coaching. Ich helfe dir gerne, jemanden zu finden.",
+        "Du nach Pickup-Tricks oder „Alpha-Frames“ suchst.",
+        "Du erwartest, dass ich dir sage, was du tun sollst.",
+        "Du nicht bereit bist, in dich selbst zu investieren — finanziell und zeitlich."
+      ]
+    },
+    "request": {
+      "eyebrow": "Anfrage schreiben",
+      "headline": "Schreib mir eine E-Mail. Beantworte diese fünf Fragen.",
+      "body": "Keine Termin-Software, kein Online-Formular. Eine ehrliche E-Mail filtert besser als jedes Tool. Antworte so kurz oder so lang wie es sich richtig anfühlt — eine Zeile pro Frage reicht, mehr darf es auch sein.",
+      "questions": [
+        {
+          "title": "Was läuft gerade in deinem Leben?",
+          "body": "Was funktioniert — und was nicht?"
+        },
+        {
+          "title": "Was hast du bisher versucht, um es zu ändern?",
+          "body": "Und warum hat es nicht gehalten?"
+        },
+        {
+          "title": "Was würde sich konkret ändern, wenn wir in den nächsten 3 Monaten wirklich etwas bewegen?",
+          "body": ""
+        },
+        {
+          "title": "Warum jetzt?",
+          "body": "Was hat sich verändert, dass du heute schreibst — und nicht in einem halben Jahr?"
+        },
+        {
+          "title": "Verfügbarkeit:",
+          "body": "An welchen Wochentagen und Uhrzeiten könntest du regelmäßig (alle 1–2 Wochen, 60 Minuten) vor Ort in Berlin treffen?"
+        }
+      ],
+      "cta": "E-Mail-Vorlage öffnen",
+      "subtext": "Ich antworte innerhalb von 48 Stunden — auch wenn die Antwort „kein Match“ ist. Wenn es passt, schicke ich dir Terminvorschläge, Zahlungsinformationen und die genaue Adresse."
+    },
+    "faq": {
+      "eyebrow": "Häufige Fragen",
+      "items": [
+        {
+          "q": "Wo genau findet das Coaching statt?",
+          "a": "In Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt. Die genaue Adresse bekommst du nach der Terminvereinbarung per E-Mail."
+        },
+        {
+          "q": "Was kostet eine Session?",
+          "a": "120 € pro Stunde (60 Minuten), im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete, keine Aufnahmegebühr."
         },
         {
           "q": "Wie viele Sessions brauche ich?",
@@ -247,24 +489,69 @@
         {
           "q": "Kann ich auch unregelmäßig kommen?",
           "a": "Ja. Wir sprechen alle 1–2 Wochen — aber Pausen sind ok. Ich arbeite nicht mit Druck."
-        },
-        {
-          "q": "Warum nicht kürzere Sessions oder Gruppen?",
-          "a": "60 Minuten 1:1 ist die kleinste sinnvolle Einheit. Gruppen-Coaching kommt später (siehe Community)."
         }
       ]
     }
   },
   "community": {
-    "eyebrow": "Skool Community",
-    "headline": "Wir bauen.",
-    "body": "Eine kuratierte Community für Männer, die ernsthaft an sich arbeiten. Es gibt wöchentliche Live-Calls, Werkzeuge, Challenges, Feedback, Teamwork, geschützter Austausch und vieles mehr! Start: voraussichtlich Ende 2026.",
-    "cta": "Erfahre es zuerst",
-    "newsletterCta": "Bis dahin: Newsletter abonnieren",
-    "fineprint": "Mit deiner Anmeldung stimmst du der Datenschutzerklärung zu.",
-    "firstNamePlaceholder": "Vorname",
-    "emailPlaceholder": "E-Mail",
-    "submit": "Auf die Liste"
+    "hero": {
+      "eyebrow": "Community",
+      "headline": "Eine feste Gemeinschaft für Männer, die sich wirklich weiterentwickeln wollen.",
+      "intro": "Die Community verbindet psychologisch fundierte Gruppenbegleitung mit einem regelmäßigen und vertrauten Kreis von Männern. Statt anonymer Einzelveranstaltungen entsteht eine feste Gruppe, die sich mit der Zeit kennenlernt und eine echte Vertrauensbasis entwickelt."
+    },
+    "benefits": {
+      "eyebrow": "Was die Community bietet",
+      "items": [
+        {
+          "title": "Erschwinglichere Begleitung",
+          "body": "Die Community bietet Elemente psychologisch fundierter Gruppenbegleitung zu einem deutlich niedrigeren Preis als regelmäßiges 1:1-Coaching."
+        },
+        {
+          "title": "Regelmäßigkeit",
+          "body": "Die Gruppe trifft sich regelmäßig. Entwicklung entsteht nicht durch einen einzelnen Motivationsmoment, sondern durch kontinuierliche Auseinandersetzung und verbindliche Begleitung."
+        },
+        {
+          "title": "Eine wachsende Vertrauensbasis",
+          "body": "Die Teilnehmer lernen sich mit der Zeit kennen. Dadurch können Gespräche ehrlicher, persönlicher und tiefer werden als in ständig wechselnden Gruppen."
+        },
+        {
+          "title": "Monatlich wechselnde Themen",
+          "body": "Jeden Monat steht ein neues psychologisches Thema im Mittelpunkt, beispielsweise:",
+          "topics": [
+            "Selbstwert und Scham",
+            "Grenzen setzen",
+            "Beziehungen und Bindung",
+            "emotionale Abhängigkeit",
+            "Vater- und Mutterthemen",
+            "Verantwortung",
+            "Selbstdisziplin",
+            "männliche Identität",
+            "Entscheidungen und Lebensrichtung"
+          ]
+        },
+        {
+          "title": "Die Kraft der Gruppe",
+          "body": "Teilnehmer erkennen, dass andere Männer ähnliche Fragen, Ängste und Konflikte erleben. Die Perspektiven und Erfahrungen anderer können neue Einsichten ermöglichen."
+        },
+        {
+          "title": "Verantwortung und Verbindlichkeit",
+          "body": "Die Gruppe unterstützt dabei, aus Erkenntnissen konkrete Schritte zu machen. Teilnehmer können Vorhaben teilen und beim nächsten Treffen berichten, was daraus geworden ist."
+        },
+        {
+          "title": "Fortschritte und Erfolgserlebnisse",
+          "body": "Die Gruppe bietet Raum, nicht nur Probleme zu besprechen, sondern auch Fortschritte, mutige Entscheidungen und persönliche Erfolge miteinander zu teilen."
+        }
+      ]
+    },
+    "disclaimer": "Die Community ist weder Therapie noch ein anonymer Onlinekurs. Sie ist ein regelmäßiger, geschützter Entwicklungsraum für Männer, die bereit sind, sich ehrlich mit sich selbst auseinanderzusetzen.",
+    "cta": {
+      "eyebrow": "Vormerken",
+      "headline": "Für die Community vormerken",
+      "body": "Trag dich in den Männerbrief ein und erfahre als einer der Ersten, wann die Community startet.",
+      "submit": "Jetzt kostenlos anmelden",
+      "emailPlaceholder": "E-Mail",
+      "fineprint": "Mit deiner Anmeldung stimmst du der Datenschutzerklärung zu."
+    }
   },
   "buchPage": {
     "hero": {

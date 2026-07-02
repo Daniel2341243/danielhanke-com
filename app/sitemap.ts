@@ -5,10 +5,13 @@ import { siteConfig } from "@/lib/siteConfig";
 const allPaths: AppPathname[] = [
   "/",
   "/coaching",
+  "/coaching-online",
+  "/coaching-berlin",
   "/community",
   "/buch",
   "/ueber-mich",
   "/newsletter",
+  "/speaking",
   "/impressum",
   "/datenschutz",
   "/agb",
@@ -29,19 +32,10 @@ function urlFor(p: AppPathname, locale: Locale): string {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return allPaths.flatMap((p) =>
-    routing.locales.map((locale) => {
-      const languages: Record<string, string> = {};
-      for (const l of routing.locales) {
-        languages[l] = urlFor(p, l);
-      }
-      return {
-        url: urlFor(p, locale),
-        lastModified: now,
-        changeFrequency: "monthly" as const,
-        priority: p === "/" ? 1 : 0.7,
-        alternates: { languages },
-      };
-    }),
-  );
+  return allPaths.map((p) => ({
+    url: urlFor(p, routing.defaultLocale),
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: p === "/" ? 1 : 0.7,
+  }));
 }

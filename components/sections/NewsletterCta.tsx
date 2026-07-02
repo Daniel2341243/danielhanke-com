@@ -2,11 +2,37 @@ import { useTranslations } from "next-intl";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { buttonStyles } from "@/components/ui/Button";
+import { ConvertKitForm } from "@/components/ConvertKitForm";
 import { siteConfig } from "@/lib/siteConfig";
 
-export function NewsletterCta() {
+export function NewsletterCta({ compact = false }: { compact?: boolean }) {
   const t = useTranslations("home.newsletter");
   const formId = siteConfig.convertKit.newsletterFormId;
+
+  if (compact) {
+    return (
+      <Section tone="tinted" className="py-12 md:py-16">
+        <div className="max-w-3xl mx-auto text-center">
+          <ScrollReveal>
+            <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.15] text-text-primary text-[clamp(1.375rem,2.6vw,1.875rem)]">
+              {t("headline")}
+            </h2>
+          </ScrollReveal>
+          <ScrollReveal delay={0.05}>
+            <div className="mt-6 max-w-sm mx-auto">
+              <ConvertKitForm
+                formId={formId}
+                variant="mini"
+                fields={["email"]}
+                submitLabel={t("submit")}
+                emailPlaceholder={t("emailPlaceholder")}
+              />
+            </div>
+          </ScrollReveal>
+        </div>
+      </Section>
+    );
+  }
 
   return (
     <Section tone="tinted">

@@ -32,24 +32,19 @@ export async function buildPageMetadata({
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace });
   const canonical = urlFor(pathname, locale);
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = urlFor(pathname, l);
-  }
 
   return {
     title: t(titleKey),
     description: t(descriptionKey),
     alternates: {
       canonical,
-      languages,
     },
     openGraph: {
       title: t(titleKey),
       description: t(descriptionKey),
       url: canonical,
       siteName: siteConfig.name,
-      locale: locale === "de" ? "de_DE" : "en_US",
+      locale: "de_DE",
       type: "website",
       images: [{ url: "/images/og-default.jpg", width: 1200, height: 630 }],
     },

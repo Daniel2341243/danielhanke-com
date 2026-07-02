@@ -62,7 +62,7 @@ export default async function LocaleLayout({
             href="#main"
             className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[80] focus:px-4 focus:py-2 focus:bg-bg-elevated focus:border focus:border-accent focus:text-text-primary focus:text-sm"
           >
-            {locale === "de" ? "Zum Inhalt springen" : "Skip to content"}
+            Zum Inhalt springen
           </a>
           <Nav />
           <main id="main" className="flex-1">

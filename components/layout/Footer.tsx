@@ -1,15 +1,13 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { LanguageSwitcher } from "./LanguageSwitcher";
 import { SocialIcons } from "@/components/icons/SocialIcons";
+import { ConvertKitForm } from "@/components/ConvertKitForm";
+import { siteConfig } from "@/lib/siteConfig";
 
 const sitemap = [
   { href: "/coaching", key: "coaching" },
   { href: "/speaking", key: "speaking" },
-  { href: "/community", key: "community" },
-  { href: "/buch", key: "book" },
   { href: "/ueber-mich", key: "about" },
-  { href: "/newsletter", key: "newsletter" },
 ] as const;
 
 const legalLinks = [
@@ -37,25 +35,75 @@ export function Footer() {
             <p className="text-sm text-text-secondary max-w-xs">
               {t("tagline")}
             </p>
-            <LanguageSwitcher />
           </div>
 
-          <div>
-            <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
-              {t("sitemap")}
-            </p>
-            <ul className="space-y-3">
-              {sitemap.map((l) => (
-                <li key={l.key}>
+          <div className="space-y-8">
+            <div>
+              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
+                {t("sitemap")}
+              </p>
+              <ul className="space-y-3">
+                {sitemap.map((l) => (
+                  <li key={l.key}>
+                    <Link
+                      href={l.href}
+                      className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
+                    >
+                      {tNav(l.key)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
+                {t("more")}
+              </p>
+              <ul className="space-y-3">
+                <li>
                   <Link
-                    href={l.href}
+                    href="/community"
                     className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
                   >
-                    {tNav(l.key)}
+                    {tNav("community")}
                   </Link>
                 </li>
-              ))}
-            </ul>
+                <li>
+                  <Link
+                    href="/buch"
+                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
+                  >
+                    {tNav("book")}
+                  </Link>
+                </li>
+                <li>
+                  <a
+                    href={siteConfig.social.youtube}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
+                  >
+                    {t("videos")}
+                  </a>
+                </li>
+                <li>
+                  <Link
+                    href="/coaching-online"
+                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
+                  >
+                    {t("coachingOnline")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/coaching-berlin"
+                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
+                  >
+                    {t("coachingBerlin")}
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="space-y-8">
@@ -69,9 +117,13 @@ export function Footer() {
               <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
                 {t("newsletter")}
               </p>
-              <p className="text-sm text-text-muted">
-                {/* ConvertKit mini form mounts here in Block 5 once form id is wired. */}
-              </p>
+              <ConvertKitForm
+                formId={siteConfig.convertKit.newsletterFormId}
+                variant="mini"
+                fields={["email"]}
+                submitLabel={t("newsletterSubmit")}
+                emailPlaceholder={t("newsletterPlaceholder")}
+              />
             </div>
           </div>
         </div>

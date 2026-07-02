@@ -5,15 +5,12 @@ import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
-import { LanguageSwitcher } from "./LanguageSwitcher";
+import { buttonStyles } from "@/components/ui/Button";
 
 const links = [
   { href: "/coaching", key: "coaching" },
   { href: "/speaking", key: "speaking" },
-  { href: "/community", key: "community" },
-  { href: "/buch", key: "book" },
   { href: "/ueber-mich", key: "about" },
-  { href: "/newsletter", key: "newsletter" },
 ] as const;
 
 export function Nav() {
@@ -70,11 +67,7 @@ export function Nav() {
           </div>
 
           <div className="hidden md:flex items-center gap-6">
-            <LanguageSwitcher />
-            <Link
-              href={{ pathname: "/coaching", hash: "anfrage" }}
-              className="inline-flex items-center justify-center px-4 py-2 text-xs uppercase tracking-[0.12em] text-accent border border-accent hover:bg-accent hover:text-bg-primary transition-colors duration-200"
-            >
+            <Link href="/newsletter" className={buttonStyles({ variant: "primary" })}>
               {t("ctaPrimary")}
             </Link>
           </div>
@@ -111,12 +104,11 @@ export function Nav() {
             ))}
           </ul>
 
-          <div className="mt-12 pt-8 border-t border-border-strong flex items-center justify-between">
-            <LanguageSwitcher />
+          <div className="mt-12 pt-8 border-t border-border-strong">
             <Link
-              href="/coaching"
+              href="/newsletter"
               onClick={() => setOpen(false)}
-              className="inline-flex items-center justify-center px-4 py-2 text-xs uppercase tracking-[0.12em] text-accent border border-accent"
+              className={cn(buttonStyles({ variant: "primary" }), "w-full")}
             >
               {t("ctaPrimary")}
             </Link>

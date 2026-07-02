@@ -3,7 +3,6 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { buildPageMetadata } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
-import { Link } from "@/i18n/navigation";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { buttonStyles } from "@/components/ui/Button";
@@ -15,34 +14,36 @@ import { notFound } from "next/navigation";
 
 type Step = { title: string; body: string };
 type Benefit = { title: string; body: string };
+type Question = { title: string; body: string };
 type Faq = { q: string; a: string };
 
 export async function generateMetadata({
   params,
-}: PageProps<"/[locale]/coaching">): Promise<Metadata> {
+}: PageProps<"/[locale]/coaching-berlin">): Promise<Metadata> {
   const { locale } = await params;
   return buildPageMetadata({
     locale: locale as Locale,
-    pathname: "/coaching",
-    titleKey: "coachingTitle",
-    descriptionKey: "coachingDescription",
+    pathname: "/coaching-berlin",
+    titleKey: "coachingBerlinTitle",
+    descriptionKey: "coachingBerlinDescription",
   });
 }
 
-export default async function CoachingPage({ params }: PageProps<"/[locale]/coaching">) {
+export default async function CoachingBerlinPage({
+  params,
+}: PageProps<"/[locale]/coaching-berlin">) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
 
-  const t = await getTranslations("coaching");
-  const undecidedMailto = buildCoachingMailto({ format: "Ich bin noch unsicher" });
+  const t = await getTranslations("coachingBerlin");
+  const mailto = buildCoachingMailto({ format: "Coaching vor Ort in Berlin" });
 
   const steps = t.raw("steps.items") as Step[];
   const benefits = t.raw("benefits.items") as Benefit[];
   const forYou = t.raw("fit.forYou") as string[];
   const notForYou = t.raw("fit.notForYou") as string[];
-  const onlineBenefits = t.raw("compare.online.benefits") as string[];
-  const berlinBenefits = t.raw("compare.berlin.benefits") as string[];
+  const questions = t.raw("request.questions") as Question[];
   const faqs = t.raw("faq.items") as Faq[];
 
   return (
@@ -62,94 +63,13 @@ export default async function CoachingPage({ params }: PageProps<"/[locale]/coac
               {t("hero.subline")}
             </p>
           </ScrollReveal>
+          <ScrollReveal delay={0.15}>
+            <p className="mt-6 text-sm text-text-muted max-w-[60ch]">
+              {t("hero.locationNote")}
+            </p>
+          </ScrollReveal>
         </div>
       </section>
-
-      <Section>
-        <ScrollReveal>
-          <Eyebrow>{t("compare.eyebrow")}</Eyebrow>
-        </ScrollReveal>
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-          <ScrollReveal delay={0.05}>
-            <article className="h-full flex flex-col border border-border bg-bg-elevated p-8 md:p-10">
-              <h2 className="font-serif text-2xl text-text-primary leading-snug tracking-[-0.01em]">
-                {t("compare.online.title")}
-              </h2>
-              <p className="mt-5 text-text-secondary leading-relaxed">
-                {t("compare.online.body")}
-              </p>
-              <ul className="mt-6 space-y-3 text-text-secondary leading-relaxed">
-                {onlineBenefits.map((item, i) => (
-                  <li key={i} className="flex gap-3">
-                    <span aria-hidden="true" className="text-accent shrink-0 mt-1">
-                      ·
-                    </span>
-                    <span className="text-sm">{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-auto pt-8">
-                <Link
-                  href={{ pathname: "/coaching-online", hash: "anfrage" }}
-                  className={buttonStyles({ variant: "primary" })}
-                >
-                  {t("compare.online.cta")}
-                </Link>
-              </div>
-            </article>
-          </ScrollReveal>
-          <ScrollReveal delay={0.1}>
-            <article className="h-full flex flex-col border border-border bg-bg-elevated p-8 md:p-10">
-              <h2 className="font-serif text-2xl text-text-primary leading-snug tracking-[-0.01em]">
-                {t("compare.berlin.title")}
-              </h2>
-              <p className="mt-3 text-sm text-text-muted">
-                {t("compare.berlin.subtitle")}
-              </p>
-              <p className="mt-5 text-text-secondary leading-relaxed">
-                {t("compare.berlin.body")}
-              </p>
-              <ul className="mt-6 space-y-3 text-text-secondary leading-relaxed">
-                {berlinBenefits.map((item, i) => (
-                  <li key={i} className="flex gap-3">
-                    <span aria-hidden="true" className="text-accent shrink-0 mt-1">
-                      ·
-                    </span>
-                    <span className="text-sm">{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-auto pt-8">
-                <Link
-                  href={{ pathname: "/coaching-berlin", hash: "anfrage" }}
-                  className={buttonStyles({ variant: "primary" })}
-                >
-                  {t("compare.berlin.cta")}
-                </Link>
-              </div>
-            </article>
-          </ScrollReveal>
-        </div>
-
-        <ScrollReveal delay={0.15}>
-          <div className="mt-14 max-w-2xl border-t border-border-strong pt-10">
-            <h3 className="font-sans font-medium text-text-primary text-lg">
-              {t("undecided.headline")}
-            </h3>
-            <p className="mt-3 text-text-secondary leading-relaxed">
-              {t("undecided.body")}
-            </p>
-            <div className="mt-6">
-              <a
-                href={undecidedMailto}
-                className="text-sm text-text-secondary hover:text-accent border-b border-transparent hover:border-accent pb-1 transition-colors duration-200"
-              >
-                {t("undecided.cta")} →
-              </a>
-            </div>
-          </div>
-        </ScrollReveal>
-      </Section>
 
       <Section tone="secondary">
         <ScrollReveal>
@@ -233,6 +153,55 @@ export default async function CoachingPage({ params }: PageProps<"/[locale]/coac
                   </li>
                 ))}
               </ul>
+            </div>
+          </ScrollReveal>
+        </div>
+      </Section>
+
+      <Section id="anfrage">
+        <div className="max-w-3xl">
+          <ScrollReveal>
+            <Eyebrow>{t("request.eyebrow")}</Eyebrow>
+          </ScrollReveal>
+          <ScrollReveal delay={0.05}>
+            <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.875rem,4vw,3rem)]">
+              {t("request.headline")}
+            </h2>
+          </ScrollReveal>
+          <ScrollReveal delay={0.1}>
+            <p className="mt-8 text-text-secondary leading-relaxed max-w-[60ch]">
+              {t("request.body")}
+            </p>
+          </ScrollReveal>
+
+          <ol className="mt-12 space-y-8">
+            {questions.map((q, i) => (
+              <ScrollReveal key={i} delay={0.05 + i * 0.04}>
+                <li className="grid grid-cols-[auto_1fr] gap-5">
+                  <span className="font-serif text-xl text-accent tabular-nums">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div>
+                    <p className="font-sans font-medium text-text-primary leading-snug">
+                      {q.title}
+                    </p>
+                    {q.body && (
+                      <p className="mt-2 text-text-secondary leading-relaxed">
+                        {q.body}
+                      </p>
+                    )}
+                  </div>
+                </li>
+              </ScrollReveal>
+            ))}
+          </ol>
+
+          <ScrollReveal delay={0.2}>
+            <div className="mt-14">
+              <a href={mailto} className={buttonStyles({ variant: "primary", size: "lg" })}>
+                {t("request.cta")}
+              </a>
+              <p className="mt-6 text-sm text-text-muted">{t("request.subtext")}</p>
             </div>
           </ScrollReveal>
         </div>
