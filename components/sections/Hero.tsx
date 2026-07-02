@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
-import { buttonStyles } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
@@ -26,22 +24,6 @@ export function Hero() {
               <p className="mt-8 text-lg text-text-secondary max-w-[60ch] leading-relaxed">
                 {t("subline")}
               </p>
-            </ScrollReveal>
-            <ScrollReveal delay={0.25}>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/coaching"
-                  className={buttonStyles({ variant: "primary", size: "lg" })}
-                >
-                  {t("ctaPrimary")}
-                </Link>
-                <Link
-                  href="/newsletter"
-                  className={buttonStyles({ variant: "ghost", size: "lg" })}
-                >
-                  {t("ctaGhost")}
-                </Link>
-              </div>
             </ScrollReveal>
           </div>
 
