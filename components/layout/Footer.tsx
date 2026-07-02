@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { SocialIcons } from "@/components/icons/SocialIcons";
 import { ConvertKitForm } from "@/components/ConvertKitForm";
 import { siteConfig } from "@/lib/siteConfig";
 
@@ -83,36 +82,14 @@ export function Footer() {
                     rel="noopener noreferrer"
                     className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
                   >
-                    {t("videos")}
+                    {t("youtube")}
                   </a>
-                </li>
-                <li>
-                  <Link
-                    href="/coaching-online"
-                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
-                  >
-                    {t("coachingOnline")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/coaching-berlin"
-                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
-                  >
-                    {t("coachingBerlin")}
-                  </Link>
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="space-y-8">
-            <div>
-              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
-                {t("follow")}
-              </p>
-              <SocialIcons />
-            </div>
             <div>
               <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
                 {t("newsletter")}
