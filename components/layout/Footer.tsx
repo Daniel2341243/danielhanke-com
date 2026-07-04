@@ -94,11 +94,15 @@ export function Footer() {
               <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
                 {t("newsletter")}
               </p>
+              <p className="text-sm text-text-secondary mb-6 max-w-xs">
+                {t("newsletterBody")}
+              </p>
               <ConvertKitForm
                 formId={siteConfig.convertKit.newsletterFormId}
-                variant="mini"
-                fields={["email"]}
+                variant="compact"
+                fields={["firstName", "email"]}
                 submitLabel={t("newsletterSubmit")}
+                firstNamePlaceholder={t("newsletterFirstNamePlaceholder")}
                 emailPlaceholder={t("newsletterPlaceholder")}
               />
             </div>

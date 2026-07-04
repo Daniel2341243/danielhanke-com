@@ -1,7 +1,7 @@
 import { cn } from "@/lib/cn";
 import { buttonStyles } from "./ui/Button";
 
-type Variant = "inline" | "card" | "mini";
+type Variant = "inline" | "card" | "mini" | "compact";
 
 export function ConvertKitForm({
   formId,
@@ -41,7 +41,7 @@ export function ConvertKitForm({
         target="_blank"
         className={cn(
           "flex gap-3",
-          isMini ? "flex-row" : "flex-col sm:flex-row",
+          isMini ? "flex-row" : variant === "compact" ? "flex-col" : "flex-col sm:flex-row",
         )}
       >
         {fields.includes("firstName") && !isMini && firstNamePlaceholder && (
@@ -55,7 +55,7 @@ export function ConvertKitForm({
               type="text"
               autoComplete="given-name"
               placeholder={firstNamePlaceholder}
-              className={cn(inputClass, "sm:flex-1")}
+              className={cn(inputClass, variant !== "compact" && "sm:flex-1")}
             />
           </>
         )}
