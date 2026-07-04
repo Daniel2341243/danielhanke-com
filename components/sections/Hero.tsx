@@ -27,7 +27,7 @@ export function Hero() {
             </ScrollReveal>
           </div>
 
-          <div className="lg:col-span-5 order-1 lg:order-2 lg:-mt-40">
+          <div className="lg:col-span-5 order-1 lg:order-2">
             <ScrollReveal delay={0.1}>
               <Image
                 src="/daniel-hanke-hero.jpg"
