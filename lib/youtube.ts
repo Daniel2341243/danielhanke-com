@@ -42,22 +42,34 @@ function parseEntries(xml: string): YouTubeVideo[] {
   return entries;
 }
 
-export async function getLatestVideo(): Promise<YouTubeVideo> {
-  const fallback: YouTubeVideo = {
-    videoId: siteConfig.youtube.fallbackVideoId,
-    title: siteConfig.youtube.fallbackTitle,
-    url: `https://www.youtube.com/watch?v=${siteConfig.youtube.fallbackVideoId}`,
-    publishedAt: "",
-  };
-
+async function fetchFeed(): Promise<YouTubeVideo[]> {
   try {
     const res = await fetch(FEED_URL, { next: { revalidate: 1800 } });
-    if (!res.ok) return fallback;
-    const xml = await res.text();
-    const entries = parseEntries(xml);
-    const longform = entries.find((e) => !isShort(e.title));
-    return longform ?? entries[0] ?? fallback;
+    if (!res.ok) return [];
+    return parseEntries(await res.text());
   } catch {
-    return fallback;
+    return [];
   }
+}
+
+export function thumbnailUrl(videoId: string): string {
+  return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+}
+
+/**
+ * Latest long-form videos from the channel's public RSS feed (no API key).
+ * Falls back to one known real video if the feed is unreachable — never
+ * invents entries.
+ */
+export async function getLatestVideos(limit: number): Promise<YouTubeVideo[]> {
+  const longform = (await fetchFeed()).filter((e) => !isShort(e.title));
+  if (longform.length > 0) return longform.slice(0, limit);
+  return [
+    {
+      videoId: siteConfig.youtube.fallbackVideoId,
+      title: siteConfig.youtube.fallbackTitle,
+      url: `https://www.youtube.com/watch?v=${siteConfig.youtube.fallbackVideoId}`,
+      publishedAt: "",
+    },
+  ];
 }

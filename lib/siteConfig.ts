@@ -1,3 +1,5 @@
+const practiceUrl = "https://act-beratung-berlin.de";
+
 export const siteConfig = {
   url: "https://danielhanke.com",
   name: "Daniel Hanke",
@@ -8,19 +10,27 @@ export const siteConfig = {
     amazon: "https://amzn.to/3PGr6Ps",
   },
 
+  /**
+   * Die psychologische Beratung läuft ausschließlich über die Praxiswebsite.
+   * danielhanke.com verlinkt dorthin, verkauft aber kein eigenes Angebot.
+   */
+  practice: {
+    name: "ACT Beratung Berlin",
+    home: `${practiceUrl}/de`,
+    counselling: `${practiceUrl}/de/psychologische-beratung-berlin`,
+    counsellingEn: `${practiceUrl}/en/psychological-counselling-berlin`,
+    articles: `${practiceUrl}/de/wissen`,
+  },
+
   convertKit: {
     newsletterFormId: "9456300",
   },
 
   youtube: {
     channelId: "UCxyGrnHEXDV36-xh3xCfgYA",
+    channelName: "Daniel Hanke | Psychologie & ACT",
     fallbackVideoId: "lk7hqIzxuEE",
     fallbackTitle: "Sei einfach du selbst — der schlechteste Ratschlag",
-  },
-  latestVideo: {
-    title: "Sei einfach du selbst — der schlechteste Ratschlag",
-    url: "https://www.youtube.com/watch?v=lk7hqIzxuEE",
-    thumbnail: "",
   },
 
   legal: {
@@ -37,3 +47,7 @@ export const siteConfig = {
 } as const;
 
 export type SiteConfig = typeof siteConfig;
+
+export function youtubeSearchUrl(query: string) {
+  return `${siteConfig.social.youtube}/search?query=${encodeURIComponent(query)}`;
+}

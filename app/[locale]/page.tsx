@@ -3,10 +3,12 @@ import type { Metadata } from "next";
 import { buildPageMetadata } from "@/lib/seo";
 import type { Locale } from "@/i18n/routing";
 import { Hero } from "@/components/sections/Hero";
-import { ProblemMirror } from "@/components/sections/ProblemMirror";
-import { Approach } from "@/components/sections/Approach";
-import { LatestVideo } from "@/components/sections/LatestVideo";
+import { Themes } from "@/components/sections/Themes";
 import { NewsletterCta } from "@/components/sections/NewsletterCta";
+import { LatestVideos } from "@/components/sections/LatestVideos";
+import { PracticeTeaser } from "@/components/sections/PracticeTeaser";
+import { BookTeaser } from "@/components/sections/BookTeaser";
+import { AboutTeaser } from "@/components/sections/AboutTeaser";
 
 export async function generateMetadata({
   params,
@@ -17,6 +19,7 @@ export async function generateMetadata({
     pathname: "/",
     titleKey: "homeTitle",
     descriptionKey: "homeDescription",
+    absoluteTitle: true,
   });
 }
 
@@ -27,10 +30,12 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
   return (
     <>
       <Hero />
-      <NewsletterCta />
-      <ProblemMirror />
-      <Approach />
-      <LatestVideo />
+      <Themes />
+      <NewsletterCta variant="feature" idPrefix="home-newsletter" />
+      <LatestVideos />
+      <PracticeTeaser />
+      <BookTeaser />
+      <AboutTeaser />
     </>
   );
 }

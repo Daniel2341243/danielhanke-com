@@ -1,96 +1,82 @@
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { buttonStyles } from "@/components/ui/Button";
 import { ConvertKitForm } from "@/components/ConvertKitForm";
 import { siteConfig } from "@/lib/siteConfig";
 
-export function NewsletterCta({ compact = false }: { compact?: boolean }) {
-  const t = useTranslations("home.newsletter");
-  const formId = siteConfig.convertKit.newsletterFormId;
+export function NewsletterFineprint({ className }: { className?: string }) {
+  const t = useTranslations("newsletterForm");
+  return (
+    <p className={className ?? "mt-5 text-sm text-text-muted"}>
+      {t.rich("fineprint", {
+        privacyLink: (chunks) => (
+          <Link
+            href="/datenschutz"
+            className="underline underline-offset-4 hover:text-accent"
+          >
+            {chunks}
+          </Link>
+        ),
+      })}
+    </p>
+  );
+}
 
-  if (compact) {
-    return (
-      <Section tone="tinted" className="py-12 md:py-16">
-        <div className="max-w-3xl mx-auto text-center">
+/**
+ * The one newsletter signup block. `feature` is the large home/hub version,
+ * `compact` closes sub-pages.
+ */
+export function NewsletterCta({
+  variant = "compact",
+  idPrefix,
+}: {
+  variant?: "feature" | "compact";
+  idPrefix: string;
+}) {
+  const t = useTranslations("newsletterForm");
+  const formId = siteConfig.convertKit.newsletterFormId;
+  const isFeature = variant === "feature";
+
+  return (
+    <Section tone="tinted" id="newsletter">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-end">
+        <div className="lg:col-span-6">
           <ScrollReveal>
-            <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.15] text-text-primary text-[clamp(1.375rem,2.6vw,1.875rem)]">
+            <Eyebrow>{t("eyebrow")}</Eyebrow>
+          </ScrollReveal>
+          <ScrollReveal delay={0.05}>
+            <h2 className="font-serif font-medium tracking-[-0.02em] leading-[1.08] text-text-primary text-[clamp(2rem,4.4vw,3.5rem)]">
               {t("headline")}
             </h2>
           </ScrollReveal>
-          <ScrollReveal delay={0.05}>
-            <div className="mt-6 max-w-sm mx-auto">
-              <ConvertKitForm
-                formId={formId}
-                variant="mini"
-                fields={["email"]}
-                submitLabel={t("submit")}
-                emailPlaceholder={t("emailPlaceholder")}
-              />
-            </div>
+          <ScrollReveal delay={0.1}>
+            <p className="mt-6 text-lg text-text-secondary leading-relaxed max-w-[52ch]">
+              {isFeature ? t("bodyLong") : t("body")}
+            </p>
           </ScrollReveal>
         </div>
-      </Section>
-    );
-  }
-
-  return (
-    <Section tone="tinted">
-      <div className="max-w-2xl mx-auto text-center">
-        <ScrollReveal>
-          <Eyebrow className="mx-auto inline-block">{t("eyebrow")}</Eyebrow>
-        </ScrollReveal>
-        <ScrollReveal delay={0.05}>
-          <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.875rem,4vw,3rem)]">
-            {t("headline")}
-          </h2>
-        </ScrollReveal>
-        <ScrollReveal delay={0.1}>
-          <p className="mt-8 text-text-secondary leading-relaxed max-w-[55ch] mx-auto">
-            {t("body")}
-          </p>
-        </ScrollReveal>
-        <ScrollReveal delay={0.2}>
-          <form
-            action={`https://app.kit.com/forms/${formId}/subscriptions`}
-            method="post"
-            target="_blank"
-            className="mt-10 flex flex-col sm:flex-row gap-3 max-w-lg mx-auto"
-          >
-            <label className="sr-only" htmlFor="newsletter-firstname">
-              {t("firstNamePlaceholder")}
-            </label>
-            <input
-              id="newsletter-firstname"
-              name="fields[first_name]"
-              type="text"
-              autoComplete="given-name"
-              placeholder={t("firstNamePlaceholder")}
-              className="flex-1 bg-transparent border border-border-strong px-4 py-3 text-sm text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent transition-colors"
+        <div className="lg:col-span-6">
+          <ScrollReveal delay={0.15}>
+            <ConvertKitForm
+              formId={formId}
+              idPrefix={idPrefix}
+              layout="stack"
+              submitLabel={t("submit")}
+              firstNamePlaceholder={t("firstNamePlaceholder")}
+              emailPlaceholder={t("emailPlaceholder")}
             />
-            <label className="sr-only" htmlFor="newsletter-email">
-              {t("emailPlaceholder")}
-            </label>
-            <input
-              id="newsletter-email"
-              name="email_address"
-              type="email"
-              required
-              autoComplete="email"
-              placeholder={t("emailPlaceholder")}
-              className="flex-1 bg-transparent border border-border-strong px-4 py-3 text-sm text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent transition-colors"
-            />
-            <button
-              type="submit"
-              className={buttonStyles({ variant: "primary" })}
-            >
-              {t("submit")}
-            </button>
-          </form>
-        </ScrollReveal>
-        <ScrollReveal delay={0.25}>
-          <p className="mt-6 text-xs text-text-muted">{t("fineprint")}</p>
-        </ScrollReveal>
+            <NewsletterFineprint />
+            {!isFeature && (
+              <Link
+                href="/newsletter"
+                className="mt-4 inline-block text-sm text-text-secondary underline underline-offset-4 hover:text-accent"
+              >
+                {t("moreLink")}
+              </Link>
+            )}
+          </ScrollReveal>
+        </div>
       </div>
     </Section>
   );

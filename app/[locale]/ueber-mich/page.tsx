@@ -1,17 +1,14 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { buildPageMetadata } from "@/lib/seo";
-import type { Locale } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
-import Image from "next/image";
+import { buildPageMetadata } from "@/lib/seo";
+import { routing, type Locale } from "@/i18n/routing";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { Quote } from "@/components/ui/Quote";
-import { buttonStyles } from "@/components/ui/Button";
-import { Link } from "@/i18n/navigation";
 import { NewsletterCta } from "@/components/sections/NewsletterCta";
+import { PracticeTeaser } from "@/components/sections/PracticeTeaser";
 
 export async function generateMetadata({
   params,
@@ -33,184 +30,98 @@ export default async function AboutPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("about");
-  const vita = t.raw("vita.items") as string[];
-  const get = t.raw("distinction.get") as string[];
-  const dontGet = t.raw("distinction.dontGet") as string[];
+  const stance = t.raw("stance.paragraphs") as string[];
+  const path = t.raw("path.paragraphs") as string[];
+  const facts = t.raw("facts.items") as string[];
 
   return (
     <>
-      <section className="pt-12 md:pt-20 pb-16 md:pb-24">
+      <section className="pt-10 md:pt-16 pb-20 md:pb-28">
         <div className="mx-auto max-w-screen px-6 md:px-12 lg:px-20">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            <div className="lg:col-span-7 order-2 lg:order-1">
-              <ScrollReveal>
-                <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
-              </ScrollReveal>
-              <ScrollReveal delay={0.05}>
-                <h1 className="font-serif italic font-semibold tracking-[-0.02em] leading-[1.05] text-text-primary text-[clamp(2.5rem,6vw,5.25rem)]">
-                  {t("hero.title")}
-                </h1>
-              </ScrollReveal>
-              <ScrollReveal delay={0.1}>
-                <p className="mt-8 text-lg text-text-secondary max-w-[55ch] leading-relaxed">
-                  {t("hero.subline")}
-                </p>
-              </ScrollReveal>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-end">
+            <div className="lg:col-span-7">
+              <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
+              <h1 className="font-serif font-medium tracking-[-0.03em] leading-[1] text-text-primary text-[clamp(3rem,8vw,6.5rem)]">
+                Daniel Hanke
+              </h1>
+              <p className="mt-8 text-lg md:text-xl text-text-secondary max-w-[54ch] leading-relaxed">
+                {t("hero.subline")}
+              </p>
             </div>
-            <div className="lg:col-span-5 order-1 lg:order-2">
-              <ScrollReveal delay={0.05}>
-                <Image
-                  src="/daniel-hanke-portrait.jpg"
-                  alt={t("hero.imageAlt")}
-                  width={1807}
-                  height={2212}
-                  priority
-                  sizes="(min-width: 1024px) 28rem, 100vw"
-                  className="w-full h-auto lg:max-w-md lg:ml-auto"
-                />
-              </ScrollReveal>
+            <div className="lg:col-span-5">
+              <Image
+                src="/daniel-hanke-portrait.jpg"
+                alt={t("hero.imageAlt")}
+                width={1807}
+                height={2212}
+                preload
+                sizes="(min-width: 1024px) 26rem, 100vw"
+                className="w-full max-w-md h-auto lg:ml-auto"
+              />
             </div>
           </div>
         </div>
       </section>
 
+      <Section className="border-t border-border-strong">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+          <div className="lg:col-span-4">
+            <ScrollReveal>
+              <h2 className="font-serif font-medium tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.75rem,3.2vw,2.5rem)]">
+                {t("stance.headline")}
+              </h2>
+            </ScrollReveal>
+          </div>
+          <div className="lg:col-span-8 space-y-6 text-lg text-text-secondary leading-relaxed max-w-[62ch]">
+            {stance.map((p, i) => (
+              <ScrollReveal key={i} delay={0.04 + i * 0.03}>
+                <p>{p}</p>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </Section>
+
       <Section tone="secondary">
-        <div className="max-w-3xl">
-          <ScrollReveal>
-            <Eyebrow>{t("vita.eyebrow")}</Eyebrow>
-          </ScrollReveal>
-          <ul className="mt-8 space-y-5 border-l border-accent pl-6 text-text-secondary leading-relaxed">
-            {vita.map((item, i) => (
-              <ScrollReveal key={i} delay={0.04 + i * 0.04}>
-                <li>{item}</li>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+          <div className="lg:col-span-4">
+            <ScrollReveal>
+              <h2 className="font-serif font-medium tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.75rem,3.2vw,2.5rem)]">
+                {t("path.headline")}
+              </h2>
+            </ScrollReveal>
+          </div>
+          <div className="lg:col-span-8 space-y-6 text-text-secondary leading-relaxed max-w-[62ch]">
+            {path.map((p, i) => (
+              <ScrollReveal key={i} delay={0.04 + i * 0.03}>
+                <p>{p}</p>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      <Section>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+          <div className="lg:col-span-4">
+            <ScrollReveal>
+              <h2 className="font-serif font-medium tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.75rem,3.2vw,2.5rem)]">
+                {t("facts.headline")}
+              </h2>
+            </ScrollReveal>
+          </div>
+          <ul className="lg:col-span-8 divide-y divide-border-strong border-y border-border-strong">
+            {facts.map((item, i) => (
+              <ScrollReveal as="li" key={item} delay={0.03 + i * 0.03}>
+                <p className="py-4 text-text-primary leading-relaxed">{item}</p>
               </ScrollReveal>
             ))}
           </ul>
         </div>
       </Section>
 
-      <Section>
-        <div className="max-w-3xl space-y-20 md:space-y-24">
-          <ScrollReveal>
-            <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.875rem,4vw,3rem)]">
-              {t("story.headline")}
-            </h2>
-          </ScrollReveal>
-
-          <article>
-            <ScrollReveal>
-              <h3 className="font-sans font-medium text-text-primary text-lg leading-snug uppercase tracking-[0.08em]">
-                {t("story.intro.title")}
-              </h3>
-            </ScrollReveal>
-            <div className="mt-6 space-y-6 text-text-secondary leading-relaxed">
-              <ScrollReveal delay={0.05}>
-                <p>{t("story.intro.body1")}</p>
-              </ScrollReveal>
-              <ScrollReveal delay={0.1}>
-                <p>{t("story.intro.body2")}</p>
-              </ScrollReveal>
-            </div>
-          </article>
-
-          <article>
-            <ScrollReveal>
-              <h3 className="font-sans font-medium text-text-primary text-lg leading-snug uppercase tracking-[0.08em]">
-                {t("story.detour.title")}
-              </h3>
-            </ScrollReveal>
-            <div className="mt-6 space-y-6 text-text-secondary leading-relaxed">
-              <ScrollReveal delay={0.05}>
-                <p>{t("story.detour.body1")}</p>
-              </ScrollReveal>
-              <ScrollReveal delay={0.1}>
-                <p>{t("story.detour.body2")}</p>
-              </ScrollReveal>
-              <ScrollReveal delay={0.15}>
-                <p>{t("story.detour.body3")}</p>
-              </ScrollReveal>
-            </div>
-          </article>
-
-          <article>
-            <ScrollReveal>
-              <h3 className="font-sans font-medium text-text-primary text-lg leading-snug uppercase tracking-[0.08em]">
-                {t("story.why.title")}
-              </h3>
-            </ScrollReveal>
-            <div className="mt-6 space-y-6 text-text-secondary leading-relaxed">
-              <ScrollReveal delay={0.05}>
-                <p>{t("story.why.body1")}</p>
-              </ScrollReveal>
-              <ScrollReveal delay={0.1}>
-                <p>{t("story.why.body2")}</p>
-              </ScrollReveal>
-            </div>
-          </article>
-        </div>
-      </Section>
-
-      <Section tone="secondary">
-        <ScrollReveal>
-          <h2 className="font-serif font-semibold tracking-[-0.02em] leading-[1.1] text-text-primary text-[clamp(1.875rem,4vw,3rem)] max-w-[28ch]">
-            {t("distinction.headline")}
-          </h2>
-        </ScrollReveal>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
-          <ScrollReveal delay={0.05}>
-            <div>
-              <h3 className="font-sans font-medium text-text-primary text-lg mb-6">
-                {t("distinction.getTitle")}
-              </h3>
-              <ul className="space-y-4 text-text-secondary leading-relaxed">
-                {get.map((item, i) => (
-                  <li key={i} className="flex gap-3">
-                    <span aria-hidden="true" className="text-accent shrink-0 mt-1">·</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </ScrollReveal>
-          <ScrollReveal delay={0.1}>
-            <div className="border-l border-accent pl-8">
-              <h3 className="font-sans font-medium text-text-primary text-lg mb-6">
-                {t("distinction.dontGetTitle")}
-              </h3>
-              <ul className="space-y-4 text-text-secondary leading-relaxed">
-                {dontGet.map((item, i) => (
-                  <li key={i} className="flex gap-3">
-                    <span aria-hidden="true" className="text-text-muted shrink-0 mt-1">·</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </ScrollReveal>
-        </div>
-      </Section>
-
-      <Section>
-        <div className="max-w-3xl mx-auto text-center">
-          <ScrollReveal>
-            <Quote className="text-[clamp(1.875rem,4vw,3rem)] tracking-[-0.02em] leading-[1.15]">
-              {t("outro.headline")}
-            </Quote>
-          </ScrollReveal>
-          <ScrollReveal delay={0.15}>
-            <div className="mt-12">
-              <Link
-                href="/coaching"
-                className={buttonStyles({ variant: "primary", size: "lg" })}
-              >
-                {t("outro.cta")}
-              </Link>
-            </div>
-          </ScrollReveal>
-        </div>
-      </Section>
-
-      <NewsletterCta compact />
+      <PracticeTeaser />
+      <NewsletterCta idPrefix="about-newsletter" />
     </>
   );
 }

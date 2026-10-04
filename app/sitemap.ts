@@ -1,41 +1,26 @@
 import type { MetadataRoute } from "next";
-import { routing, type AppPathname, type Locale } from "@/i18n/routing";
+import type { AppPathname } from "@/i18n/routing";
 import { siteConfig } from "@/lib/siteConfig";
 
-const allPaths: AppPathname[] = [
-  "/",
-  "/coaching",
-  "/coaching-online",
-  "/coaching-berlin",
-  "/community",
-  "/buch",
-  "/ueber-mich",
-  "/newsletter",
-  "/speaking",
-  "/impressum",
-  "/datenschutz",
-  "/agb",
+// Only indexable pages. /danke and /willkommen are noindex.
+const pages: { path: AppPathname; priority: number }[] = [
+  { path: "/", priority: 1 },
+  { path: "/newsletter", priority: 0.9 },
+  { path: "/ueber-mich", priority: 0.8 },
+  { path: "/inhalte", priority: 0.8 },
+  { path: "/buch", priority: 0.6 },
+  { path: "/speaking", priority: 0.6 },
+  { path: "/impressum", priority: 0.2 },
+  { path: "/datenschutz", priority: 0.2 },
+  { path: "/agb", priority: 0.1 },
 ];
-
-function pathFor(p: AppPathname, locale: Locale): string {
-  const def = routing.pathnames[p];
-  return typeof def === "string" ? def : (def as Record<Locale, string>)[locale];
-}
-
-function urlFor(p: AppPathname, locale: Locale): string {
-  const path = pathFor(p, locale);
-  if (locale === routing.defaultLocale) {
-    return `${siteConfig.url}${path === "/" ? "" : path}`;
-  }
-  return `${siteConfig.url}/${locale}${path === "/" ? "" : path}`;
-}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return allPaths.map((p) => ({
-    url: urlFor(p, routing.defaultLocale),
+  return pages.map(({ path, priority }) => ({
+    url: `${siteConfig.url}${path === "/" ? "" : path}`,
     lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: p === "/" ? 1 : 0.7,
+    changeFrequency: path === "/" || path === "/inhalte" ? "weekly" : "monthly",
+    priority,
   }));
 }

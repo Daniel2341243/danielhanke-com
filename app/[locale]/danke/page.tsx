@@ -37,7 +37,7 @@ export default async function NewsletterThanksPage({
         <div className="max-w-xl mx-auto">
           <ScrollReveal>
             <div className="border border-border bg-bg-elevated px-8 py-12 md:px-14 md:py-16 text-center">
-              <h1 className="font-serif italic font-semibold tracking-[-0.02em] leading-[1.05] text-text-primary text-[clamp(2.25rem,5vw,3.5rem)]">
+              <h1 className="font-serif font-medium tracking-[-0.02em] leading-[1.05] text-text-primary text-[clamp(2.25rem,5vw,3.5rem)]">
                 {t("headline")}
               </h1>
               <p className="mt-8 text-text-secondary leading-relaxed max-w-[42ch] mx-auto">

@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { siteConfig } from "@/lib/siteConfig";
+import { buttonStyles } from "@/components/ui/Button";
 
 export async function generateMetadata({
   params,
@@ -42,7 +43,7 @@ export default async function WillkommenPage({
           </ScrollReveal>
 
           <ScrollReveal delay={0.05}>
-            <h1 className="mt-6 font-serif italic font-semibold tracking-[-0.02em] leading-[1.05] text-text-primary text-[clamp(2.5rem,6vw,4rem)]">
+            <h1 className="mt-6 font-serif font-medium tracking-[-0.02em] leading-[1.05] text-text-primary text-[clamp(2.5rem,6vw,4rem)]">
               {t("headline")}
             </h1>
           </ScrollReveal>
@@ -63,7 +64,7 @@ export default async function WillkommenPage({
             <div className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 href="/"
-                className="inline-flex items-center justify-center px-8 py-4 text-sm uppercase tracking-[0.12em] font-medium bg-text-primary text-bg-primary rounded-sm transition-colors duration-200 hover:bg-accent hover:text-bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent w-full sm:w-auto"
+                className={buttonStyles({ variant: "primary", size: "lg", className: "w-full sm:w-auto" })}
               >
                 {t("ctaPrimary")}
               </Link>
@@ -71,7 +72,7 @@ export default async function WillkommenPage({
                 href={siteConfig.social.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 text-sm uppercase tracking-[0.12em] font-medium text-text-primary border border-border-strong rounded-sm transition-colors duration-200 hover:border-accent hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent w-full sm:w-auto"
+                className={buttonStyles({ variant: "secondary", size: "lg", className: "w-full sm:w-auto" })}
               >
                 {t("ctaSecondary")}
               </a>

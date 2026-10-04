@@ -12,7 +12,7 @@ export function ScrollReveal({
   children: ReactNode;
   delay?: number;
   className?: string;
-  as?: "div" | "section" | "article" | "header" | "footer";
+  as?: "div" | "section" | "article" | "header" | "footer" | "li";
 }) {
   const reduce = useReducedMotion();
   const MotionTag = motion[as];

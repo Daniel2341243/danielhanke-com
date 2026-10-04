@@ -1,23 +1,22 @@
 {
   "nav": {
-    "coaching": "Coaching",
-    "speaking": "Speaking",
-    "community": "Community",
-    "book": "Buch",
+    "label": "Hauptnavigation",
+    "home": "Start",
     "about": "Über mich",
     "newsletter": "Newsletter",
-    "ctaPrimary": "Jetzt zum Newsletter anmelden"
+    "content": "Inhalte",
+    "books": "Bücher",
+    "speaking": "Speaking",
+    "practice": "Psychologische Beratung",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
   },
   "footer": {
-    "tagline": "Psychologisch fundiertes Coaching für Männer.",
-    "sitemap": "Sitemap",
-    "more": "Mehr Angebote",
+    "tagline": "Psychologie, ACT und persönliche Entwicklung – in Videos, Texten und einem Newsletter.",
+    "pages": "Seiten",
+    "elsewhere": "Außerdem",
+    "practice": "Psychologische Beratung",
     "youtube": "YouTube",
-    "newsletter": "Newsletter",
-    "newsletterBody": "Psychologische Impulse für Männer, die sich selbst besser verstehen und ihr Leben bewusster gestalten wollen.",
-    "newsletterFirstNamePlaceholder": "Vorname",
-    "newsletterPlaceholder": "Deine E-Mail",
-    "newsletterSubmit": "Jetzt dabei sein",
     "legal": {
       "imprint": "Impressum",
       "privacy": "Datenschutz",
@@ -26,879 +25,319 @@
     "copyright": "© {year} Next Level Education GmbH"
   },
   "cookies": {
-    "text": "Diese Website verwendet ausschließlich technisch notwendige Cookies. Für Statistiken (Vercel Analytics) und das Einbetten von YouTube-Videos brauchen wir deine Zustimmung. Mehr in der",
+    "text": "Diese Website verwendet ausschließlich technisch notwendige Speicherung. Für anonyme Statistiken (Vercel Analytics) brauchen wir deine Zustimmung. Mehr in der",
     "privacyLink": "Datenschutzerklärung",
     "essential": "Nur notwendige",
     "all": "Alle akzeptieren"
   },
-  "youtubeEmbed": {
-    "notice": "Dieses Video kommt von YouTube. Damit es direkt hier abgespielt werden kann, brauchen wir deine Zustimmung zu YouTube-Cookies.",
-    "accept": "YouTube laden",
-    "openOnYoutube": "Auf YouTube öffnen"
-  },
   "common": {
-    "skipToContent": "Zum Inhalt springen",
-    "photoToFollow": "Foto folgt"
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "notFound": {
+    "headline": "Diese Seite gibt es nicht (mehr).",
+    "body": "Vielleicht hat sich die Adresse geändert. Auf der Startseite oder bei den Inhalten findest du, was es hier gibt.",
+    "home": "Zur Startseite",
+    "content": "Zu den Inhalten"
   },
   "seo": {
-    "homeTitle": "Daniel Hanke — Psychologisches Coaching für Männer",
-    "homeDescription": "Psychologisch fundiertes 1:1-Coaching für Männer zwischen 22 und 38, die äußerlich liefern — und innerlich nicht ankommen.",
-    "coachingTitle": "Coaching",
-    "coachingDescription": "Psychologisch fundiertes Coaching für Männer in ihren 20ern und 30ern, die äußerlich liefern, aber innerlich noch stärker werden wollen.",
-    "coachingOnlineTitle": "Coaching über Zoom",
-    "coachingOnlineDescription": "Psychologisches 1:1-Coaching über Zoom — ortsunabhängig, vertraulich und flexibel in deinen Alltag integrierbar.",
-    "coachingBerlinTitle": "Coaching vor Ort in Berlin",
-    "coachingBerlinDescription": "Psychologisches 1:1-Coaching vor Ort in Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt.",
-    "communityTitle": "Community",
-    "communityDescription": "Kuratierte Community für Männer, die ernsthaft an sich arbeiten. Start 2026. Jetzt auf die Warteliste.",
-    "buchTitle": "Selbstdisziplin 2.0",
-    "buchDescription": "Selbstdisziplin ist nicht Willenskraft. Sie ist Motivation, die du steuerst. Warum das den Unterschied macht — zwischen Mittelmaß und einem Leben, das wirklich liefert.",
+    "homeTitle": "Daniel Hanke – Psychologie, ACT und persönliche Entwicklung",
+    "homeDescription": "Daniel Hanke beschäftigt sich mit Psychologie, Acceptance and Commitment Therapy (ACT) und persönlicher Entwicklung – in YouTube-Videos, Texten, Büchern und einem Newsletter.",
     "aboutTitle": "Über mich",
-    "aboutDescription": "Daniel Hanke. Psychologischer Berater. Autor. Coach für Männer, die im Leben funktionieren — und sich selbst nicht.",
+    "aboutDescription": "Wer ist Daniel Hanke? Psychologischer Berater (SGD), Autor und YouTuber – über Psychologie, ACT, Werte und den Umgang mit schwierigen Gedanken und Gefühlen.",
     "newsletterTitle": "Newsletter",
-    "newsletterDescription": "1–2 E-Mails pro Monat. Längere Texte, persönliche Beobachtungen, Werkzeuge — die ich öffentlich nicht teile.",
-    "speakingTitle": "Speaking & Media",
-    "speakingDescription": "Keynotes, Workshops und Podcast-Gespräche über Männer, Selbstführung, moderne Männlichkeit, Selbstdisziplin und psychologische Tiefe. Kein Hype. Keine Bro-Science.",
-    "newsletterThanksTitle": "Hat geklappt — bitte E-Mail bestätigen",
-    "newsletterThanksDescription": "Bestätige deine E-Mail-Adresse, um den Newsletter zu abonnieren.",
+    "newsletterDescription": "Der Newsletter von Daniel Hanke: Gedanken über Psychologie, ACT, schwierige Entscheidungen und persönliche Entwicklung. Kein Spam, jederzeit abmeldbar.",
+    "contentTitle": "Inhalte & YouTube",
+    "contentDescription": "Die neuesten YouTube-Videos von Daniel Hanke über Psychologie, ACT, Grübeln, Selbstzweifel, Werte und persönliche Entwicklung.",
+    "buchTitle": "Bücher – Selbstdisziplin 2.0",
+    "buchDescription": "„Selbstdisziplin 2.0“ von Daniel Hanke: warum verlässliche Selbstdisziplin weniger mit Willenskraft zu tun hat als mit der Fähigkeit, die eigene Motivation zu lenken.",
+    "speakingTitle": "Speaking",
+    "speakingDescription": "Vorträge, Workshops und Podcast-Gespräche mit Daniel Hanke über psychologische Flexibilität, Entscheidungen, Werte, Selbstführung und den Umgang mit schwierigen Gedanken.",
+    "newsletterThanksTitle": "Fast geschafft – bitte E-Mail bestätigen",
+    "newsletterThanksDescription": "Bestätige deine E-Mail-Adresse, um den Newsletter von Daniel Hanke zu erhalten.",
     "willkommenTitle": "Anmeldung erfolgreich",
     "willkommenDescription": "Deine Anmeldung zum Newsletter von Daniel Hanke war erfolgreich.",
     "impressumTitle": "Impressum",
     "impressumDescription": "Anbieterkennzeichnung gemäß § 5 TMG.",
     "datenschutzTitle": "Datenschutz",
-    "datenschutzDescription": "Wie wir personenbezogene Daten verarbeiten. DSGVO-konform.",
+    "datenschutzDescription": "Wie personenbezogene Daten auf danielhanke.com verarbeitet werden.",
     "agbTitle": "AGB",
-    "agbDescription": "Allgemeine Geschäftsbedingungen für Coaching-Leistungen."
+    "agbDescription": "Allgemeine Geschäftsbedingungen der Next Level Education GmbH."
   },
   "home": {
     "hero": {
-      "eyebrow": "Psychologisch fundiertes Coaching",
-      "headlinePart1": "Innere Stärke",
-      "headlinePart2": "für Männer in ihren 20ern und 30ern",
-      "subline": "Wenn du äußerlich ablieferst, aber innerlich Themen hast, die dich zurückhalten, dann bist du hier richtig.",
-      "imageAlt": "Daniel Hanke im Berliner Stadtkontext"
+      "eyebrow": "Psychologie · ACT · persönliche Entwicklung",
+      "tagline": "Über Psychologie, ACT und persönliche Entwicklung.",
+      "body": "Mich beschäftigt, wie wir mit schwierigen Gedanken, Gefühlen und Entscheidungen umgehen – und trotzdem ein Leben führen können, das uns wirklich wichtig ist. Darüber mache ich Videos, schreibe einen Newsletter und begleite Menschen in meiner psychologischen Beratung.",
+      "ctaNewsletter": "Newsletter abonnieren",
+      "ctaPractice": "Psychologische Beratung",
+      "youtubeLink": "Oder direkt zum YouTube-Kanal",
+      "imageAlt": "Porträt von Daniel Hanke"
     },
-    "problem": {
-      "eyebrow": "Vielleicht kommt dir das bekannt vor...",
-      "headline": "Eigentlich machst du alles richtig, und doch hast du das Gefühl, dass dir etwas fehlt.",
-      "cards": [
-        {
-          "title": "Du suchst äußere Bestätigung.",
-          "body": "Wenn der Erfolg kommt, fühlst du dich kurz gut. Wenn er ausbleibt, stürzt etwas in dir zusammen und du kompensierst mit noch mehr Anstrengung, Leistung und K(r)ampf."
-        },
-        {
-          "title": "Du sagst ja, wenn du nein meinst.",
-          "body": "Du passt dich an, vermeidest Konflikte, gehst Kompromisse ein... am Abend fühlst du dich leer. Verraten von dir selbst. Doch das sagst du niemandem."
-        },
-        {
-          "title": "Du weißt nicht, was du willst.",
-          "body": "Karriere, Beziehung, Wohnort, Hobbys, Lebensvision... du wartest auf den Moment der Klarheit, doch der kommt nie. Denn du hast nie gelernt, auf dich selbst zu hören."
-        }
+    "themes": {
+      "eyebrow": "Was mich beschäftigt",
+      "headline": "Fragen, die bleiben.",
+      "intro": "Themen, zu denen ich immer wieder zurückkehre – in Videos, im Newsletter und in Gesprächen.",
+      "items": [
+        { "title": "Psychologische Flexibilität", "line": "Nicht weniger fühlen, sondern beweglicher werden im Umgang mit dem, was da ist." },
+        { "title": "Schwierige Entscheidungen", "line": "Wie man wählt, wenn jede Option etwas kostet." },
+        { "title": "Grübeln", "line": "Warum Nachdenken manchmal nicht weiterhilft – und was stattdessen." },
+        { "title": "Werte", "line": "Was dir wichtig ist, wenn gerade niemand zuschaut." },
+        { "title": "Selbstzweifel", "line": "Handeln, ohne vorher sicher sein zu müssen." },
+        { "title": "Veränderung", "line": "Was passiert, wenn das Alte nicht mehr passt und das Neue noch nicht da ist." },
+        { "title": "Selbstführung", "line": "Sich selbst eine verlässliche Instanz sein – auch an schlechten Tagen." }
       ]
     },
-    "approach": {
-      "eyebrow": "Mein Ansatz",
-      "headlinePart1": "Innere Stärke ist der Schlüssel.",
-      "headlinePart2": "Und ich unterstütze dich dabei, sie zu bekommen.",
-      "body1": "Die meisten Männer-Coaches arbeiten am Äußeren… Verhalten, Disziplin, Routinen, Pickup-Lines… Das funktioniert vielleicht für zwei Wochen. Doch dann fällst du zurück und fühlst dich schlecht, weil du dir wie ein Versager vorkommst.",
-      "body2": "Mein Ansatz: Wir arbeiten an der psychologischen Struktur darunter. Warum tust du, was du tust? Warum vermeidest du, was du vermeidest? Wovor schützt du dich, ohne es zu merken?",
-      "body3": "Das Ergebnis ist kein „neues Ich“, sondern dein „wahres Ich“. Du bekommst Klarheit auf einem tiefen Level. Du weißt wer du bist, was du willst und handelst ohne den Drang nach Bestätigung oder die Angst, abgelehnt zu werden. Im Einklang mit deinem „wahren Ich“ zu handeln, gibt dir das, was von außen wie Selbstvertrauen oder Selbstdisziplin aussieht. Dabei bist du einfach du selbst. Getrieben von einer kindlichen Begeisterung für das Leben. Andere Leute werden von dir angezogen, weil du weißt wer du bist und was du willst.",
-      "cta": "So läuft das Coaching ab",
-      "imageAlt": "Daniel Hanke beim Arbeiten am Schreibtisch"
-    },
-    "video": {
-      "eyebrow": "Neues Video — jeden Freitag, 16 Uhr",
-      "teaser": "Klare, psychologisch fundierte Videos. Kein Hype, kein Clickbait.",
-      "cta": "Zum Kanal"
+    "videos": {
+      "eyebrow": "YouTube",
+      "headline": "Neue Videos",
+      "intro": "Jeden Freitag erscheint ein neues Video über Psychologie, ACT und persönliche Entwicklung.",
+      "ctaAll": "Alle Inhalte",
+      "ctaChannel": "Kanal auf YouTube"
     },
     "book": {
-      "eyebrow": "Mein Buch",
+      "eyebrow": "Buch",
       "title": "Selbstdisziplin 2.0",
-      "body": "Im Jahr 2021 veröffentlichte ich ein Buch über Selbstdisziplin. Mein Ansatz: Starke verlässliche Selbstdisziplin kommt nicht durch pure Willenskraft und Zwang (Selbstdisziplin 1.0), sondern durch die Fähigkeit, Motivation willentlich zu lenken und zu steigern (Selbstdisziplin 2.0).",
-      "ctaPrimary": "Bei Amazon ansehen",
-      "ctaGhost": "Mehr zum Buch",
-      "coverAlt": "Cover des Buches Selbstdisziplin 2.0"
+      "body": "2021 habe ich ein Buch über Selbstdisziplin veröffentlicht. Die Grundidee: Verlässliche Selbstdisziplin entsteht nicht durch Willenskraft und Zwang, sondern durch die Fähigkeit, die eigene Motivation bewusst zu lenken.",
+      "cta": "Mehr zum Buch",
+      "coverAlt": "Cover des Buches „Selbstdisziplin 2.0“ von Daniel Hanke"
     },
-    "newsletter": {
-      "eyebrow": "Newsletter",
-      "headline": "Für das, was auf YouTube keinen Platz findet.",
-      "body": "Im Newsletter teile ich regelmäßig spontane Gedanken, klare Handlungsimpulse, intime Geschichten und persönliche Neuigkeiten. Ruhig, ehrlich und ohne oberflächliches Motivationstheater.",
-      "fineprint": "Mit deiner Anmeldung stimmst du dem Versand und der Datenschutzerklärung zu.",
-      "firstNamePlaceholder": "Vorname",
-      "emailPlaceholder": "E-Mail",
-      "submit": "Jetzt dabei sein"
-    },
-    "outro": {
-      "headline": "Du kannst so weitermachen wie bisher. Oder anfangen, eine radikal neue Richtung einzuschlagen.",
-      "cta": "Anfragen",
-      "subtext": "Maßgeschneidertes Coaching, 100% anonym und urteilsfrei."
+    "about": {
+      "eyebrow": "Über mich",
+      "headline": "Hallo, ich bin Daniel.",
+      "body1": "Ich habe Wirtschaftspsychologie studiert, bin Psychologischer Berater (SGD) und arbeite ACT-basiert. Davor war ich viele Jahre in Projektmanagement, Vertrieb und Marketing tätig.",
+      "body2": "Dabei habe ich gelernt, dass Wissen über Psychologie und Handeln unter Druck zwei verschiedene Dinge sind. Genau dieser Abstand interessiert mich – und darüber spreche und schreibe ich.",
+      "cta": "Mehr über mich",
+      "ctaSpeaking": "Vorträge & Gespräche",
+      "imageAlt": "Daniel Hanke im Freien, lächelnd mit verschränkten Armen"
     }
   },
-  "coaching": {
+  "practiceTeaser": {
+    "eyebrow": "Psychologische Beratung",
+    "headline": "Psychologische Beratung in Berlin",
+    "body": "Ich biete ACT-basierte psychologische Beratung an – persönlich in meiner Praxis in Berlin-Moabit und online. Alles dazu, vom Ablauf bis zu den Terminen, findest du auf der Website meiner Praxis.",
+    "cta": "Zur Praxis"
+  },
+  "newsletterForm": {
+    "eyebrow": "Newsletter",
+    "headline": "Gedanken, die nicht in ein Video passen.",
+    "body": "Über Psychologie, ACT, Entscheidungen und persönliche Entwicklung – ruhig geschrieben, ohne Verkaufsdruck.",
+    "bodyLong": "Im Newsletter schreibe ich über Psychologie, ACT, schwierige Entscheidungen und das, was mich gerade beschäftigt. Dazu neue Videos und ausgewählte persönliche Gedanken. Ruhig geschrieben, ohne Verkaufsdruck.",
+    "firstNamePlaceholder": "Vorname (optional)",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "submit": "Newsletter abonnieren",
+    "fineprint": "Kein Spam, jederzeit mit einem Klick abmeldbar. Hinweise zum Datenschutz findest du in der <privacyLink>Datenschutzerklärung</privacyLink>.",
+    "moreLink": "Mehr über den Newsletter"
+  },
+  "newsletterPage": {
     "hero": {
-      "eyebrow": "1:1 Coaching",
-      "headline": "Wahre Veränderung ist tiefenpsychologisch, nicht oberflächlich.",
-      "subline": "Psychologisch fundiertes Coaching speziell für Männer in ihren 20ern und 30ern, die äußerlich liefern, aber innerlich noch stärker werden wollen."
+      "eyebrow": "Der Newsletter von Daniel Hanke",
+      "title": "Gedanken über Psychologie, ACT und ein gutes Leben.",
+      "subline": "Regelmäßige Gedanken über Psychologie, schwierige Entscheidungen und persönliche Entwicklung – und Ideen, die nicht immer in ein YouTube-Video passen."
     },
-    "compare": {
-      "eyebrow": "Zwei Formate",
-      "online": {
-        "title": "Coaching über Zoom",
-        "body": "Persönliches psychologisches 1:1-Coaching – unabhängig davon, wo du wohnst. Wir sprechen vertraulich über die Themen, bei denen du allein nicht weiterkommst, und arbeiten an den Mustern, die dich immer wieder zurückhalten.",
-        "benefits": [
-          "ortsunabhängig",
-          "vertraulich und persönlich",
-          "flexibel in deinen Alltag integrierbar",
-          "geeignet für regelmäßige Begleitung",
-          "60 Minuten persönliches 1:1-Coaching"
-        ],
-        "cta": "Online-Coaching anfragen"
-      },
-      "berlin": {
-        "title": "Coaching vor Ort in Berlin",
-        "subtitle": "In Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt.",
-        "body": "Das persönliche Gespräch vor Ort bietet einen ruhigen und geschützten Rahmen, in dem wir uns intensiv mit deinen Themen beschäftigen können. Das Angebot richtet sich insbesondere an Männer aus Berlin und Umgebung.",
-        "benefits": [
-          "persönliches Gespräch in ruhiger Atmosphäre",
-          "zentral in Berlin-Europacity",
-          "etwa 12 Minuten vom Berliner Hauptbahnhof entfernt",
-          "vertrauliches 1:1-Setting",
-          "60 Minuten persönliche Begleitung"
-        ],
-        "cta": "Coaching in Berlin anfragen"
-      }
-    },
-    "undecided": {
-      "headline": "Noch unsicher, welches Format zu dir passt?",
-      "body": "Kein Problem — schreib mir trotzdem. Wir klären das gemeinsam in deiner ersten E-Mail.",
-      "cta": "Trotzdem schreiben"
-    },
-    "steps": {
-      "eyebrow": "So läuft das Coaching ab",
+    "expectations": {
+      "headline": "Was dich erwartet",
       "items": [
-        {
-          "title": "Du schreibst mir.",
-          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Ich antworte innerhalb von 48 Stunden."
-        },
-        {
-          "title": "Ich antworte — ehrlich.",
-          "body": "Wenn ich glaube, dass ich dir helfen kann, schlage ich dir Termine vor und schicke dir die Zahlungsinformationen. Wenn nicht, sage ich dir auch das — und nenne dir, wenn möglich, eine Alternative."
-        },
-        {
-          "title": "Du buchst — und wir arbeiten.",
-          "body": "Eine Stunde 120 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten alle 1–2 Wochen, 60 Minuten, per Zoom oder vor Ort in Berlin. Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte."
-        }
+        { "title": "Längere Gedanken", "body": "Themen, die für ein Video zu nuanciert sind – in Ruhe ausgearbeitet." },
+        { "title": "Psychologie und ACT, alltagsnah", "body": "Konzepte wie psychologische Flexibilität, Werte oder Akzeptanz – verständlich erklärt und mit Blick darauf, was sie im Alltag bedeuten." },
+        { "title": "Neue Videos und Projekte", "body": "Was gerade erschienen ist und woran ich arbeite." },
+        { "title": "Persönliches", "body": "Ausgewählte Beobachtungen aus meinem eigenen Leben – ehrlich, aber ohne Selbstdarstellung." }
       ]
     },
-    "benefits": {
-      "eyebrow": "Was du davon hast",
+    "topics": {
+      "headline": "Worum es geht",
       "items": [
-        {
-          "title": "Du verstehst, warum du tust, was du tust.",
-          "body": "Wir arbeiten an den Mustern, die dein Verhalten antreiben. Sobald du sie siehst, hörst du auf, dich selbst zu sabotieren — nicht durch Disziplin, sondern durch Klarheit."
-        },
-        {
-          "title": "Du entscheidest aus dir heraus.",
-          "body": "Karriere, Beziehung, Wohnort — du hörst auf, auf den richtigen Moment zu warten. Weil du gelernt hast, dir selbst zu trauen."
-        },
-        {
-          "title": "Du wirst in Beziehungen wirklich präsent.",
-          "body": "Mit Frauen, Freunden, Familie. Du hörst auf, dich zu schützen, und bist dafür wirklich da. Das verändert, wer auf dich reagiert — und wie."
-        },
-        {
-          "title": "Du fühlst dich endlich wie ein Mann.",
-          "body": "Nicht laut, nicht hart, nicht performativ. Sondern: gegründet. Verlässlich. Klar. Du selbst — auch wenn niemand zuschaut."
-        }
+        "Psychologie",
+        "ACT",
+        "Entscheidungen",
+        "Werte",
+        "Grübeln",
+        "Selbstzweifel",
+        "Selbstführung",
+        "Veränderung",
+        "persönliche Entwicklung"
       ]
     },
-    "fit": {
-      "eyebrow": "Für wen — und für wen nicht",
-      "forYouTitle": "Für dich, wenn:",
-      "forYou": [
-        "Du zwischen 22 und 38 bist und im DACH-Raum lebst.",
-        "Du im Leben funktionierst — und trotzdem das Gefühl hast, irgendetwas stimmt nicht.",
-        "Du Bücher gelesen, Kurse gemacht, Disziplin probiert hast — und gemerkt hast: das Problem liegt tiefer.",
-        "Du bereit bist, ehrliche Antworten zu geben, auch wenn sie unbequem sind.",
-        "Du verstehst, dass Veränderung Zeit braucht — keine 30-Tage-Challenge."
-      ],
-      "notForYouTitle": "Nicht für dich, wenn:",
-      "notForYou": [
-        "Du in akuter psychischer Krise bist (Depression, Angststörung, Trauma, Suizidgedanken). Dann brauchst du Therapie, nicht Coaching. Ich helfe dir gerne, jemanden zu finden.",
-        "Du nach Pickup-Tricks oder „Alpha-Frames“ suchst.",
-        "Du erwartest, dass ich dir sage, was du tun sollst.",
-        "Du nicht bereit bist, in dich selbst zu investieren — finanziell und zeitlich."
-      ]
-    },
-    "faq": {
-      "eyebrow": "Häufige Fragen",
+    "promises": {
       "items": [
-        {
-          "q": "Was kostet eine Session?",
-          "a": "120 € pro Stunde (60 Minuten), im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete, keine Aufnahmegebühr."
-        },
-        {
-          "q": "Ich habe noch konkrete Fragen vor der Buchung — kann ich kurz mit dir sprechen?",
-          "a": "Ja. Schreib mir eine E-Mail an mail@danielhanke.com mit deiner Frage. Wenn ein kurzes Gespräch sinnvoll ist — etwa um die Kompatibilität abzustimmen — machen wir per Mail einen 5- bis 10-minütigen Telefon-Slot aus. Das ersetzt kein Coaching und ist nicht der Einstieg ins Programm, sondern nur für gezielte Rückfragen."
-        },
-        {
-          "q": "Wie viele Sessions brauche ich?",
-          "a": "Das hängt davon ab, was du verändern willst. Manche Männer arbeiten 6 Monate mit mir, andere zwei Jahre. Es gibt keine Mindestlaufzeit. Wir entscheiden nach Session 4 gemeinsam, ob es passt."
-        },
-        {
-          "q": "Was, wenn ich Therapie statt Coaching brauche?",
-          "a": "Dann sage ich dir das in meiner Antwort auf deine Anfrage ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
-        },
-        {
-          "q": "Kann ich auch unregelmäßig kommen?",
-          "a": "Ja. Wir sprechen alle 1–2 Wochen — aber Pausen sind ok. Ich arbeite nicht mit Druck."
-        },
-        {
-          "q": "Warum nicht kürzere Sessions oder Gruppen?",
-          "a": "60 Minuten 1:1 ist die kleinste sinnvolle Einheit. Gruppen-Coaching kommt später (siehe Community)."
-        }
+        { "title": "Kein Spam", "body": "In der Regel ein- bis zweimal im Monat, manchmal seltener." },
+        { "title": "Kein Verkaufsdruck", "body": "Der Newsletter ist kein Funnel. Er ist der Ort, an dem ich am liebsten schreibe." },
+        { "title": "Jederzeit abmeldbar", "body": "Mit einem Klick am Ende jeder E-Mail." }
       ]
+    },
+    "closing": {
+      "headline": "Lust, mitzulesen?"
     }
   },
-  "coachingOnline": {
+  "contentPage": {
     "hero": {
-      "eyebrow": "1:1 Coaching über Zoom",
-      "headline": "Persönliches Coaching, ganz gleich wo du wohnst.",
-      "subline": "Psychologisch fundiertes 1:1-Coaching über Zoom — ortsunabhängig, vertraulich und flexibel in deinen Alltag integrierbar."
+      "eyebrow": "YouTube & Inhalte",
+      "title": "Videos über Psychologie, ACT und persönliche Entwicklung.",
+      "subline": "Auf YouTube erscheint jeden Freitag ein neues Video. Hier findest du die neuesten – und die Themen, zu denen ich immer wieder spreche.",
+      "cta": "Zum YouTube-Kanal"
     },
-    "steps": {
-      "eyebrow": "So läuft das Coaching ab",
+    "latest": {
+      "headline": "Neueste Videos"
+    },
+    "topics": {
+      "headline": "Nach Thema stöbern",
+      "intro": "Ein Klick öffnet die passenden Videos auf meinem YouTube-Kanal.",
       "items": [
-        {
-          "title": "Du schreibst mir.",
-          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Ich antworte innerhalb von 48 Stunden."
-        },
-        {
-          "title": "Ich antworte — ehrlich.",
-          "body": "Wenn ich glaube, dass ich dir helfen kann, schlage ich dir Termine vor und schicke dir die Zahlungsinformationen. Wenn nicht, sage ich dir auch das — und nenne dir, wenn möglich, eine Alternative."
-        },
-        {
-          "title": "Du buchst — und wir arbeiten.",
-          "body": "Eine Stunde 120 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten alle 1–2 Wochen, 60 Minuten, per Zoom. Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte."
-        }
+        { "label": "ACT", "query": "ACT" },
+        { "label": "Psychologie", "query": "Psychologie" },
+        { "label": "Entscheidungen", "query": "Entscheidung" },
+        { "label": "Grübeln", "query": "Grübeln" },
+        { "label": "Selbstzweifel", "query": "Selbstzweifel" },
+        { "label": "Werte", "query": "Werte" },
+        { "label": "Selbstdisziplin", "query": "Selbstdisziplin" },
+        { "label": "Persönliche Entwicklung", "query": "persönliche Entwicklung" }
       ]
     },
-    "benefits": {
-      "eyebrow": "Was du davon hast",
-      "items": [
-        {
-          "title": "Du verstehst, warum du tust, was du tust.",
-          "body": "Wir arbeiten an den Mustern, die dein Verhalten antreiben. Sobald du sie siehst, hörst du auf, dich selbst zu sabotieren — nicht durch Disziplin, sondern durch Klarheit."
-        },
-        {
-          "title": "Du entscheidest aus dir heraus.",
-          "body": "Karriere, Beziehung, Wohnort — du hörst auf, auf den richtigen Moment zu warten. Weil du gelernt hast, dir selbst zu trauen."
-        },
-        {
-          "title": "Du wirst in Beziehungen wirklich präsent.",
-          "body": "Mit Frauen, Freunden, Familie. Du hörst auf, dich zu schützen, und bist dafür wirklich da. Das verändert, wer auf dich reagiert — und wie."
-        },
-        {
-          "title": "Du fühlst dich endlich wie ein Mann.",
-          "body": "Nicht laut, nicht hart, nicht performativ. Sondern: gegründet. Verlässlich. Klar. Du selbst — auch wenn niemand zuschaut."
-        }
-      ]
-    },
-    "fit": {
-      "eyebrow": "Für wen — und für wen nicht",
-      "forYouTitle": "Für dich, wenn:",
-      "forYou": [
-        "Du zwischen 22 und 38 bist und im DACH-Raum lebst.",
-        "Du im Leben funktionierst — und trotzdem das Gefühl hast, irgendetwas stimmt nicht.",
-        "Du Bücher gelesen, Kurse gemacht, Disziplin probiert hast — und gemerkt hast: das Problem liegt tiefer.",
-        "Du bereit bist, ehrliche Antworten zu geben, auch wenn sie unbequem sind.",
-        "Du verstehst, dass Veränderung Zeit braucht — keine 30-Tage-Challenge."
-      ],
-      "notForYouTitle": "Nicht für dich, wenn:",
-      "notForYou": [
-        "Du in akuter psychischer Krise bist (Depression, Angststörung, Trauma, Suizidgedanken). Dann brauchst du Therapie, nicht Coaching. Ich helfe dir gerne, jemanden zu finden.",
-        "Du nach Pickup-Tricks oder „Alpha-Frames“ suchst.",
-        "Du erwartest, dass ich dir sage, was du tun sollst.",
-        "Du nicht bereit bist, in dich selbst zu investieren — finanziell und zeitlich."
-      ]
-    },
-    "request": {
-      "eyebrow": "Anfrage schreiben",
-      "headline": "Schreib mir eine E-Mail. Beantworte diese fünf Fragen.",
-      "body": "Keine Termin-Software, kein Online-Formular. Eine ehrliche E-Mail filtert besser als jedes Tool. Antworte so kurz oder so lang wie es sich richtig anfühlt — eine Zeile pro Frage reicht, mehr darf es auch sein.",
-      "questions": [
-        {
-          "title": "Was läuft gerade in deinem Leben?",
-          "body": "Was funktioniert — und was nicht?"
-        },
-        {
-          "title": "Was hast du bisher versucht, um es zu ändern?",
-          "body": "Und warum hat es nicht gehalten?"
-        },
-        {
-          "title": "Was würde sich konkret ändern, wenn wir in den nächsten 3 Monaten wirklich etwas bewegen?",
-          "body": ""
-        },
-        {
-          "title": "Warum jetzt?",
-          "body": "Was hat sich verändert, dass du heute schreibst — und nicht in einem halben Jahr?"
-        },
-        {
-          "title": "Verfügbarkeit:",
-          "body": "An welchen Wochentagen und Uhrzeiten könntest du regelmäßig (alle 1–2 Wochen, 60 Minuten) per Zoom?"
-        }
-      ],
-      "cta": "E-Mail-Vorlage öffnen",
-      "subtext": "Ich antworte innerhalb von 48 Stunden — auch wenn die Antwort „kein Match“ ist. Wenn es passt, schicke ich dir Terminvorschläge und Zahlungsinformationen."
-    },
-    "faq": {
-      "eyebrow": "Häufige Fragen",
-      "items": [
-        {
-          "q": "Was kostet eine Session?",
-          "a": "120 € pro Stunde (60 Minuten), im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete, keine Aufnahmegebühr."
-        },
-        {
-          "q": "Wie viele Sessions brauche ich?",
-          "a": "Das hängt davon ab, was du verändern willst. Manche Männer arbeiten 6 Monate mit mir, andere zwei Jahre. Es gibt keine Mindestlaufzeit. Wir entscheiden nach Session 4 gemeinsam, ob es passt."
-        },
-        {
-          "q": "Was, wenn ich Therapie statt Coaching brauche?",
-          "a": "Dann sage ich dir das in meiner Antwort auf deine Anfrage ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
-        },
-        {
-          "q": "Kann ich auch unregelmäßig kommen?",
-          "a": "Ja. Wir sprechen alle 1–2 Wochen — aber Pausen sind ok. Ich arbeite nicht mit Druck."
-        }
-      ]
-    }
-  },
-  "coachingBerlin": {
-    "hero": {
-      "eyebrow": "1:1 Coaching vor Ort in Berlin",
-      "headline": "Das persönliche Gespräch vor Ort — in Berlin-Europacity.",
-      "subline": "Psychologisch fundiertes 1:1-Coaching vor Ort in Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt. Ein ruhiger, geschützter Rahmen für die Themen, bei denen du allein nicht weiterkommst.",
-      "locationNote": "Die genaue Adresse in Berlin-Europacity erhältst du erst nach der Terminvereinbarung per E-Mail."
-    },
-    "steps": {
-      "eyebrow": "So läuft das Coaching ab",
-      "items": [
-        {
-          "title": "Du schreibst mir.",
-          "body": "Du beantwortest die fünf Fragen unten und schickst sie an mail@danielhanke.com. Ich antworte innerhalb von 48 Stunden."
-        },
-        {
-          "title": "Ich antworte — ehrlich.",
-          "body": "Wenn ich glaube, dass ich dir helfen kann, schlage ich dir Termine vor, schicke dir die Zahlungsinformationen und die genaue Adresse in Berlin-Europacity. Wenn nicht, sage ich dir auch das — und nenne dir, wenn möglich, eine Alternative."
-        },
-        {
-          "title": "Du buchst — und wir arbeiten.",
-          "body": "Eine Stunde 120 €, im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete. Wir arbeiten alle 1–2 Wochen, 60 Minuten, vor Ort in Berlin-Europacity. Zwischen den Sessions: konkrete Aufgaben, kurze Check-Ins per E-Mail wenn du nicht weiterkommst. Vertraulich, ohne Notizen für Dritte."
-        }
-      ]
-    },
-    "benefits": {
-      "eyebrow": "Was du davon hast",
-      "items": [
-        {
-          "title": "Du verstehst, warum du tust, was du tust.",
-          "body": "Wir arbeiten an den Mustern, die dein Verhalten antreiben. Sobald du sie siehst, hörst du auf, dich selbst zu sabotieren — nicht durch Disziplin, sondern durch Klarheit."
-        },
-        {
-          "title": "Du entscheidest aus dir heraus.",
-          "body": "Karriere, Beziehung, Wohnort — du hörst auf, auf den richtigen Moment zu warten. Weil du gelernt hast, dir selbst zu trauen."
-        },
-        {
-          "title": "Du wirst in Beziehungen wirklich präsent.",
-          "body": "Mit Frauen, Freunden, Familie. Du hörst auf, dich zu schützen, und bist dafür wirklich da. Das verändert, wer auf dich reagiert — und wie."
-        },
-        {
-          "title": "Du fühlst dich endlich wie ein Mann.",
-          "body": "Nicht laut, nicht hart, nicht performativ. Sondern: gegründet. Verlässlich. Klar. Du selbst — auch wenn niemand zuschaut."
-        }
-      ]
-    },
-    "fit": {
-      "eyebrow": "Für wen — und für wen nicht",
-      "forYouTitle": "Für dich, wenn:",
-      "forYou": [
-        "Du zwischen 22 und 38 bist und in Berlin oder Umgebung lebst.",
-        "Du im Leben funktionierst — und trotzdem das Gefühl hast, irgendetwas stimmt nicht.",
-        "Du Bücher gelesen, Kurse gemacht, Disziplin probiert hast — und gemerkt hast: das Problem liegt tiefer.",
-        "Du bereit bist, ehrliche Antworten zu geben, auch wenn sie unbequem sind.",
-        "Du verstehst, dass Veränderung Zeit braucht — keine 30-Tage-Challenge."
-      ],
-      "notForYouTitle": "Nicht für dich, wenn:",
-      "notForYou": [
-        "Du in akuter psychischer Krise bist (Depression, Angststörung, Trauma, Suizidgedanken). Dann brauchst du Therapie, nicht Coaching. Ich helfe dir gerne, jemanden zu finden.",
-        "Du nach Pickup-Tricks oder „Alpha-Frames“ suchst.",
-        "Du erwartest, dass ich dir sage, was du tun sollst.",
-        "Du nicht bereit bist, in dich selbst zu investieren — finanziell und zeitlich."
-      ]
-    },
-    "request": {
-      "eyebrow": "Anfrage schreiben",
-      "headline": "Schreib mir eine E-Mail. Beantworte diese fünf Fragen.",
-      "body": "Keine Termin-Software, kein Online-Formular. Eine ehrliche E-Mail filtert besser als jedes Tool. Antworte so kurz oder so lang wie es sich richtig anfühlt — eine Zeile pro Frage reicht, mehr darf es auch sein.",
-      "questions": [
-        {
-          "title": "Was läuft gerade in deinem Leben?",
-          "body": "Was funktioniert — und was nicht?"
-        },
-        {
-          "title": "Was hast du bisher versucht, um es zu ändern?",
-          "body": "Und warum hat es nicht gehalten?"
-        },
-        {
-          "title": "Was würde sich konkret ändern, wenn wir in den nächsten 3 Monaten wirklich etwas bewegen?",
-          "body": ""
-        },
-        {
-          "title": "Warum jetzt?",
-          "body": "Was hat sich verändert, dass du heute schreibst — und nicht in einem halben Jahr?"
-        },
-        {
-          "title": "Verfügbarkeit:",
-          "body": "An welchen Wochentagen und Uhrzeiten könntest du regelmäßig (alle 1–2 Wochen, 60 Minuten) vor Ort in Berlin treffen?"
-        }
-      ],
-      "cta": "E-Mail-Vorlage öffnen",
-      "subtext": "Ich antworte innerhalb von 48 Stunden — auch wenn die Antwort „kein Match“ ist. Wenn es passt, schicke ich dir Terminvorschläge, Zahlungsinformationen und die genaue Adresse."
-    },
-    "faq": {
-      "eyebrow": "Häufige Fragen",
-      "items": [
-        {
-          "q": "Wo genau findet das Coaching statt?",
-          "a": "In Berlin-Europacity, etwa 12 Minuten vom Berliner Hauptbahnhof entfernt. Die genaue Adresse bekommst du nach der Terminvereinbarung per E-Mail."
-        },
-        {
-          "q": "Was kostet eine Session?",
-          "a": "120 € pro Stunde (60 Minuten), im Voraus per Banküberweisung. Keine Mindestlaufzeit, keine Pakete, keine Aufnahmegebühr."
-        },
-        {
-          "q": "Wie viele Sessions brauche ich?",
-          "a": "Das hängt davon ab, was du verändern willst. Manche Männer arbeiten 6 Monate mit mir, andere zwei Jahre. Es gibt keine Mindestlaufzeit. Wir entscheiden nach Session 4 gemeinsam, ob es passt."
-        },
-        {
-          "q": "Was, wenn ich Therapie statt Coaching brauche?",
-          "a": "Dann sage ich dir das in meiner Antwort auf deine Anfrage ehrlich. Coaching arbeitet an Mustern im Hier und Jetzt. Therapie arbeitet an Traumata, Diagnosen, klinischen Symptomen. Manchmal brauchst du beides."
-        },
-        {
-          "q": "Kann ich auch unregelmäßig kommen?",
-          "a": "Ja. Wir sprechen alle 1–2 Wochen — aber Pausen sind ok. Ich arbeite nicht mit Druck."
-        }
-      ]
-    }
-  },
-  "community": {
-    "hero": {
-      "eyebrow": "Community",
-      "headline": "Eine feste Gemeinschaft für Männer, die sich wirklich weiterentwickeln wollen.",
-      "intro": "Die Community verbindet psychologisch fundierte Gruppenbegleitung mit einem regelmäßigen und vertrauten Kreis von Männern. Statt anonymer Einzelveranstaltungen entsteht eine feste Gruppe, die sich mit der Zeit kennenlernt und eine echte Vertrauensbasis entwickelt."
-    },
-    "benefits": {
-      "eyebrow": "Was die Community bietet",
-      "items": [
-        {
-          "title": "Erschwinglichere Begleitung",
-          "body": "Die Community bietet Elemente psychologisch fundierter Gruppenbegleitung zu einem deutlich niedrigeren Preis als regelmäßiges 1:1-Coaching."
-        },
-        {
-          "title": "Regelmäßigkeit",
-          "body": "Die Gruppe trifft sich regelmäßig. Entwicklung entsteht nicht durch einen einzelnen Motivationsmoment, sondern durch kontinuierliche Auseinandersetzung und verbindliche Begleitung."
-        },
-        {
-          "title": "Eine wachsende Vertrauensbasis",
-          "body": "Die Teilnehmer lernen sich mit der Zeit kennen. Dadurch können Gespräche ehrlicher, persönlicher und tiefer werden als in ständig wechselnden Gruppen."
-        },
-        {
-          "title": "Monatlich wechselnde Themen",
-          "body": "Jeden Monat steht ein neues psychologisches Thema im Mittelpunkt, beispielsweise:",
-          "topics": [
-            "Selbstwert und Scham",
-            "Grenzen setzen",
-            "Beziehungen und Bindung",
-            "emotionale Abhängigkeit",
-            "Vater- und Mutterthemen",
-            "Verantwortung",
-            "Selbstdisziplin",
-            "männliche Identität",
-            "Entscheidungen und Lebensrichtung"
-          ]
-        },
-        {
-          "title": "Die Kraft der Gruppe",
-          "body": "Teilnehmer erkennen, dass andere Männer ähnliche Fragen, Ängste und Konflikte erleben. Die Perspektiven und Erfahrungen anderer können neue Einsichten ermöglichen."
-        },
-        {
-          "title": "Verantwortung und Verbindlichkeit",
-          "body": "Die Gruppe unterstützt dabei, aus Erkenntnissen konkrete Schritte zu machen. Teilnehmer können Vorhaben teilen und beim nächsten Treffen berichten, was daraus geworden ist."
-        },
-        {
-          "title": "Fortschritte und Erfolgserlebnisse",
-          "body": "Die Gruppe bietet Raum, nicht nur Probleme zu besprechen, sondern auch Fortschritte, mutige Entscheidungen und persönliche Erfolge miteinander zu teilen."
-        }
-      ]
-    },
-    "disclaimer": "Die Community ist weder Therapie noch ein anonymer Onlinekurs. Sie ist ein regelmäßiger, geschützter Entwicklungsraum für Männer, die bereit sind, sich ehrlich mit sich selbst auseinanderzusetzen.",
-    "cta": {
-      "eyebrow": "Vormerken",
-      "headline": "Für die Community vormerken",
-      "body": "Trag dich in den Männerbrief ein und erfahre als einer der Ersten, wann die Community startet.",
-      "submit": "Jetzt kostenlos anmelden",
-      "emailPlaceholder": "E-Mail",
-      "fineprint": "Mit deiner Anmeldung stimmst du der Datenschutzerklärung zu."
+    "articles": {
+      "eyebrow": "Zum Nachlesen",
+      "headline": "Artikel über ACT",
+      "body": "Ausführlichere Texte zu ACT – was psychologische Flexibilität bedeutet, wo der Ansatz herkommt und warum er funktioniert – findest du im Wissensbereich meiner Praxiswebsite.",
+      "cta": "Zu den Artikeln"
     }
   },
   "buchPage": {
     "hero": {
-      "eyebrow": "Mein Buch",
-      "title": "Selbstdisziplin 2.0.",
-      "subline": "Der einfache Weg zu starker Selbstdisziplin und Produktivität. Nicht durch mehr Willenskraft — sondern indem du lernst, deine Motivation zu steuern.",
+      "eyebrow": "Bücher",
+      "title": "Selbstdisziplin 2.0",
+      "subline": "Der einfache Weg zu starker Selbstdisziplin und Produktivität. Nicht durch mehr Willenskraft – sondern indem du lernst, deine Motivation zu steuern.",
+      "meta": "Erschienen 2021",
       "cta": "Bei Amazon ansehen",
-      "coverAlt": "Cover des Buches Selbstdisziplin 2.0"
+      "coverAlt": "Cover des Buches „Selbstdisziplin 2.0“ von Daniel Hanke"
     },
     "content": {
-      "headline": "Disziplin ist kein Charakterzug. Sie ist ein System.",
-      "body1": "Eigentlich weiß jeder, was er tun müsste, um voranzukommen. Das Problem ist nicht Wissen. Das Problem ist, dass den meisten die Selbstdisziplin fehlt, es auch zu tun. Nicht Geld, nicht Glück, nicht IQ — Selbstdisziplin ist der Engpass für Erfolg.",
-      "body2": "Die meisten Bücher behandeln Disziplin als Kampf gegen dich selbst. Als Willenskraft, die du jeden Morgen neu aufbringen musst. Selbstdisziplin 2.0 dreht das um: Wirklich erfolgreiche Menschen kämpfen nicht. Sie haben gelernt, ihre Motivation zu steuern, statt sich von ihr in die Versuchung manipulieren zu lassen.",
-      "body3": "Das Buch zeigt dir die Methoden dahinter. Wie du dein Gehirn auf deine Seite bringst, statt täglich gegen es zu arbeiten. Wie du aus dem Hamsterrad der Mittelmäßigkeit ausbrichst — nicht durch mehr Härte, sondern durch ein besseres System."
+      "headline": "Disziplin ist kein Charakterzug.",
+      "body1": "Eigentlich wissen die meisten, was sie tun müssten, um voranzukommen. Das Problem ist selten das Wissen. Es ist die Lücke zwischen Wissen und Tun.",
+      "body2": "Viele Bücher behandeln Disziplin als Kampf gegen sich selbst – als Willenskraft, die man jeden Morgen neu aufbringen muss. „Selbstdisziplin 2.0“ dreht das um: Wer verlässlich handelt, kämpft meist nicht. Er hat gelernt, seine Motivation zu lenken, statt sich von ihr treiben zu lassen.",
+      "body3": "Das Buch zeigt die Methoden dahinter: wie du dein Gehirn auf deine Seite bringst, statt täglich gegen es zu arbeiten – nicht durch mehr Härte, sondern durch ein besseres System."
     },
     "forWhom": {
       "headline": "Für wen das Buch ist",
       "items": [
-        "Du weißt, was du tun müsstest — und tust es trotzdem nicht.",
+        "Du weißt, was du tun müsstest – und tust es trotzdem nicht.",
         "Du hast Disziplin schon als reine Willenskraft probiert. Es hat dich ausgelaugt.",
-        "Du willst verstehen, was wirklich erfolgreiche Menschen anders machen — und es selbst lernen."
+        "Du willst verstehen, was Menschen anders machen, die verlässlich dranbleiben – und es selbst lernen."
       ]
-    },
-    "outro": {
-      "cta": "Selbstdisziplin 2.0 bei Amazon"
     }
   },
   "about": {
     "hero": {
       "eyebrow": "Über mich",
-      "title": "Daniel Hanke.",
-      "subline": "Psychologischer Berater. Autor. Coach für Männer, die im Leben funktionieren — und sich selbst nicht.",
-      "imageAlt": "Portrait von Daniel Hanke"
+      "subline": "Ich mache Videos, schreibe und spreche über Psychologie, ACT und persönliche Entwicklung – und begleite Menschen in meiner psychologischen Beratung.",
+      "imageAlt": "Porträt von Daniel Hanke"
     },
-    "vita": {
-      "eyebrow": "Kurzbiografie",
-      "items": [
-        "Geboren 1992 in Karlsruhe, lebt aktuell in Leipzig — visuell und kulturell zuhause in Berlin.",
-        "M.A. Wirtschaftspsychologie und International Management, Universität Heidelberg.",
-        "NLP Master Practitioner. Zertifizierter psychologischer Berater.",
-        "Autor von „Selbstdisziplin 2.0“ und mehreren weiteren Büchern.",
-        "YouTube-Kanal mit über 10.000 Abonnenten.",
-        "Geschäftsführer der Next Level Education GmbH."
+    "stance": {
+      "headline": "Worum es mir geht",
+      "paragraphs": [
+        "Mich interessiert eine Frage, die fast jeder kennt: Warum wissen wir oft ziemlich genau, was uns guttun würde – und tun es trotzdem nicht? Warum hängen wir in Gedanken fest, schieben Entscheidungen auf oder kämpfen gegen Gefühle, die sich nicht wegkämpfen lassen?",
+        "Die Acceptance and Commitment Therapy (ACT) gibt darauf eine Antwort, die mich überzeugt: Es geht weniger darum, schwierige Gedanken und Gefühle loszuwerden, als darum, beweglicher mit ihnen umzugehen – und trotzdem das zu tun, was einem wirklich wichtig ist. In der Psychologie heißt das psychologische Flexibilität.",
+        "Ich glaube nicht an schnelle Transformationen. Ich glaube an Klarheit, an Ehrlichkeit mit sich selbst und an kleine Schritte, die man tatsächlich geht."
       ]
     },
-    "story": {
-      "headline": "Warum ich das mache.",
-      "intro": {
-        "title": "Wie es angefangen hat.",
-        "body1": "Ich war einer dieser Jungs. Überbehütete Mutter, abwesender und cholerischer Vater, früh die Rolle gelernt, die anderen gut tut. Mit 14 verliebte ich mich auf einer Konfirmation in ein Mädchen — sie flirtete mich an, ich rannte weinend weg. Das war der Punkt, an dem ich verstand: Irgendetwas an mir funktioniert nicht.",
-        "body2": "Drei Jahre später besuchte ich heimlich ein NLP-Seminar in Berlin, meine Eltern waren dagegen. Es war das erste Mal, dass ich gegen ihre Erwartung handelte. Es hat mich nicht „geheilt“. Aber es hat eine Tür geöffnet."
-      },
-      "detour": {
-        "title": "Der lange Umweg.",
-        "body1": "Schauspielstudium in Kiel — abgebrochen. Lehramt in Tübingen — abgebrochen. Wirtschaftspsychologie in Heidelberg — die besten Jahre meines Studiums. Master in International Management — ein Burnout, den ich lange nicht zugegeben habe.",
-        "body2": "Danach: eigene Versuche zur Selbstständigkeit (Einserfabrik, Bücher, ein YouTube-Kanal, der jahrelang dümpelte). Straßenwerbung für Greenpeace. Solar-Vertrieb bei Enpal in Berlin. Sechs Monate Verkaufstraining, das mir mehr beigebracht hat als zehn Bücher. Reisen — Thailand, eine Startup-Community in Malaysia. Dann zurück.",
-        "body3": "Es war kein gerader Weg. Es war ein Weg mit vielen Fehlentscheidungen — und ich erzähle das nicht aus Scham, sondern weil ich glaube: Wer behauptet, alles richtig gemacht zu haben, lügt entweder oder hat zu wenig riskiert."
-      },
-      "why": {
-        "title": "Warum Coaching.",
-        "body1": "Irgendwann ist mir klar geworden: Ich habe mein Leben lang versucht, etwas zu reparieren, das nicht repariert werden konnte. Sondern verstanden. Und nur das, was ich verstanden hatte, konnte ich loslassen.",
-        "body2": "Heute arbeite ich mit Männern, die genau dort stehen. Die alles tun, was sie tun sollen — und nicht ankommen. Ich gebe ihnen keine neuen Tricks. Ich gebe ihnen einen Spiegel, den sie sich selbst nicht halten können. Und einen Sparringspartner, der nicht wegschaut, wenn es unbequem wird."
-      }
-    },
-    "distinction": {
-      "headline": "Was du von mir bekommst — und was nicht.",
-      "getTitle": "Du bekommst:",
-      "get": [
-        "Psychologische Tiefe, kein Motivations-Theater.",
-        "Ehrliche Konfrontation, wenn nötig — immer mit Respekt.",
-        "Konkrete Werkzeuge, die zwischen den Sessions wirken.",
-        "Vertraulichkeit. Ohne Ausnahme."
-      ],
-      "dontGetTitle": "Du bekommst nicht:",
-      "dontGet": [
-        "Lauten Bro-Vibe. Kein „Digga“, kein „King“.",
-        "Pauschal-Pakete für „den modernen Mann“.",
-        "Pickup-Skripte oder „Alpha-Frames“.",
-        "Versprechen, die ich nicht halten kann."
+    "path": {
+      "headline": "Mein Weg",
+      "paragraphs": [
+        "Psychologie hat mich früh beschäftigt. Mit 17 habe ich – gegen den Willen meiner Eltern – ein erstes Seminar zur persönlichen Entwicklung besucht. Es hat mich nicht verändert, aber es hat eine Tür geöffnet.",
+        "Mein Weg danach war kein gerader: ein abgebrochenes Schauspielstudium, ein abgebrochenes Lehramtsstudium, dann Wirtschaftspsychologie in Heidelberg und ein Master im internationalen Management. Anschließend habe ich rund acht Jahre in Projektmanagement, Vertrieb und Marketing gearbeitet, eigene Projekte gestartet, ein Buch geschrieben und einen YouTube-Kanal aufgebaut.",
+        "Dabei habe ich gelernt, dass Wissen über Psychologie und Handlungsfähigkeit unter Druck zwei verschiedene Dinge sind. Den Unterschied hat erst die Praxis gemacht – Achtsamkeit, Körperarbeit und schließlich ACT, ein Ansatz, der diese Erfahrung mit einer klaren, wissenschaftlich fundierten Struktur verbindet.",
+        "Heute verbinde ich zwei Dinge: Ich veröffentliche Videos, Texte und einen Newsletter über Psychologie und persönliche Entwicklung. Und ich arbeite als psychologischer Berater mit eigener Praxis."
       ]
     },
-    "outro": {
-      "headline": "Falls du das Gefühl hast, du sprichst gerade mit jemandem, der dich versteht — schreib mir.",
-      "cta": "Anfragen"
-    }
-  },
-  "newsletterPage": {
-    "hero": {
-      "eyebrow": "Newsletter",
-      "title": "Was auf YouTube keinen Platz hat.",
-      "subline": "1–2 E-Mails pro Monat. Längere Texte, persönlichere Beobachtungen, Werkzeuge — die ich öffentlich nicht teile."
-    },
-    "expectations": {
-      "headline": "Was du erwartest, wenn du dich anmeldest",
+    "facts": {
+      "headline": "Kurz und sachlich",
       "items": [
-        {
-          "title": "Tiefere Texte als auf YouTube.",
-          "body": "Manche Themen sind zu nuanciert für ein Video. Im Newsletter habe ich Platz, sie wirklich auszuarbeiten."
-        },
-        {
-          "title": "Persönliche Beobachtungen.",
-          "body": "Was ich aus Coaching-Gesprächen lerne (anonymisiert). Was ich gerade lese, denke, hinterfrage."
-        },
-        {
-          "title": "Werkzeuge, die ich nirgends sonst veröffentliche.",
-          "body": "Manchmal Übungen. Manchmal Frameworks. Immer: konkret, nicht abstrakt."
-        }
-      ]
-    },
-    "form": {
-      "firstNamePlaceholder": "Vorname",
-      "emailPlaceholder": "E-Mail",
-      "submit": "Anmelden",
-      "fineprint": "Mit deiner Anmeldung stimmst du dem Versand und der <privacyLink>Datenschutzerklärung</privacyLink> zu. Du kannst dich jederzeit mit einem Klick abmelden."
-    },
-    "dontGet": {
-      "headline": "Was du nicht bekommst",
-      "items": [
-        {
-          "title": "Kein Spam.",
-          "body": "1–2 Mails pro Monat, mehr nicht."
-        },
-        {
-          "title": "Kein Funnel-Pitch.",
-          "body": "Ich verkaufe dir nicht alle drei Mails ein Coaching."
-        },
-        {
-          "title": "Kein „limitiertes Angebot“.",
-          "body": "Wenn du ein Coaching willst, weißt du, wo du mich findest."
-        }
+        "Studium der Wirtschaftspsychologie, SRH Hochschule Heidelberg",
+        "Master im internationalen Management, SRH Hochschule Heidelberg",
+        "Psychologischer Berater (SGD Studiengemeinschaft Darmstadt)",
+        "ACT-basierte Arbeitsweise – fortlaufende eigenständige Weiterbildung in ACT und Achtsamkeit",
+        "Autor von „Selbstdisziplin 2.0“ (2021)",
+        "YouTube-Kanal „Daniel Hanke | Psychologie & ACT“"
       ]
     }
   },
   "newsletterThanksPage": {
-    "headline": "Hat geklappt.",
-    "body": "Bitte bestätige jetzt noch deine E-Mail-Adresse. Ich habe dir gerade eine kurze Bestätigungs-Mail geschickt. Sobald du auf den Link in der Mail klickst, bist du offiziell im Newsletter.",
+    "headline": "Fast geschafft.",
+    "body": "Bitte bestätige jetzt noch deine E-Mail-Adresse. Ich habe dir gerade eine kurze Bestätigungs-Mail geschickt. Sobald du auf den Link darin klickst, bist du dabei.",
     "spam": "Falls du keine Mail findest, schau bitte auch im Spam- oder Werbung-Ordner nach.",
     "backToHome": "Zurück zur Startseite"
   },
   "speakingPage": {
     "hero": {
-      "eyebrow": "Speaking & Media",
-      "headline": "Speaking & Media",
-      "subline": "Kein Hype. Keine Bro-Science. Psychologische Tiefe für Bühne, Workshop und Podcast.",
-      "body": "Ich spreche über Männer, die funktionieren — aber innerlich nicht stehen. Über Selbstdisziplin ohne Selbsthass. Über moderne Männlichkeit ohne Maske. Über Beziehungen, in denen man nicht performt. Und über Führung, die dort beginnt, wo Selbsttäuschung endet.",
+      "eyebrow": "Speaking",
+      "headline": "Vorträge, Workshops und Gespräche.",
+      "body": "Ich spreche darüber, wie Menschen mit schwierigen Gedanken, Gefühlen und Entscheidungen umgehen können – und was es heißt, sich an den eigenen Werten auszurichten. Psychologisch fundiert, klar und ohne Motivationsshow. Für Unternehmen, Hochschulen, Veranstaltungen und Podcasts.",
       "ctaPrimary": "Anfrage senden",
-      "ctaSecondary": "YouTube ansehen",
-      "proof": "Psychologischer Berater · Autor · M.A. Wirtschaftspsychologie & International Management · NLP Master Practitioner · Geschäftsführer der Next Level Education GmbH · YouTube-Kanal „Daniel Hanke\""
+      "ctaSecondary": "Auf YouTube reinhören",
+      "proof": "Psychologischer Berater (SGD) · Autor von „Selbstdisziplin 2.0“ · YouTube-Kanal „Daniel Hanke | Psychologie & ACT“"
     },
-    "intro": {
-      "eyebrow": "Worum es geht",
-      "headline": "Nicht Motivation. Sondern ehrliche Bewegung.",
-      "body1": "Viele Vorträge klingen gut, verändern aber nichts. Diese Seite ist für Veranstalter, Hosts und Unternehmen, die keine laute Selbstoptimierungs-Show suchen, sondern einen psychologisch fundierten Impuls, der hängen bleibt.",
-      "body2": "Meine Themen bewegen sich zwischen Selbstführung, emotionaler Klarheit, moderner Männlichkeit, Disziplin, Beziehungsmustern und innerer Stabilität."
-    },
-    "offers": {
-      "eyebrow": "Drei Formate",
+    "topics": {
+      "eyebrow": "Themen",
+      "headline": "Worüber ich spreche",
+      "intro": "Jedes Thema lässt sich als Keynote, Workshop oder Gespräch zuschneiden – auf euer Publikum und euren Anlass.",
       "items": [
-        {
-          "title": "Keynotes",
-          "body": "45–75 Minuten. Für Events, Unternehmen, Hochschulen, Konferenzen und Communities. Klar, tief, pointiert — mit Story, Framework und steiler These."
-        },
-        {
-          "title": "Workshops",
-          "body": "90 Minuten bis ganztägig. Interaktiv, praktisch und psychologisch fundiert. Für Gruppen, Teams, Retreats und Leadership-Offsites."
-        },
-        {
-          "title": "Podcast & Media",
-          "body": "Für Podcasts, Panels, YouTube-Collabs und Interviews. Keine Werbeblöcke, sondern echte Gespräche über Männer, Selbstführung und innere Entwicklung."
-        }
+        { "title": "Psychologische Flexibilität", "body": "Warum es weniger darauf ankommt, was wir denken und fühlen, als darauf, wie wir damit umgehen – eine Einführung in ACT." },
+        { "title": "Schwierige Entscheidungen", "body": "Wie man entscheidet, wenn es keine sichere Option gibt – und warum Klarheit über Werte mehr hilft als die perfekte Pro-und-Contra-Liste." },
+        { "title": "Grübeln und Selbstzweifel", "body": "Was im Kopf passiert, wenn er nicht aufhört – und wie man trotzdem handlungsfähig bleibt." },
+        { "title": "Werte und Selbstführung", "body": "Orientierung, die nicht von Tagesform und Motivation abhängt." },
+        { "title": "Leistung und Identität", "body": "Wenn der eigene Wert an Erfolg, Lob und Status gekoppelt ist – und wie innerer Halt entstehen kann, der nicht von außen kommt." },
+        { "title": "Grenzen und People-Pleasing", "body": "Warum Anpassung kurzfristig schützt, langfristig aber Klarheit und Selbstachtung kostet." },
+        { "title": "Selbstdisziplin 2.0", "body": "Basierend auf meinem Buch: Motivation lenken statt erzwingen – mit einem System, das auch an schlechten Tagen trägt." },
+        { "title": "Männer und mentale Gesundheit", "body": "Warum viele Männer funktionieren, aber innerlich nicht ankommen – und was ein ehrlicherer Umgang mit sich selbst verändern kann." }
       ]
     },
-    "keynotes": {
-      "eyebrow": "Bühne",
-      "headline": "5 Keynotes, die ich anbiete",
-      "intro": "Jede Keynote verbindet psychologische Tiefe mit klarer Sprache. Keine Motivationsshow. Keine fertigen Phrasen. Sondern Themen, die Menschen innerlich treffen und praktisch weiterbringen.",
-      "videoLabel": "So klingt das Thema bei mir:",
-      "videoPlaceholderHint": "Passendes Video hier einfügen",
-      "suitableFor": "Geeignet für:",
+    "formats": {
+      "headline": "Formate",
       "items": [
-        {
-          "title": "Du bist nicht schüchtern. Dein System schützt dich.",
-          "body": "Was wir oft als Schwäche abtun — Zurückhaltung, Vermeidung, Zögern oder Unsicherheit — ist häufig ein intelligenter Schutzmechanismus, der einmal sinnvoll war. Diese Keynote dreht Scham in Verständnis und Verständnis in Handlungsspielraum.",
-          "fit": "Männer-Events, Hochschulen, Mental-Health-Formate, Coaching-Communities, Unternehmen, junge Professionals.",
-          "videoTopic": "Du bist nicht schüchtern. Dein System schützt dich."
-        },
-        {
-          "title": "Die Fassade hält. Der Mann dahinter nicht.",
-          "body": "Über Männer und Highperformer, die äußerlich liefern, funktionieren und stark wirken — aber innerlich leerlaufen. Warum mehr Leistung das innere Loch nicht füllt, sondern oft vertieft. Und wie aus Funktionieren wieder echter innerer Halt entstehen kann.",
-          "fit": "Unternehmen, Leadership-Offsites, Mental-Health-Programme, Männer-Events, Hochschulen, HR-Formate.",
-          "videoTopic": "Bestätigungssuche, Funktionieren, innere Leere oder Selbstwert"
-        },
-        {
-          "title": "Das Ja, das dich auffrisst.",
-          "body": "People-Pleasing ist keine Nettigkeit. Es ist oft ein Überlebensmuster. Diese Keynote zeigt, warum Anpassung kurzfristig schützt, langfristig aber Identität, Klarheit und Selbstachtung zerstört. Besonders relevant für Teams, Beziehungen und ehrgeizige Menschen, die Konflikte vermeiden.",
-          "fit": "Unternehmen, Teams, Leadership-Formate, Männergruppen, Coaching-Events, Retreats.",
-          "videoTopic": "People-Pleasing, Nein-sagen, Grenzen oder Konfliktvermeidung"
-        },
-        {
-          "title": "Selbstwert, der nicht von außen kommt.",
-          "body": "Solange Selbstwert an Erfolg, Lob, Status, Dating-Erfolge oder Anerkennung gekoppelt ist, bleibt jeder Sieg nur ein Mietvertrag. Diese Keynote zeigt den Weg von externer Bestätigung zu innerem Halt — psychologisch fundiert, ehrlich und ohne spirituelle Floskeln.",
-          "fit": "Konferenzen, Männer-Events, Hochschulen, Persönlichkeitsentwicklungsformate, Podcasts, Unternehmen.",
-          "videoTopic": "Selbstwert, Bestätigung, Erfolg oder innerer Halt"
-        },
-        {
-          "title": "Kein Alpha, kein Opfer.",
-          "body": "Was Männlichkeit heute sein kann — jenseits von Red-Pill-Dogma, Opferhaltung, Anpassung und Optimierungswahn. Eine Keynote über Stärke, Verletzlichkeit, Grenzen, Verantwortung und emotionale Reife.",
-          "fit": "Männer-Events, Festivals, Retreats, Podcasts, Medienformate, psychologische Konferenzen.",
-          "videoTopic": "Männlichkeit, Dating, Selbstachtung oder emotionale Reife"
-        }
-      ],
-      "reserve": "Auf Anfrage zusätzlich: „Erwachsen wird man nicht von allein.\" — Eine Keynote über Reife, Verantwortung und die inneren Zeichen des Erwachsenwerdens."
+        { "title": "Keynote", "body": "45–75 Minuten, auf Wunsch mit Q&A. Für Konferenzen, Unternehmen, Hochschulen und Communities." },
+        { "title": "Workshop", "body": "90 Minuten bis ganztägig. Interaktiv, praktisch und mit konkreten Übungen für den Alltag." },
+        { "title": "Podcast & Interview", "body": "Für Podcasts, Panels und YouTube-Gespräche mit Raum für Tiefe und differenzierte Perspektiven." }
+      ]
     },
-    "workshops": {
-      "eyebrow": "Workshops",
-      "headline": "3 Workshops für echte Integration",
-      "intro": "Workshops sind keine Vorträge mit ein paar Fragen am Ende. Sie sind interaktiv, praktisch und auf Transfer ausgelegt. Die Teilnehmer sollen nicht nur etwas verstehen — sie sollen sich selbst klarer sehen und konkrete nächste Schritte mitnehmen.",
-      "formatLabel": "Format:",
-      "resultLabel": "Ergebnis:",
-      "fitLabel": "Geeignet für:",
+    "audiences": {
+      "title": "Passt zu",
       "items": [
-        {
-          "title": "Dein inneres System lesen",
-          "format": "Halbtag oder Ganztag",
-          "body": "Teilnehmer kartieren ihre eigenen Vermeidungs-, Schutz- und Anpassungsmuster. Sie erkennen, warum sie in bestimmten Situationen ausweichen, gefallen wollen, überleisten oder emotional dichtmachen.",
-          "result": "Jeder Teilnehmer geht mit einer persönlichen Muster-Map und konkreten Handlungsoptionen raus.",
-          "fit": "Männergruppen, Retreats, Leadership-Offsites, Hochschulen, Coaching-Communities."
-        },
-        {
-          "title": "Nein sagen, ohne dich zu verlieren",
-          "format": "90 Minuten bis Halbtag",
-          "body": "Ein praktischer Workshop über Grenzen, Konfliktfähigkeit und klare Kommunikation. Nicht nur kognitiv, sondern auch körperlich und emotional erfahrbar. Mit Reflexion, Rollenspiel und konkreten Formulierungen.",
-          "result": "Teilnehmer lernen, Grenzen zu setzen, ohne in Härte, Rechtfertigung oder Schuldgefühle zu kippen.",
-          "fit": "Teams, Unternehmen, Führungskräfte, Männergruppen, Beziehungskontexte, Coaching-Events."
-        },
-        {
-          "title": "Selbstdisziplin 2.0 — Motivation steuern statt erzwingen",
-          "format": "2 Stunden, Halbtag oder Ganztag",
-          "body": "Basierend auf meinem Buch „Selbstdisziplin 2.0\". Dieser Workshop zeigt, warum Disziplin nicht aus Selbsthass, Druck oder Motivation entsteht, sondern aus Identität, Struktur, emotionaler Klarheit und einem System, das auch an schlechten Tagen trägt.",
-          "result": "Teilnehmer entwickeln ein persönliches Disziplin-System mit konkreten Routinen, Triggern, Rückfallstrategien und einem klaren Warum.",
-          "fit": "Unternehmen, junge Professionals, Gründer, Hochschulen, Männergruppen, Productivity-Events."
-        }
-      ]
-    },
-    "podcast": {
-      "eyebrow": "Podcast & Media",
-      "headline": "Podcast & Interviews",
-      "subline": "Ich bringe Story, Framework und eine steile These mit — keinen Werbeblock.",
-      "body": "Ich bin als Gast für Podcasts, Panels, YouTube-Collabs und Interviews verfügbar. Besonders gerne spreche ich in Formaten, die Raum für psychologische Tiefe, ehrliche Fragen und differenzierte Perspektiven haben.",
-      "topicsHeadline": "Themen, über die ich gerne spreche",
-      "topics": [
-        "Warum viele Männer funktionieren, aber nicht leben",
-        "Männer und mentale Gesundheit — warum sie schweigen",
-        "Moderne Männlichkeit ohne Alpha-Gehabe",
-        "Die Red-Pill- und Manosphere-Welle aus psychologischer Perspektive",
-        "People-Pleasing bei Highperformern",
-        "Warum Erfolg kein Selbstwertgefühl erzeugt",
-        "Dating, Bindung und die Angst vor echter Nähe",
-        "Selbstdisziplin ohne Selbsthass",
-        "Alte Schutzmechanismen und wie sie unser heutiges Leben steuern",
-        "Achtsamkeit ohne Esoterik",
-        "Sinn, Leere und optimistischer Nihilismus",
-        "Mein persönlicher Weg: Wirtschaftspsychologie, Coaching, Bücher, YouTube und die Arbeit mit Männern"
-      ]
-    },
-    "proof": {
-      "eyebrow": "Proof",
-      "headline": "Schau dir an, wie ich denke — bevor du buchst.",
-      "body": "Mein YouTube-Kanal ist der beste Eindruck davon, wie ich spreche, denke und Themen öffne. Keine künstliche Speaker-Pose. Keine Hochglanz-Show. Sondern psychologische Tiefe, klare Sprache und ehrliche Auseinandersetzung.",
-      "cta": "YouTube-Kanal ansehen",
-      "videoPlaceholderHint": "Passendes Video hier einfügen",
-      "videos": [
-        { "category": "Inner Stability" },
-        { "category": "Selbstdisziplin" },
-        { "category": "People-Pleasing & Grenzen" },
-        { "category": "Selbstwert & Bestätigung" },
-        { "category": "Moderne Männlichkeit" },
-        { "category": "Dating & Nähe" }
-      ]
-    },
-    "fit": {
-      "eyebrow": "Passung",
-      "headline": "Für wen das passt — und für wen nicht",
-      "forTitle": "Für wen:",
-      "forItems": [
-        "Unternehmen, die Selbstführung und emotionale Klarheit fördern wollen",
-        "Männer-Events und Retreats mit Tiefgang",
-        "Podcasts mit psychologischem, spirituellem oder gesellschaftlichem Fokus",
-        "Hochschulen, junge Professionals und Gründer-Communities",
-        "Leadership-Offsites und HR-Formate",
-        "Coaching-Communities und Mental-Health-Veranstaltungen",
-        "Konferenzen, die keine oberflächliche Motivationsshow suchen"
-      ],
-      "notForTitle": "Für wen nicht:",
-      "notForItems": [
-        "Alpha-Male-Events",
-        "Pickup-Workshops",
-        "Reine Motivationsshows",
-        "Formate, die nur Entertainment wollen",
-        "Bro-Science, Macho-Gehabe oder schnelle Erfolgsformeln",
-        "Veranstaltungen, die psychologische Tiefe vermeiden wollen"
+        "Unternehmen und Teams",
+        "Leadership- und HR-Formate",
+        "Hochschulen",
+        "Mental-Health-Veranstaltungen",
+        "Podcasts und Medienformate",
+        "Konferenzen ohne Motivationsshow"
       ]
     },
     "logistics": {
-      "eyebrow": "Logistik",
-      "headline": "Formate & Rahmen",
-      "formatsTitle": "Formate",
-      "formats": [
-        "Keynote: 45–75 Minuten",
-        "Impuls + Q&A: 60–90 Minuten",
-        "Workshop: 90 Minuten, Halbtag oder Ganztag",
-        "Podcast / Interview / Panel",
-        "Online oder vor Ort"
-      ],
-      "languageTitle": "Sprache",
-      "language": "Deutsch oder Englisch",
-      "locationTitle": "Ort",
-      "location": "Online oder vor Ort. Anreise innerhalb Deutschlands und international nach Absprache.",
-      "onepagerTitle": "Speaker-One-Pager",
-      "onepagerNote": "PDF auf Anfrage",
-      "onepagerCta": "Speaker-One-Pager herunterladen"
+      "title": "Sprache & Ort",
+      "body": "Deutsch oder Englisch. Online oder vor Ort – Anreise innerhalb Deutschlands und international nach Absprache."
     },
     "request": {
       "eyebrow": "Anfrage",
       "headline": "Planst du ein Event, einen Workshop oder ein Gespräch?",
-      "body": "Wenn du glaubst, dass eines dieser Themen zu deinem Event, Podcast oder Unternehmen passt, schreib mir eine kurze Anfrage. Wichtig ist nicht nur das Format — sondern was bei deinem Publikum innerlich in Bewegung kommen soll.",
+      "body": "Schreib mir kurz, worum es geht. Die E-Mail-Vorlage enthält die wichtigsten Fragen – beantworte, was du schon weißt.",
+      "cta": "E-Mail-Vorlage öffnen",
+      "subtext": "Oder direkt an {email}. Antwort meist innerhalb weniger Werktage.",
       "fields": [
         "Name",
         "Organisation / Podcast / Event",
-        "E-Mail",
-        "Format: Keynote / Workshop / Podcast / Panel / anderes",
+        "Format: Keynote, Workshop, Podcast, Panel oder anderes",
         "Datum oder Zeitraum",
         "Ort oder online",
         "Zielgruppe / Publikum",
         "Gewünschtes Thema",
         "Budgetrahmen (optional)",
-        "Was soll nach dem Vortrag, Workshop oder Gespräch anders sein?"
-      ],
-      "cta": "Anfrage senden",
-      "subtext": "Antwort meist innerhalb weniger Werktage. Keine automatisierten Follow-ups."
+        "Was soll danach anders sein?"
+      ]
     }
   },
   "willkommenPage": {
     "headline": "Anmeldung erfolgreich.",
     "subheadline": "Schön, dass du da bist.",
-    "body1": "Deine E-Mail-Adresse wurde bestätigt. Ab jetzt bekommst du gelegentlich Impulse von mir… persönlicher, tiefer und direkter als auf YouTube.",
-    "body2": "Es geht um innere Stabilität, Selbstführung und psychologische Klarheit für Männer, die im Außen funktionieren, aber innerlich noch stärker werden wollen.",
+    "body1": "Deine E-Mail-Adresse ist bestätigt. Ab jetzt bekommst du meinen Newsletter – persönlicher und ausführlicher als auf YouTube.",
+    "body2": "Es geht um Psychologie, ACT, schwierige Entscheidungen und persönliche Entwicklung.",
     "ctaPrimary": "Zur Website",
     "ctaSecondary": "YouTube ansehen",
     "footerName": "Daniel Hanke",
-    "footerTagline": "Psychologische Klarheit. Selbstführung. Innere Stabilität."
+    "footerTagline": "Psychologie · ACT · persönliche Entwicklung"
   }
 }

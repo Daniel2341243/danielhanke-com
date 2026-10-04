@@ -23,18 +23,21 @@ export async function buildPageMetadata({
   titleKey,
   descriptionKey,
   namespace = "seo",
+  absoluteTitle = false,
 }: {
   locale: Locale;
   pathname: AppPathname;
   titleKey: string;
   descriptionKey: string;
   namespace?: string;
+  /** Skip the "%s — Daniel Hanke" template (home page title already has the name). */
+  absoluteTitle?: boolean;
 }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace });
   const canonical = urlFor(pathname, locale);
 
   return {
-    title: t(titleKey),
+    title: absoluteTitle ? { absolute: t(titleKey) } : t(titleKey),
     description: t(descriptionKey),
     alternates: {
       canonical,

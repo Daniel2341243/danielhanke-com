@@ -1,12 +1,14 @@
 import { useTranslations } from "next-intl";
+import { ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { ConvertKitForm } from "@/components/ConvertKitForm";
 import { siteConfig } from "@/lib/siteConfig";
 
-const sitemap = [
-  { href: "/coaching", key: "coaching" },
-  { href: "/speaking", key: "speaking" },
+const pages = [
   { href: "/ueber-mich", key: "about" },
+  { href: "/newsletter", key: "newsletter" },
+  { href: "/inhalte", key: "content" },
+  { href: "/buch", key: "books" },
+  { href: "/speaking", key: "speaking" },
 ] as const;
 
 const legalLinks = [
@@ -15,19 +17,22 @@ const legalLinks = [
   { href: "/agb", key: "terms" },
 ] as const;
 
+const linkClass =
+  "text-sm text-text-secondary hover:text-accent transition-colors duration-200";
+
 export function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("nav");
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border-strong bg-bg-primary mt-24">
+    <footer className="border-t border-border-strong bg-bg-primary">
       <div className="mx-auto max-w-screen px-6 md:px-12 lg:px-20 py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-12">
+          <div className="lg:col-span-5 space-y-4">
             <Link
               href="/"
-              className="font-serif text-xl text-text-primary hover:text-accent transition-colors duration-200"
+              className="font-serif text-2xl text-text-primary hover:text-accent transition-colors duration-200"
             >
               Daniel Hanke
             </Link>
@@ -36,76 +41,54 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="space-y-8">
-            <div>
-              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
-                {t("sitemap")}
-              </p>
-              <ul className="space-y-3">
-                {sitemap.map((l) => (
-                  <li key={l.key}>
-                    <Link
-                      href={l.href}
-                      className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
-                    >
-                      {tNav(l.key)}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
-                {t("more")}
-              </p>
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    href="/community"
-                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
-                  >
-                    {tNav("community")}
+          <div className="lg:col-span-3">
+            <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-5">
+              {t("pages")}
+            </p>
+            <ul className="space-y-3">
+              {pages.map((l) => (
+                <li key={l.key}>
+                  <Link href={l.href} className={linkClass}>
+                    {tNav(l.key)}
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    href="/buch"
-                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
-                  >
-                    {tNav("book")}
-                  </Link>
-                </li>
-                <li>
-                  <a
-                    href={siteConfig.social.youtube}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-text-secondary hover:text-accent transition-colors duration-200"
-                  >
-                    {t("youtube")}
-                  </a>
-                </li>
-              </ul>
-            </div>
+              ))}
+            </ul>
           </div>
 
-          <div className="space-y-8">
-            <div>
-              <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-6">
-                {t("newsletter")}
-              </p>
-              <p className="text-sm text-text-secondary mb-6 max-w-xs">
-                {t("newsletterBody")}
-              </p>
-              <ConvertKitForm
-                formId={siteConfig.convertKit.newsletterFormId}
-                variant="compact"
-                fields={["firstName", "email"]}
-                submitLabel={t("newsletterSubmit")}
-                firstNamePlaceholder={t("newsletterFirstNamePlaceholder")}
-                emailPlaceholder={t("newsletterPlaceholder")}
-              />
-            </div>
+          <div className="lg:col-span-4">
+            <p className="text-xs uppercase tracking-[0.12em] text-text-muted mb-5">
+              {t("elsewhere")}
+            </p>
+            <ul className="space-y-3">
+              <li>
+                <a
+                  href={siteConfig.practice.home}
+                  target="_blank"
+                  rel="noopener"
+                  className={`${linkClass} inline-flex items-center gap-1`}
+                >
+                  {t("practice")}
+                  <ArrowUpRight className="size-3.5" aria-hidden="true" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={siteConfig.social.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`${linkClass} inline-flex items-center gap-1`}
+                >
+                  {t("youtube")}
+                  <ArrowUpRight className="size-3.5" aria-hidden="true" />
+                </a>
+              </li>
+              <li>
+                <a href={`mailto:${siteConfig.email}`} className={linkClass}>
+                  {siteConfig.email}
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 

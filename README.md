@@ -1,109 +1,67 @@
 # danielhanke.com
 
-Marketing and acquisition site for **Daniel Hanke** (psychologischer Berater) — operated by **Next Level Education GmbH**.
+Personal brand site of **Daniel Hanke** — psychology, ACT and personal development: YouTube, newsletter, book, speaking. Operated by **Next Level Education GmbH**.
 
-Funnel: YouTube → website → newsletter (Kit) **or** first call (email) → 1:1 coaching via Zoom.
+## Brand architecture
+
+| Domain | Role |
+|---|---|
+| **danielhanke.com** | Daniel as a person, author and content creator. Main long-term touchpoint: the newsletter. |
+| **act-beratung-berlin.de** | The counselling practice (offer, prices, booking, local SEO). |
+
+danielhanke.com sells **no** counselling of its own. Every counselling CTA links out to the practice site (`siteConfig.practice.*`). The former `/coaching*` pages 301/308-redirect there; `/community` redirects to `/newsletter`. Local keywords ("psychologische Beratung Berlin") belong to the practice site — don't compete for them here.
+
+There is exactly **one** newsletter (Kit form `9456300`). The practice site promotes the same list via `danielhanke.com/newsletter`.
 
 ## Stack
 
-- Next.js 16 (App Router, Turbopack default) — note the breaking changes from Next.js 15 documented in `AGENTS.md`
-- TypeScript, Tailwind CSS v4 with `@theme` design tokens
-- next-intl 4 (de + en, localized pathnames, `as-needed` prefix)
-- framer-motion (ScrollReveal — respects `prefers-reduced-motion`)
-- Self-hosted Playfair Display + DM Sans via `next/font/google` (no runtime fetch)
-- Kit (ConvertKit) form POST fallback — wire `formId`s in `lib/siteConfig.ts`
+- Next.js 16 (App Router, Turbopack) — see `AGENTS.md` for breaking changes
+- TypeScript, Tailwind CSS v4 with `@theme` design tokens (light editorial palette in `app/globals.css`)
+- next-intl 4, German only (`de`, no URL prefix). Old `/en/*` and `/de/*` URLs redirect permanently.
+- framer-motion (`ScrollReveal`, respects `prefers-reduced-motion`)
+- Playfair Display + DM Sans via `next/font/google`
+- Kit (ConvertKit) plain HTML form POST
 
 ## Run locally
 
 ```bash
 npm install
 npm run dev          # http://localhost:3000
-npm run build        # production build
-npx next typegen     # regenerate route types if PageProps complains
+npm run build
+npm run lint
+npx tsc --noEmit     # after `npx next typegen`
 ```
 
-## Project layout
+## Layout
 
 ```
-app/[locale]/        # all user-facing pages
-  page.tsx           # home — 7 sections from components/sections/
-  coaching/          # /coaching + #anfrage
-  community/         # Coming Soon (Skool)
-  buch/              # /buch ↔ /en/book
-  ueber-mich/        # /ueber-mich ↔ /en/about
-  newsletter/
-  impressum/         # marker: TODO Anwaltliche Prüfung
-  datenschutz/       # marker: TODO Anwaltliche Prüfung
-  agb/               # marker: TODO Anwaltliche Prüfung
-app/sitemap.ts       # 18 URLs with hreflang alternates
-app/robots.ts
-components/
-  layout/            # Nav, Footer, LanguageSwitcher
-  sections/          # 7 home sections
-  ui/                # Button, Section, Quote, ScrollReveal, Prose, PhotoPlaceholder
-  icons/SocialIcons  # YouTube/IG/TikTok/LinkedIn/Amazon — outline SVGs
-  CookieBanner       # localStorage consent gate
-  Analytics          # Vercel Analytics gate (only loads with consent === 'all')
-  ConvertKitForm     # inline / card / mini variants
-i18n/
-  routing.ts         # locales, pathnames map
-  request.ts         # message loader
-  navigation.ts      # typed Link/useRouter/usePathname
-  messages/{de,en}.json
-lib/
-  siteConfig.ts      # ALL placeholders Daniel must fill
-  seo.ts             # buildPageMetadata helper
-  coachingMailto.ts  # locale-aware mailto link
-  cn.ts
-proxy.ts             # Next.js 16 proxy (renamed from middleware)
+app/[locale]/
+  page.tsx           # home hub: hero → themes → newsletter → videos → practice → book → about
+  ueber-mich/        # about
+  newsletter/        # newsletter landing page
+  inhalte/           # latest YouTube videos (RSS feed), topic links, ACT articles on the practice site
+  buch/              # books (currently: Selbstdisziplin 2.0)
+  speaking/
+  danke/ willkommen/ # Kit double-opt-in pages (noindex)
+  impressum/ datenschutz/ agb/
+  [...rest]/ + not-found.tsx   # localized 404
+app/sitemap.ts, app/robots.ts
+next.config.ts       # all redirects (old coaching URLs, /en, /de, www, aliases)
+lib/siteConfig.ts    # URLs, Kit form id, YouTube channel, legal data
+lib/youtube.ts       # channel RSS feed → latest long-form videos (no API key, 30 min revalidate)
+lib/structuredData.ts# Person + WebSite JSON-LD
 ```
 
-## Before going live
+YouTube videos are **linked, not embedded** — thumbnails are served through `next/image` from our own domain, so no YouTube cookies or consent gate are needed.
 
-These need real values (replace strings starting with `PLACEHOLDER_` in `lib/siteConfig.ts`):
+## Deploy
 
-| Placeholder | Where it surfaces |
-|---|---|
-| `social.youtube`, `instagram`, `tiktok`, `linkedin` | Footer, About vita |
-| `social.amazon` | Buch page CTAs, home book teaser |
-| `convertKit.newsletterFormId` | Home newsletter CTA, Newsletter page, Footer slot |
-| `convertKit.communityWaitlistFormId` | Community page |
-| `latestVideo.{title,url,thumbnail}` | Home Latest Video section — update each Friday |
-| `legal.*` | Impressum + Datenschutz + AGB |
+Push to `main`; Vercel auto-deploys. Verify `/sitemap.xml` and `/robots.txt` afterwards.
 
-### Photos
+### Domains
 
-`PhotoPlaceholder` is in use on Hero, Approach, BookTeaser, About, Buch. Each placeholder shows the **slot label** and **target source dimensions** — replace each `<PhotoPlaceholder ... />` with `<Image ... />` once real photos arrive.
+`www.danielhanke.com` must be attached to **this** Vercel project as a redirect to the apex domain. (As of October 2026 it served an old, separate deployment.)
 
-Categories per brief:
-1. Hero portrait — Berliner Kontext, 1600 × 2133 px
-2. Approach — am Schreibtisch, 1200 × 1600 px
-3. About portrait — neutraler Hintergrund, 1200 × 1600 px
-4. Buchcover — 1000 × 1500 px (2:3)
-5. Optional: Berlin atmosphere + Author/Buch lifestyle (not yet placed)
+## Tone
 
-### Legal
-
-The `Datenschutz` and `AGB` pages each carry an inline HTML comment:
-
-```
-{/* TODO: Anwaltliche Prüfung vor Live-Schaltung */}
-```
-
-Both pages render generated boilerplate — **must** be reviewed by a German lawyer or replaced with output from a generator like eRecht24 / Datenschutzbeauftragter before launch.
-
-### Analytics
-
-`components/Analytics.tsx` is a stub that gates loading on `localStorage.consent === 'all'`. To actually load Vercel Analytics, install `@vercel/analytics` and render `<Analytics />` from `@vercel/analytics/react` inside that component when `enabled` is true.
-
-## Deploy (Vercel)
-
-1. Push the repo to GitHub.
-2. Import the project in Vercel — no build configuration needed (Next.js auto-detected).
-3. Domain: `danielhanke.com` is already pointed to Vercel via Cloudflare DNS-only.
-4. After deploy, verify `/sitemap.xml` and `/robots.txt`. Submit the sitemap in Google Search Console and Bing Webmaster.
-
-## Tonality reminder (intern)
-
-Direct, klar, psychologisch präzise, ruhig-souverän, konfrontativ aber respektvoll, gleichwertig.
-**Kein** Bro-Slang, **kein** Guru-Gehabe, **keine** Angstverkäufe, **keine** Pickup-/Red-Pill-Sprache, **keine** Motivations-Floskeln. Wenn unklar, im Zweifel: reduzierter, ruhiger, weniger.
+Calm, precise, personal, intellectually honest. No sales pressure, no "transform your life" language, no invented social proof or numbers.
